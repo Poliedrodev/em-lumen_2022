@@ -1,0 +1,102 @@
+.css_01_bullet_unid {
+  display: flex;
+  font-size: 20px;
+  color: #FFF;
+  gap: 8px;
+  background-color: #45973d;
+  align-items: center;
+  max-width: 400px;
+  padding: 10px 0 10px 30px;
+  word-break: break-word;
+  margin-left: 100px;
+  position: relative;
+  
+  &:before {
+    content: '';
+    background-image: url('img/dots/lumen_bullet_unid_artes.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    left: -10px;
+    
+  }
+  &.artes {
+    &:before{
+      content: '';
+      background-image: url('img/dots/lumen_bullet_unid_artes.png') !important; 
+    }
+    background: linear-gradient(90deg, #3F1F71 0%, rgba(63, 31, 113, 0) 100%) !important;
+    
+  }
+  &.biologia {
+    &:before{
+      content: '';
+      background-image: url('img/dots/lumen_bullet_unid_biologia.png') !important; 
+    }
+    background: linear-gradient(90deg, #306E2B 0%, rgba(48, 110, 43, 0) 100%) !important;
+  }
+  &.filosofia {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_filosofia.png') !important; 
+    }
+    background: linear-gradient(90deg, #536DA7 0%, rgba(58, 76, 116, 0) 100%) !important;
+  }
+  &.fisica {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_fisica.png') !important; 
+    }
+    background: linear-gradient(90deg, #00666D 0%, rgba(0, 102, 109, 0) 100%) !important;
+  }
+  &.geografia {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_geografia.png') !important; 
+    }
+    background: linear-gradient(90deg, #9E2705 0%, rgba(158, 39, 5, 0) 100%) !important;
+  }
+  &.historia {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_historia.png') !important; 
+    }
+    background: linear-gradient(90deg, #6A0F5A 0%, rgba(106, 5, 90, 0) 100%) !important;
+  }
+  &.lingua_inglesa {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_lingua_inglesa.png') !important; 
+    }
+    background: linear-gradient(90deg, #015F5B 0%, rgba(1, 95, 91, 0) 100%) !important;
+  }
+  &.lingua_portuguesa {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_lingua_portuguesa.png') !important; 
+    }
+    background: linear-gradient(90deg, #981711 0%, rgba(152, 23, 17, 0) 100%) !important;
+  }
+  &.matematica {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_matematica.png') !important; 
+    }
+    background: linear-gradient(90deg, #033878 0%, rgba(3, 56, 120, 0) 100%) !important;
+  }
+  &.producao_de_texto {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_producao_de_texto.png') !important; 
+    }
+    background: linear-gradient(90deg, #005E7C 0%, rgba(0, 94, 124, 0) 100%) !important;
+  }
+  &.quimica {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_quimica.png') !important; 
+    }
+    background: linear-gradient(90deg, #850343 0%, rgba(133, 3, 67, 0) 100%) !important;
+  }
+  &.sociologia {
+    &:before{
+      background-image: url('img/dots/lumen_bullet_unid_sociologia.png') !important; 
+    }
+    background: linear-gradient(90deg, #8B1038 0%, rgba(139, 16, 56, 0) 100%) !important;
+  }
+}

@@ -1,0 +1,42 @@
+.css_01_container_texto_bullet {
+    border: solid 3px #000;
+        margin: 32px 68px 32px 68px;
+        padding: 0px 16px 0px 0px;
+
+    &.artes {
+        border: solid 3px #C8D300 !important;
+    }
+    &.biologia {
+        border: solid 3px #F7A941 !important;
+    }
+    &.filosofia {
+        border: solid 3px #8CCAAE !important;
+    }
+    &.fisica {
+        border: solid 3px #F7A941 !important;
+    }
+    &.geografia {
+        border: solid 3px #8CCAAE !important;
+    }
+    &.historia {
+        border: solid 3px #8CCAAE !important;
+    }
+    &.lingua_inglesa {
+        border: solid 3px #C8D300 !important;
+    }
+    &.lingua_portuguesa {
+        border: solid 3px #C8D300 !important;
+    }
+    &.matematica {
+        border: solid 3px #F1CB40 !important;
+    }
+    &.producao_de_texto {
+        border: solid 3px #C8D300 !important;
+    }
+    &.quimica {
+        border: solid 3px #F7A941 !important;
+    }
+    &.sociologia {
+        border: solid 3px #8CCAAE !important;
+    }
+}

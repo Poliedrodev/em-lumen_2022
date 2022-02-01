@@ -1,0 +1,57 @@
+.css_01_titulo_cap {
+  background: linear-gradient(90deg, rgba(69,151,61,1) 0%, rgba(69,151,61,0.5) 100%);
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  height: 151px;
+  position: absolute;
+  z-index: 999;
+  margin-left: 180px;
+  margin-top: 40px;
+  min-width: 580px;
+  .título-cap{
+    font-family: $font-prelo-extraBold;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    width: 97%;
+  }
+
+  &.artes {
+    background: linear-gradient(90deg, #3F1F71 0%, rgba(63, 31, 113, 0.7) 100%) !important;
+  }
+  &.biologia {
+    background: linear-gradient(90deg, #45973d 0%, rgba(48, 110, 43, 0.7) 100%) !important;
+  }
+  &.filosofia {
+    background: linear-gradient(90deg, #3A4C74 0%, rgba(58, 76, 116, 0.7) 100%) !important;
+  }
+  &.fisica {
+    background: linear-gradient(90deg, #00666D 0%, rgba(0, 102, 109, 0.7) 100%) !important;
+  }
+  &.geografia {
+    background: linear-gradient(90deg, #9E2705 0%, rgba(158, 39, 5, 0.7) 100%) !important;
+  }
+  &.historia {
+    background: linear-gradient(90deg, #6A0F5A 0%, rgba(106, 15, 90, 0.7) 100%) !important;
+  }
+  &.lingua_inglesa {
+    background: linear-gradient(90deg, #015F5B 0%, rgba(1, 95, 91, 0.7) 100%) !important;
+  }
+  &.lingua_portuguesa {
+    background: linear-gradient(90deg, #981711 0%, rgba(152, 23, 17, 0.7) 100%) !important;
+  }
+  &.matematica {
+    background: linear-gradient(90deg, #033878 0%, rgba(3, 56, 120, 0.7) 100%) !important;
+  }
+  &.producao_de_texto {
+    background: linear-gradient(90deg, #005E7C 0%, rgba(0, 94, 124, 0.7) 100%) !important;
+  }
+  &.quimica {
+    background: linear-gradient(90deg, #850343 0%, rgba(133, 3, 67, 0.7) 100%) !important;
+  }
+  &.sociologia {
+    background: linear-gradient(90deg, #8B1038 0%, rgba(139, 16, 56, 0.7) 100%) !important;
+  }
+
+}

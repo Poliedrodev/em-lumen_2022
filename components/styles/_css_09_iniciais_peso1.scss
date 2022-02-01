@@ -1,0 +1,44 @@
+.css_09_iniciais_peso1 {
+  display: block;
+  text-align: left;
+  font-size: 24px;
+  font-family: $font-proximaNova-black;
+  text-transform: uppercase;
+  margin: 16px 0px 16px 0px;
+  &.artes {
+    color: #64428C !important;
+  }
+  &.biologia {
+    color: #45973D !important;
+  }
+  &.filosofia {
+    color: #536DA7 !important;
+  }
+  &.fisica {
+    color: #00909B !important;
+  }
+  &.geografia {
+    color: #D85509 !important;
+  }
+  &.historia {
+    color: #951B81 !important;
+  }
+  &.lingua_inglesa {
+    color: #069891 !important;
+  }
+  &.lingua_portuguesa {
+    color: #C51A1B !important;
+  }
+  &.matematica {
+    color: #1961AC !important;
+  }
+  &.producao_de_texto {
+    color: #0F83A6 !important;
+  }
+  &.quimica {
+    color: #B80071 !important;
+  }
+  &.sociologia {
+    color: #C71553 !important;
+  }
+}

@@ -1,0 +1,22 @@
+.css_07_secao_ponto_de_vista {
+    background-color: #D7EDE3;
+    min-height: 100px;
+    position: relative;
+    padding: 16px;
+    margin: 68px;
+    box-sizing: border-box;
+    
+    .tag {
+        width: auto;
+        height: 44px;
+        background-color: #208F6D;
+        position: absolute;
+        left: 0%;
+        top: -22px;
+        padding: 0 16px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 42px;
+        font-family: $font-prelo-extraBold;
+    }
+}

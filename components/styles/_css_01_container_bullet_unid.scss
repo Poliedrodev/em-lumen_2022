@@ -1,0 +1,102 @@
+.css_01_container_bullet_unid{
+    /* Container component style*/
+    display: block;
+    background-color: #45973d;
+    align-items: center;
+    margin-left: 100px;
+    max-width: 400px;
+    // padding: 10px 0 10px 30px;
+    padding: 10px;
+    margin: 16px 0px 16px 0px;
+    word-break: break-word;
+    float: right;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    /* class styles for the options properties of the container component */
+    &.artes {
+        background: linear-gradient(90deg, #3F1F71 0%, rgba(63, 31, 113, 0) 100%) !important;
+    
+      }
+      &.biologia {
+        background: linear-gradient(90deg, #306E2B 0%, rgba(48, 110, 43, 0) 100%) !important;
+      }
+      &.filosofia {
+        background: linear-gradient(90deg, #536DA7 0%, rgba(58, 76, 116, 0) 100%) !important;
+      }
+      &.fisica {
+        background: linear-gradient(90deg, #00666D 0%, rgba(0, 102, 109, 0) 100%) !important;
+      }
+      &.geografia {
+        background: linear-gradient(90deg, #9E2705 0%, rgba(158, 39, 5, 0) 100%) !important;
+      }
+      &.historia {
+        background: linear-gradient(90deg, #6A0F5A 0%, rgba(106, 5, 90, 0) 100%) !important;
+      }
+      &.lingua_inglesa {
+        background: linear-gradient(90deg, #015F5B 0%, rgba(1, 95, 91, 0) 100%) !important;
+      }
+      &.lingua_portuguesa {
+        background: linear-gradient(90deg, #981711 0%, rgba(152, 23, 17, 0) 100%) !important;
+      }
+      &.matematica {
+        background: linear-gradient(90deg, #033878 0%, rgba(3, 56, 120, 0) 100%) !important;
+      }
+      &.producao_de_texto {
+        background: linear-gradient(90deg, #005E7C 0%, rgba(0, 94, 124, 0) 100%) !important;
+      }
+      &.quimica {
+        background: linear-gradient(90deg, #850343 0%, rgba(133, 3, 67, 0) 100%) !important;
+      }
+      &.sociologia {
+        background: linear-gradient(90deg, #8B1038 0%, rgba(139, 16, 56, 0) 100%) !important;
+      }
+    > * {
+        &:first-child {
+            margin-top: 0;
+            &._left {
+                + ._right {
+                    margin-top: 0;
+                }
+            }
+            &._right {
+                + ._left {
+                    margin-top: 0;
+                }
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &._left {
+            + ._right:last-child {
+                margin-bottom: 20px;
+            }
+        }
+        &._right {
+            + ._left:last-child {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    /* media query */
+    @media only screen and (min-width: $phone-max-width) {
+        &._left {
+            float: left;
+            clear: left;
+            width: 50%;
+            z-index: 1;
+        }
+        &._right {
+            float: right;
+            clear: right;
+            width: 50%;
+            z-index: 1;
+
+        }
+    }
+
+}

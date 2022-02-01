@@ -1,0 +1,43 @@
+.css_10_finais_titulo1 {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  font-family: $font-prelo-extraBold;
+  margin-top: 24px;
+  &.artes {
+    color: #3F1F71 !important;
+  }
+  &.biologia {
+    color: #306E2B !important;
+  }
+  &.filosofia {
+    color: #3A4C74 !important;
+  }
+  &.fisica {
+    color: #00666D !important;
+  }
+  &.geografia {
+    color: #9E2705 !important;
+  }
+  &.historia {
+    color: #6A0F5A !important;
+  }
+  &.lingua_inglesa {
+    color: #015F5B !important;
+  }
+  &.lingua_portuguesa {
+    color: #981711 !important;
+  }
+  &.matematica {
+    color: #033878 !important;
+  }
+  &.producao_de_texto {
+    color: #005E7C !important;
+  }
+  &.quimica {
+    color: #850343 !important;
+  }
+  &.sociologia {
+    color: #8B1038 !important;
+  }
+}

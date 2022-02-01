@@ -1,0 +1,22 @@
+.css_07_secao_texto_em_foco {
+    background-color: #F7F9D9;
+    min-height: 100px;
+    position: relative;
+    padding: 16px;
+    margin: 68px;
+    box-sizing: border-box;
+    
+    .tag {
+        width: auto;
+        height: 44px;
+        background-color: #0F83A6;
+        position: absolute;
+        left: 0%;
+        top: -22px;
+        padding: 0 16px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 42px;
+        font-family: $font-prelo-extraBold;
+    }
+}

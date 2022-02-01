@@ -1,0 +1,83 @@
+.css_06_boxe_texto2_competencias {
+  font-size: 18px;
+  color: $textColor;
+  margin: 24px 0px 24px 0px;
+  font-family: $font-proximaNova-regular;
+  padding: 0 68px;
+  line-height: 1.4em;
+
+  &.artes, &.biologia, &.filosofia, &.fisica, &.geografia, &.historia, &.lingua_inglesa, &.lingua_portuguesa, &.matematica, &.producao_de_texto, &.quimica, &.sociologia {
+    display: flex;
+    gap: 4px;
+
+    &:before {
+      content: '';
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 0 -1.5;
+      width: 24px;
+      height: 24px;
+      display: block;
+    }
+  }
+  &.artes {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_artes.png');
+    }
+  }
+  &.biologia {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_biologia.png');
+    }
+  }
+  &.filosofia {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_filosofia.png');
+    }
+  }
+  &.fisica {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_fisica.png');
+    }
+  }
+  &.geografia {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_geografia.png');
+    }
+  }
+  &.historia {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_historia.png');
+    }
+  }
+  &.lingua_inglesa {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_lingua_inglesa.png');
+    }
+  }
+  &.lingua_portuguesa {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_lingua_portuguesa.png');
+    }
+  }
+  &.matematica {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_matematica.png');
+    }
+  }
+  &.producao_de_texto {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_producao_de_texto.png');
+    }
+  }
+  &.quimica {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_quimica.png');
+    }
+  }
+  &.sociologia {
+    &:before {
+      background-image: url('img/css_06_boxe_texto2_sociologia.png');
+    }
+  }
+}

@@ -33,7 +33,7 @@ body {
     outline: none; }
 
 html {
-  background: url("img/background/LUMEN_MAT.svg") center center no-repeat fixed;
+  background: url("img/background/LUMEN_QUI.svg") center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2153,7 +2153,7 @@ blockquote {
   z-index: 999;
   margin-left: 180px;
   margin-top: 40px;
-  min-width: 580px; }
+  width: 580px; }
   .css_01_titulo_cap .título-cap {
     font-family: "Prelo ExtraBold";
     text-align: left;
@@ -5597,6 +5597,127 @@ blockquote {
     .css_06_boxe_em_arte.sociologia label:after {
       background-image: url(img/css_06_boxe_em_arte_sociologia.png); }
 
+.css_06_container_boxe_em_arte {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_arte input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_arte input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_arte input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_arte label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_arte label:before {
+      content: 'Em Arte, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_arte label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_arte_artes.png); }
+  .css_06_container_boxe_em_arte .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_arte.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_arte.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_arte.artes label:after {
+      background-image: url(img/css_06_boxe_em_arte_artes.png); }
+  .css_06_container_boxe_em_arte.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_arte.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_arte.biologia label:after {
+      background-image: url(img/css_06_boxe_em_arte_biologia.png); }
+  .css_06_container_boxe_em_arte.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_arte.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_arte.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_arte_filosofia.png); }
+  .css_06_container_boxe_em_arte.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_arte.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_arte.fisica label:after {
+      background-image: url(img/css_06_boxe_em_arte_fisica.png); }
+  .css_06_container_boxe_em_arte.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_arte.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_arte.geografia label:after {
+      background-image: url(img/css_06_boxe_em_arte_geografia.png); }
+  .css_06_container_boxe_em_arte.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_arte.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_arte.historia label:after {
+      background-image: url(img/css_06_boxe_em_arte_historia.png); }
+  .css_06_container_boxe_em_arte.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_arte.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_arte.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_arte_lingua_inglesa.png); }
+  .css_06_container_boxe_em_arte.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_arte.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_arte.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_arte_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_arte.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_arte.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_arte.matematica label:after {
+      background-image: url(img/css_06_boxe_em_arte_matematica.png); }
+  .css_06_container_boxe_em_arte.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_arte.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_arte.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_arte_producao_de_texto.png); }
+  .css_06_container_boxe_em_arte.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_arte.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_arte.quimica label:after {
+      background-image: url(img/css_06_boxe_em_arte_quimica.png); }
+  .css_06_container_boxe_em_arte.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_arte.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_arte.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_arte_sociologia.png); }
+
 .css_06_boxe_em_biologia {
   float: left;
   position: relative;
@@ -5716,6 +5837,127 @@ blockquote {
     .css_06_boxe_em_biologia.sociologia label:before {
       color: #208F6D; }
     .css_06_boxe_em_biologia.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_biologia_sociologia.png); }
+
+.css_06_container_boxe_em_biologia {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_biologia input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_biologia input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_biologia input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_biologia label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_biologia label:before {
+      content: 'Em Biologia, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_biologia label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_biologia_artes.png); }
+  .css_06_container_boxe_em_biologia .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_biologia.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_biologia.artes label:after {
+      background-image: url(img/css_06_boxe_em_biologia_artes.png); }
+  .css_06_container_boxe_em_biologia.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_biologia.biologia label:after {
+      background-image: url(img/css_06_boxe_em_biologia_biologia.png); }
+  .css_06_container_boxe_em_biologia.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_biologia.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_biologia_filosofia.png); }
+  .css_06_container_boxe_em_biologia.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_biologia.fisica label:after {
+      background-image: url(img/css_06_boxe_em_biologia_fisica.png); }
+  .css_06_container_boxe_em_biologia.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_biologia.geografia label:after {
+      background-image: url(img/css_06_boxe_em_biologia_geografia.png); }
+  .css_06_container_boxe_em_biologia.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_biologia.historia label:after {
+      background-image: url(img/css_06_boxe_em_biologia_historia.png); }
+  .css_06_container_boxe_em_biologia.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_biologia.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_biologia_lingua_inglesa.png); }
+  .css_06_container_boxe_em_biologia.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_biologia.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_biologia_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_biologia.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_biologia.matematica label:after {
+      background-image: url(img/css_06_boxe_em_biologia_matematica.png); }
+  .css_06_container_boxe_em_biologia.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_biologia.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_biologia_producao_de_texto.png); }
+  .css_06_container_boxe_em_biologia.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_biologia.quimica label:after {
+      background-image: url(img/css_06_boxe_em_biologia_quimica.png); }
+  .css_06_container_boxe_em_biologia.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_biologia.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_biologia.sociologia label:after {
       background-image: url(img/css_06_boxe_em_biologia_sociologia.png); }
 
 .css_06_boxe_em_filosofia {
@@ -5839,6 +6081,127 @@ blockquote {
     .css_06_boxe_em_filosofia.sociologia label:after {
       background-image: url(img/css_06_boxe_em_filosofia_sociologia.png); }
 
+.css_06_container_boxe_em_filosofia {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_filosofia input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_filosofia input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_filosofia input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_filosofia label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_filosofia label:before {
+      content: 'Em Filosofia, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_filosofia label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_filosofia_artes.png); }
+  .css_06_container_boxe_em_filosofia .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_filosofia.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_filosofia.artes label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_artes.png); }
+  .css_06_container_boxe_em_filosofia.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_filosofia.biologia label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_biologia.png); }
+  .css_06_container_boxe_em_filosofia.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_filosofia.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_filosofia.png); }
+  .css_06_container_boxe_em_filosofia.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_filosofia.fisica label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_fisica.png); }
+  .css_06_container_boxe_em_filosofia.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_filosofia.geografia label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_geografia.png); }
+  .css_06_container_boxe_em_filosofia.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_filosofia.historia label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_historia.png); }
+  .css_06_container_boxe_em_filosofia.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_filosofia.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_lingua_inglesa.png); }
+  .css_06_container_boxe_em_filosofia.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_filosofia.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_filosofia.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_filosofia.matematica label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_matematica.png); }
+  .css_06_container_boxe_em_filosofia.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_filosofia.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_producao_de_texto.png); }
+  .css_06_container_boxe_em_filosofia.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_filosofia.quimica label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_quimica.png); }
+  .css_06_container_boxe_em_filosofia.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_filosofia.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_filosofia.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_filosofia_sociologia.png); }
+
 .css_06_boxe_em_fisica {
   float: left;
   position: relative;
@@ -5958,6 +6321,127 @@ blockquote {
     .css_06_boxe_em_fisica.sociologia label:before {
       color: #208F6D; }
     .css_06_boxe_em_fisica.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_fisica_sociologia.png); }
+
+.css_06_container_boxe_em_fisica {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_fisica input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_fisica input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_fisica input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_fisica label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_fisica label:before {
+      content: 'Em Física, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_fisica label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_fisica_artes.png); }
+  .css_06_container_boxe_em_fisica .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_fisica.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_fisica.artes label:after {
+      background-image: url(img/css_06_boxe_em_fisica_artes.png); }
+  .css_06_container_boxe_em_fisica.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_fisica.biologia label:after {
+      background-image: url(img/css_06_boxe_em_fisica_biologia.png); }
+  .css_06_container_boxe_em_fisica.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_fisica.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_fisica_filosofia.png); }
+  .css_06_container_boxe_em_fisica.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_fisica.fisica label:after {
+      background-image: url(img/css_06_boxe_em_fisica_fisica.png); }
+  .css_06_container_boxe_em_fisica.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_fisica.geografia label:after {
+      background-image: url(img/css_06_boxe_em_fisica_geografia.png); }
+  .css_06_container_boxe_em_fisica.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_fisica.historia label:after {
+      background-image: url(img/css_06_boxe_em_fisica_historia.png); }
+  .css_06_container_boxe_em_fisica.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_fisica.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_fisica_lingua_inglesa.png); }
+  .css_06_container_boxe_em_fisica.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_fisica.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_fisica_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_fisica.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_fisica.matematica label:after {
+      background-image: url(img/css_06_boxe_em_fisica_matematica.png); }
+  .css_06_container_boxe_em_fisica.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_fisica.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_fisica_producao_de_texto.png); }
+  .css_06_container_boxe_em_fisica.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_fisica.quimica label:after {
+      background-image: url(img/css_06_boxe_em_fisica_quimica.png); }
+  .css_06_container_boxe_em_fisica.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_fisica.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_fisica.sociologia label:after {
       background-image: url(img/css_06_boxe_em_fisica_sociologia.png); }
 
 .css_06_boxe_em_geografia {
@@ -6081,6 +6565,127 @@ blockquote {
     .css_06_boxe_em_geografia.sociologia label:after {
       background-image: url(img/css_06_boxe_em_geografia_sociologia.png); }
 
+.css_06_container_boxe_em_geografia {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_geografia input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_geografia input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_geografia input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_geografia label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_geografia label:before {
+      content: 'Em Geografia, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_geografia label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_geografia_artes.png); }
+  .css_06_container_boxe_em_geografia .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_geografia.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_geografia.artes label:after {
+      background-image: url(img/css_06_boxe_em_geografia_artes.png); }
+  .css_06_container_boxe_em_geografia.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_geografia.biologia label:after {
+      background-image: url(img/css_06_boxe_em_geografia_biologia.png); }
+  .css_06_container_boxe_em_geografia.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_geografia.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_geografia_filosofia.png); }
+  .css_06_container_boxe_em_geografia.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_geografia.fisica label:after {
+      background-image: url(img/css_06_boxe_em_geografia_fisica.png); }
+  .css_06_container_boxe_em_geografia.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_geografia.geografia label:after {
+      background-image: url(img/css_06_boxe_em_geografia_geografia.png); }
+  .css_06_container_boxe_em_geografia.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_geografia.historia label:after {
+      background-image: url(img/css_06_boxe_em_geografia_historia.png); }
+  .css_06_container_boxe_em_geografia.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_geografia.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_geografia_lingua_inglesa.png); }
+  .css_06_container_boxe_em_geografia.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_geografia.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_geografia_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_geografia.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_geografia.matematica label:after {
+      background-image: url(img/css_06_boxe_em_geografia_matematica.png); }
+  .css_06_container_boxe_em_geografia.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_geografia.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_geografia_producao_de_texto.png); }
+  .css_06_container_boxe_em_geografia.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_geografia.quimica label:after {
+      background-image: url(img/css_06_boxe_em_geografia_quimica.png); }
+  .css_06_container_boxe_em_geografia.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_geografia.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_geografia.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_geografia_sociologia.png); }
+
 .css_06_boxe_em_historia {
   float: left;
   position: relative;
@@ -6200,6 +6805,127 @@ blockquote {
     .css_06_boxe_em_historia.sociologia label:before {
       color: #208F6D; }
     .css_06_boxe_em_historia.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_historia_sociologia.png); }
+
+.css_06_container_boxe_em_historia {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_historia input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_historia input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_historia input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_historia label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_historia label:before {
+      content: 'Em História, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_historia label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_historia_artes.png); }
+  .css_06_container_boxe_em_historia .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_historia.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_historia.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_historia.artes label:after {
+      background-image: url(img/css_06_boxe_em_historia_artes.png); }
+  .css_06_container_boxe_em_historia.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_historia.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_historia.biologia label:after {
+      background-image: url(img/css_06_boxe_em_historia_biologia.png); }
+  .css_06_container_boxe_em_historia.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_historia.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_historia.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_historia_filosofia.png); }
+  .css_06_container_boxe_em_historia.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_historia.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_historia.fisica label:after {
+      background-image: url(img/css_06_boxe_em_historia_fisica.png); }
+  .css_06_container_boxe_em_historia.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_historia.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_historia.geografia label:after {
+      background-image: url(img/css_06_boxe_em_historia_geografia.png); }
+  .css_06_container_boxe_em_historia.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_historia.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_historia.historia label:after {
+      background-image: url(img/css_06_boxe_em_historia_historia.png); }
+  .css_06_container_boxe_em_historia.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_historia.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_historia.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_historia_lingua_inglesa.png); }
+  .css_06_container_boxe_em_historia.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_historia.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_historia.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_historia_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_historia.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_historia.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_historia.matematica label:after {
+      background-image: url(img/css_06_boxe_em_historia_matematica.png); }
+  .css_06_container_boxe_em_historia.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_historia.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_historia.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_historia_producao_de_texto.png); }
+  .css_06_container_boxe_em_historia.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_historia.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_historia.quimica label:after {
+      background-image: url(img/css_06_boxe_em_historia_quimica.png); }
+  .css_06_container_boxe_em_historia.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_historia.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_historia.sociologia label:after {
       background-image: url(img/css_06_boxe_em_historia_sociologia.png); }
 
 .css_06_boxe_em_lingua_inglesa {
@@ -6323,6 +7049,127 @@ blockquote {
     .css_06_boxe_em_lingua_inglesa.sociologia label:after {
       background-image: url(img/css_06_boxe_em_lingua_inglesa_sociologia.png); }
 
+.css_06_container_boxe_em_lingua_inglesa {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_lingua_inglesa input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_lingua_inglesa input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_lingua_inglesa input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_lingua_inglesa label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_lingua_inglesa label:before {
+      content: 'Em Língua Inglesa, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_lingua_inglesa label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_artes.png); }
+  .css_06_container_boxe_em_lingua_inglesa .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_lingua_inglesa.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_lingua_inglesa.artes label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_artes.png); }
+  .css_06_container_boxe_em_lingua_inglesa.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_lingua_inglesa.biologia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_biologia.png); }
+  .css_06_container_boxe_em_lingua_inglesa.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_lingua_inglesa.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_filosofia.png); }
+  .css_06_container_boxe_em_lingua_inglesa.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_lingua_inglesa.fisica label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_fisica.png); }
+  .css_06_container_boxe_em_lingua_inglesa.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_lingua_inglesa.geografia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_geografia.png); }
+  .css_06_container_boxe_em_lingua_inglesa.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_lingua_inglesa.historia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_historia.png); }
+  .css_06_container_boxe_em_lingua_inglesa.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_lingua_inglesa.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_lingua_inglesa.png); }
+  .css_06_container_boxe_em_lingua_inglesa.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_lingua_inglesa.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_lingua_inglesa.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_lingua_inglesa.matematica label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_matematica.png); }
+  .css_06_container_boxe_em_lingua_inglesa.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_lingua_inglesa.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_producao_de_texto.png); }
+  .css_06_container_boxe_em_lingua_inglesa.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_lingua_inglesa.quimica label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_quimica.png); }
+  .css_06_container_boxe_em_lingua_inglesa.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_inglesa.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_lingua_inglesa.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_inglesa_sociologia.png); }
+
 .css_06_boxe_em_lingua_portuguesa {
   float: left;
   position: relative;
@@ -6442,6 +7289,127 @@ blockquote {
     .css_06_boxe_em_lingua_portuguesa.sociologia label:before {
       color: #208F6D; }
     .css_06_boxe_em_lingua_portuguesa.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_sociologia.png); }
+
+.css_06_container_boxe_em_lingua_portuguesa {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_lingua_portuguesa input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_lingua_portuguesa input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_lingua_portuguesa input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_lingua_portuguesa label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_lingua_portuguesa label:before {
+      content: 'Em Língua Portuguesa, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_lingua_portuguesa label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_artes.png); }
+  .css_06_container_boxe_em_lingua_portuguesa .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_lingua_portuguesa.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_lingua_portuguesa.artes label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_artes.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_lingua_portuguesa.biologia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_biologia.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_lingua_portuguesa.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_filosofia.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_lingua_portuguesa.fisica label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_fisica.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_lingua_portuguesa.geografia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_geografia.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_lingua_portuguesa.historia label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_historia.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_lingua_portuguesa.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_lingua_inglesa.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_lingua_portuguesa.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_lingua_portuguesa.matematica label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_matematica.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_lingua_portuguesa.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_producao_de_texto.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_lingua_portuguesa.quimica label:after {
+      background-image: url(img/css_06_boxe_em_lingua_portuguesa_quimica.png); }
+  .css_06_container_boxe_em_lingua_portuguesa.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_lingua_portuguesa.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_lingua_portuguesa.sociologia label:after {
       background-image: url(img/css_06_boxe_em_lingua_portuguesa_sociologia.png); }
 
 .css_06_boxe_em_literatura {
@@ -6565,6 +7533,127 @@ blockquote {
     .css_06_boxe_em_literatura.sociologia label:after {
       background-image: url(img/css_06_boxe_em_literatura_sociologia.png); }
 
+.css_06_container_boxe_em_literatura {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_literatura input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_literatura input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_literatura input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_literatura label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_literatura label:before {
+      content: 'Em Literatura, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_literatura label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_literatura_artes.png); }
+  .css_06_container_boxe_em_literatura .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_literatura.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_literatura.artes label:after {
+      background-image: url(img/css_06_boxe_em_literatura_artes.png); }
+  .css_06_container_boxe_em_literatura.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_literatura.biologia label:after {
+      background-image: url(img/css_06_boxe_em_literatura_biologia.png); }
+  .css_06_container_boxe_em_literatura.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_literatura.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_literatura_filosofia.png); }
+  .css_06_container_boxe_em_literatura.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_literatura.fisica label:after {
+      background-image: url(img/css_06_boxe_em_literatura_fisica.png); }
+  .css_06_container_boxe_em_literatura.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_literatura.geografia label:after {
+      background-image: url(img/css_06_boxe_em_literatura_geografia.png); }
+  .css_06_container_boxe_em_literatura.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_literatura.historia label:after {
+      background-image: url(img/css_06_boxe_em_literatura_historia.png); }
+  .css_06_container_boxe_em_literatura.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_literatura.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_literatura_lingua_inglesa.png); }
+  .css_06_container_boxe_em_literatura.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_literatura.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_literatura_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_literatura.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_literatura.matematica label:after {
+      background-image: url(img/css_06_boxe_em_literatura_matematica.png); }
+  .css_06_container_boxe_em_literatura.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_literatura.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_literatura_producao_de_texto.png); }
+  .css_06_container_boxe_em_literatura.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_literatura.quimica label:after {
+      background-image: url(img/css_06_boxe_em_literatura_quimica.png); }
+  .css_06_container_boxe_em_literatura.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_literatura.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_literatura.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_literatura_sociologia.png); }
+
 .css_06_boxe_em_matematica {
   float: left;
   position: relative;
@@ -6684,6 +7773,127 @@ blockquote {
     .css_06_boxe_em_matematica.sociologia label:before {
       color: #208F6D; }
     .css_06_boxe_em_matematica.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_matematica_sociologia.png); }
+
+.css_06_container_boxe_em_matematica {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_matematica input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_matematica input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_matematica input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_matematica label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_matematica label:before {
+      content: 'Em Matemática, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_matematica label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_matematica_artes.png); }
+  .css_06_container_boxe_em_matematica .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_matematica.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_matematica.artes label:after {
+      background-image: url(img/css_06_boxe_em_matematica_artes.png); }
+  .css_06_container_boxe_em_matematica.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_matematica.biologia label:after {
+      background-image: url(img/css_06_boxe_em_matematica_biologia.png); }
+  .css_06_container_boxe_em_matematica.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_matematica.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_matematica_filosofia.png); }
+  .css_06_container_boxe_em_matematica.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_matematica.fisica label:after {
+      background-image: url(img/css_06_boxe_em_matematica_fisica.png); }
+  .css_06_container_boxe_em_matematica.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_matematica.geografia label:after {
+      background-image: url(img/css_06_boxe_em_matematica_geografia.png); }
+  .css_06_container_boxe_em_matematica.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_matematica.historia label:after {
+      background-image: url(img/css_06_boxe_em_matematica_historia.png); }
+  .css_06_container_boxe_em_matematica.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_matematica.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_matematica_lingua_inglesa.png); }
+  .css_06_container_boxe_em_matematica.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_matematica.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_matematica_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_matematica.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_matematica.matematica label:after {
+      background-image: url(img/css_06_boxe_em_matematica_matematica.png); }
+  .css_06_container_boxe_em_matematica.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_matematica.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_matematica_producao_de_texto.png); }
+  .css_06_container_boxe_em_matematica.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_matematica.quimica label:after {
+      background-image: url(img/css_06_boxe_em_matematica_quimica.png); }
+  .css_06_container_boxe_em_matematica.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_matematica.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_matematica.sociologia label:after {
       background-image: url(img/css_06_boxe_em_matematica_sociologia.png); }
 
 .css_06_boxe_em_producao_de_texto {
@@ -6807,6 +8017,127 @@ blockquote {
     .css_06_boxe_em_producao_de_texto.sociologia label:after {
       background-image: url(img/css_06_boxe_em_producao_de_texto_sociologia.png); }
 
+.css_06_container_boxe_em_producao_de_texto {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_producao_de_texto input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_producao_de_texto input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_producao_de_texto input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_producao_de_texto label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_producao_de_texto label:before {
+      content: 'Em Produção de texto, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_producao_de_texto label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_producao_de_texto_artes.png); }
+  .css_06_container_boxe_em_producao_de_texto .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_producao_de_texto.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_producao_de_texto.artes label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_artes.png); }
+  .css_06_container_boxe_em_producao_de_texto.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_producao_de_texto.biologia label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_biologia.png); }
+  .css_06_container_boxe_em_producao_de_texto.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_producao_de_texto.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_filosofia.png); }
+  .css_06_container_boxe_em_producao_de_texto.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_producao_de_texto.fisica label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_fisica.png); }
+  .css_06_container_boxe_em_producao_de_texto.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_producao_de_texto.geografia label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_geografia.png); }
+  .css_06_container_boxe_em_producao_de_texto.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_producao_de_texto.historia label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_historia.png); }
+  .css_06_container_boxe_em_producao_de_texto.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_producao_de_texto.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_lingua_inglesa.png); }
+  .css_06_container_boxe_em_producao_de_texto.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_producao_de_texto.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_producao_de_texto.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_producao_de_texto.matematica label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_matematica.png); }
+  .css_06_container_boxe_em_producao_de_texto.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_producao_de_texto.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_producao_de_texto.png); }
+  .css_06_container_boxe_em_producao_de_texto.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_producao_de_texto.quimica label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_quimica.png); }
+  .css_06_container_boxe_em_producao_de_texto.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_producao_de_texto.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_producao_de_texto.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_producao_de_texto_sociologia.png); }
+
 .css_06_boxe_em_quimica {
   float: left;
   position: relative;
@@ -6926,6 +8257,127 @@ blockquote {
     .css_06_boxe_em_quimica.sociologia label:before {
       color: #208F6D; }
     .css_06_boxe_em_quimica.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_sociologia.png); }
+
+.css_06_container_boxe_em_quimica {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_quimica input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_quimica input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_quimica input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_quimica label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_quimica label:before {
+      content: 'Em Química, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_quimica label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_quimica_artes.png); }
+  .css_06_container_boxe_em_quimica .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_quimica.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_quimica.artes label:after {
+      background-image: url(img/css_06_boxe_em_quimica_artes.png); }
+  .css_06_container_boxe_em_quimica.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_quimica.biologia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_biologia.png); }
+  .css_06_container_boxe_em_quimica.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_quimica.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_filosofia.png); }
+  .css_06_container_boxe_em_quimica.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_quimica.fisica label:after {
+      background-image: url(img/css_06_boxe_em_quimica_fisica.png); }
+  .css_06_container_boxe_em_quimica.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_quimica.geografia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_geografia.png); }
+  .css_06_container_boxe_em_quimica.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_quimica.historia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_historia.png); }
+  .css_06_container_boxe_em_quimica.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_quimica.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_quimica_lingua_inglesa.png); }
+  .css_06_container_boxe_em_quimica.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_quimica.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_quimica_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_quimica.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_quimica.matematica label:after {
+      background-image: url(img/css_06_boxe_em_quimica_matematica.png); }
+  .css_06_container_boxe_em_quimica.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_quimica.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_quimica_producao_de_texto.png); }
+  .css_06_container_boxe_em_quimica.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_quimica.quimica label:after {
+      background-image: url(img/css_06_boxe_em_quimica_quimica.png); }
+  .css_06_container_boxe_em_quimica.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_quimica.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_quimica.sociologia label:after {
       background-image: url(img/css_06_boxe_em_quimica_sociologia.png); }
 
 .css_06_in_other_area {
@@ -7049,6 +8501,127 @@ blockquote {
     .css_06_in_other_area.sociologia label:after {
       background-image: url(img/css_06_boxe_em_quimica_sociologia.png); }
 
+.css_06_container_in_other_area {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_in_other_area input[type=checkbox] {
+    display: none; }
+  .css_06_container_in_other_area input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_in_other_area input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_in_other_area label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_in_other_area label:before {
+      content: 'In other areas...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_in_other_area label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_quimica_artes.png); }
+  .css_06_container_in_other_area .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_in_other_area.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_in_other_area.artes label:before {
+      color: #84A214; }
+    .css_06_container_in_other_area.artes label:after {
+      background-image: url(img/css_06_boxe_em_quimica_artes.png); }
+  .css_06_container_in_other_area.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_in_other_area.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_in_other_area.biologia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_biologia.png); }
+  .css_06_container_in_other_area.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_in_other_area.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_in_other_area.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_filosofia.png); }
+  .css_06_container_in_other_area.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_in_other_area.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_in_other_area.fisica label:after {
+      background-image: url(img/css_06_boxe_em_quimica_fisica.png); }
+  .css_06_container_in_other_area.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_in_other_area.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_in_other_area.geografia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_geografia.png); }
+  .css_06_container_in_other_area.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_in_other_area.historia label:before {
+      color: #208F6D; }
+    .css_06_container_in_other_area.historia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_historia.png); }
+  .css_06_container_in_other_area.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_in_other_area.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_in_other_area.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_quimica_lingua_inglesa.png); }
+  .css_06_container_in_other_area.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_in_other_area.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_in_other_area.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_quimica_lingua_portuguesa.png); }
+  .css_06_container_in_other_area.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_in_other_area.matematica label:before {
+      color: #C09100; }
+    .css_06_container_in_other_area.matematica label:after {
+      background-image: url(img/css_06_boxe_em_quimica_matematica.png); }
+  .css_06_container_in_other_area.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_in_other_area.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_in_other_area.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_quimica_producao_de_texto.png); }
+  .css_06_container_in_other_area.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_in_other_area.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_in_other_area.quimica label:after {
+      background-image: url(img/css_06_boxe_em_quimica_quimica.png); }
+  .css_06_container_in_other_area.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_in_other_area.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_in_other_area.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_quimica_sociologia.png); }
+
 .css_06_boxe_em_sociologia {
   float: left;
   position: relative;
@@ -7168,6 +8741,127 @@ blockquote {
     .css_06_boxe_em_sociologia.sociologia label:before {
       color: #208F6D; }
     .css_06_boxe_em_sociologia.sociologia label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_sociologia.png); }
+
+.css_06_container_boxe_em_sociologia {
+  float: left;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 68px 56px 68px;
+  width: 83%;
+  min-height: 50px;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+  .css_06_container_boxe_em_sociologia input[type=checkbox] {
+    display: none; }
+  .css_06_container_boxe_em_sociologia input[type=checkbox]:checked ~ label {
+    background: url(img/icon-box-collapsed-open.png) right -3px no-repeat; }
+  .css_06_container_boxe_em_sociologia input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+    display: block; }
+  .css_06_container_boxe_em_sociologia label {
+    width: 100%;
+    height: 40px;
+    background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
+    position: relative;
+    float: left; }
+    .css_06_container_boxe_em_sociologia label:before {
+      content: 'Em Sociologia, vemos que...';
+      font-size: 20px;
+      color: #BD8432;
+      position: absolute;
+      left: 50px;
+      top: 10px;
+      font-family: "Prelo ExtraBold"; }
+    .css_06_container_boxe_em_sociologia label:after {
+      content: '';
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 14px;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      top: 8px;
+      background-image: url(img/css_06_boxe_em_sociologia_artes.png); }
+  .css_06_container_boxe_em_sociologia .txt_boxe_collapsed {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: "Proxima Nova Lt" !important;
+    font-size: 16px;
+    display: none; }
+  .css_06_container_boxe_em_sociologia.artes {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.artes label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_sociologia.artes label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_artes.png); }
+  .css_06_container_boxe_em_sociologia.biologia {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.biologia label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_sociologia.biologia label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_biologia.png); }
+  .css_06_container_boxe_em_sociologia.filosofia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.filosofia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_sociologia.filosofia label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_filosofia.png); }
+  .css_06_container_boxe_em_sociologia.fisica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.fisica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_sociologia.fisica label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_fisica.png); }
+  .css_06_container_boxe_em_sociologia.geografia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.geografia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_sociologia.geografia label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_geografia.png); }
+  .css_06_container_boxe_em_sociologia.historia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.historia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_sociologia.historia label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_historia.png); }
+  .css_06_container_boxe_em_sociologia.lingua_inglesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.lingua_inglesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_sociologia.lingua_inglesa label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_lingua_inglesa.png); }
+  .css_06_container_boxe_em_sociologia.lingua_portuguesa {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.lingua_portuguesa label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_sociologia.lingua_portuguesa label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_lingua_portuguesa.png); }
+  .css_06_container_boxe_em_sociologia.matematica {
+    background: linear-gradient(180deg, #faedbc 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.matematica label:before {
+      color: #C09100; }
+    .css_06_container_boxe_em_sociologia.matematica label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_matematica.png); }
+  .css_06_container_boxe_em_sociologia.producao_de_texto {
+    background: linear-gradient(180deg, #ECF0A6 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.producao_de_texto label:before {
+      color: #84A214; }
+    .css_06_container_boxe_em_sociologia.producao_de_texto label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_producao_de_texto.png); }
+  .css_06_container_boxe_em_sociologia.quimica {
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.quimica label:before {
+      color: #BD8432; }
+    .css_06_container_boxe_em_sociologia.quimica label:after {
+      background-image: url(img/css_06_boxe_em_sociologia_quimica.png); }
+  .css_06_container_boxe_em_sociologia.sociologia {
+    background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
+    .css_06_container_boxe_em_sociologia.sociologia label:before {
+      color: #208F6D; }
+    .css_06_container_boxe_em_sociologia.sociologia label:after {
       background-image: url(img/css_06_boxe_em_sociologia_sociologia.png); }
 
 .css_06_boxe1 {

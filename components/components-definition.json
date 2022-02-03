@@ -1,5 +1,5 @@
 {
-    "name": "default-components-mat",
+    "name": "default-components-qui",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -1092,9 +1092,21 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_container_boxe_em_arte",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Arte",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe_em_biologia",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Boxe Em Biologia",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_container_boxe_em_biologia",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Biologia",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1104,9 +1116,21 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_container_boxe_em_filosofia",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Filosofia",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe_em_fisica",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Boxe Em Física",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_container_boxe_em_fisica",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Física",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1116,9 +1140,21 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_container_boxe_em_geografia",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Geografia",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe_em_historia",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Boxe Em História",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_container_boxe_em_historia",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em História",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1128,9 +1164,21 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_container_boxe_em_lingua_inglesa",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Língua Inglesa",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe_em_lingua_portuguesa",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Boxe Em Língua Portuguesa",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_container_boxe_em_lingua_portuguesa",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Língua Portuguesa",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1140,9 +1188,21 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_container_boxe_em_literatura",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Literatura",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe_em_matematica",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Boxe Em Matemática",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_container_boxe_em_matematica",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Matemática",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1152,13 +1212,31 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_container_boxe_em_producao_de_texto",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Produção de Texto",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe_em_quimica",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Boxe Em Química",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_container_boxe_em_quimica",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Química",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_in_other_area",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Boxe In Other Area",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_container_in_other_area",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "In Other Area",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
@@ -1167,6 +1245,12 @@
             "name": "css_06_boxe_em_sociologia",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Boxe Em Sociologia",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_container_boxe_em_sociologia",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Em Sociologia",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1864,33 +1948,27 @@
             "css_06_boxe_discussao_em_sala",
             "css_06_container_boxe_discussao_em_sala",
             "css_06_container_boxe_entre_aspas",
-            "css_06_boxe_em_arte",
-            "css_06_boxe_em_biologia",
-            "css_06_boxe_em_filosofia",
-            "css_06_boxe_em_fisica",
-            "css_06_boxe_em_geografia",
-            "css_06_boxe_em_historia",
-            "css_06_boxe_em_lingua_inglesa",
-            "css_06_boxe_em_lingua_portuguesa",
-            "css_06_boxe_em_literatura",
-            "css_06_boxe_em_matematica",
-            "css_06_boxe_em_producao_de_texto",
-            "css_06_boxe_em_quimica",
-            "css_06_boxe_em_sociologia",
-            "css_06_boxe_experimento",
-            "css_06_in_other_area",
+            "css_06_container_boxe_em_arte",
+            "css_06_container_boxe_em_biologia",
+            "css_06_container_boxe_em_filosofia",
+            "css_06_container_boxe_em_fisica",
+            "css_06_container_boxe_em_geografia",
+            "css_06_container_boxe_em_historia",
+            "css_06_container_boxe_em_lingua_inglesa",
+            "css_06_container_boxe_em_lingua_portuguesa",
+            "css_06_container_boxe_em_literatura",
+            "css_06_container_boxe_em_matematica",
+            "css_06_container_boxe_em_producao_de_texto",
+            "css_06_container_boxe_em_quimica",
+            "css_06_container_boxe_em_sociologia",
+            "css_06_container_in_other_area",
             "css_06_container_boxe_experimento",
             "css_06_container_boxe_pensadores",
-            "css_06_boxe_fique_ligado",
             "css_06_container_boxe_fique_ligado",
-            "css_06_boxe_go_further",
             "css_06_container_boxe_go_further",
-            "css_06_boxe_mais",
             "css_06_container_boxe_mais",
             "css_03_container_questao_resolvida",
-            "css_06_boxe_speak_out",
             "css_06_container_boxe_speak_out",
-            "css_06_boxe_watch_out",
             "css_06_container_boxe_watch_out",
             "css_07_boxe3",
             "css_07_boxe4",

@@ -1,5 +1,5 @@
 {
-    "name": "default-components-qui",
+    "name": "default-components-bio",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -1050,6 +1050,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_container_boxe_aprofundando",
+            "icon": "icons/components/container.svg",
+            "label": "Container Boxe Aprofundando",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_container_boxe_experimento",
             "icon": "icons/components/container.svg",
             "label": "Container Boxe Experimento",
@@ -1260,9 +1266,33 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_boxe1_60",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Container Cor 1 contorno 60%",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_boxe1_30",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Container Cor 1 contorno 30%",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe2",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Container Cor 1 rebaixada",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_boxe2_30",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Container Cor 1 rebaixada 30%",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_boxe2_60",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Container Cor 1 rebaixada 60%",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1272,9 +1302,33 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_06_boxe3_30",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Container Exercício Cor 1 contorno 30%",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_boxe3_60",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Container Exercício Cor 1 contorno 60%",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_06_boxe4",
             "icon": "icons/components/icon_06_boxe_item.svg",
             "label": "Container Exercício Cor 1 rebaixada",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_boxe4_30",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Container Exercício Cor 1 rebaixada 30%",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_06_boxe4_60",
+            "icon": "icons/components/icon_06_boxe_item.svg",
+            "label": "Container Exercício Cor 1 rebaixada 60%",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -1942,9 +1996,18 @@
             "css_01_container_unid",
             "css_01_container_bullet_unid",
             "css_06_boxe1",
+            "css_06_boxe1_60",
+            "css_06_boxe1_30",
             "css_06_boxe2",
+            "css_06_boxe2_60",
+            "css_06_boxe2_30",
             "css_06_boxe3",
+            "css_06_boxe3_60",
+            "css_06_boxe3_30",
             "css_06_boxe4",
+            "css_06_boxe4_60",
+            "css_06_boxe4_30",
+            "css_06_container_boxe_aprofundando",
             "css_06_boxe_discussao_em_sala",
             "css_06_container_boxe_discussao_em_sala",
             "css_06_container_boxe_entre_aspas",
@@ -3193,7 +3256,11 @@
             "css_05_legenda": "auto"
         },
         "css_06_boxe1": {
+            "css_06_boxe1_60": "auto",
+            "css_06_boxe1_30": "auto",
             "css_06_boxe2": "auto",
+            "css_06_boxe2_60": "auto",
+            "css_06_boxe2_30": "auto",
             "css_07_boxe1": "auto",
             "css_07_boxe2": "auto"
         },
@@ -3203,7 +3270,11 @@
             "css_07_boxe2": "auto"
         },
         "css_06_boxe2": {
+            "css_06_boxe2_60": "auto",
+            "css_06_boxe2_30": "auto",
             "css_06_boxe1": "auto",
+            "css_06_boxe1_60": "auto",
+            "css_06_boxe1_30": "auto",
             "css_07_boxe1": "auto",
             "css_07_boxe2": "auto"
         },

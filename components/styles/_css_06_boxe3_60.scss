@@ -1,0 +1,114 @@
+/* Container component style*/
+.css_06_boxe3_60 {
+    margin: 16px 140px 16px 188px;
+    padding: 4px 16px 4px 0px;
+    clear: both;
+    border-radius: 10px;
+    background-color: #EFDDEC;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    /* class styles for the options properties of the container component */
+    &.artes {
+        background-color: #B9A9CB  !important;
+        border: 3px solid #64428C;
+    }
+    &.biologia {
+        background-color: #ABD0A7 !important;
+        border: 3px solid #45973D;
+    }
+    &.filosofia {
+        background-color: #B1BDD7 !important;
+        border: 3px solid #536DA7;
+    }
+    &.fisica {
+        background-color: #8CCDD2 !important;
+        border: 3px solid #00909B;
+    }
+    &.geografia {
+        background-color: #EDB290 !important;
+        border: 3px solid #D85509;
+    }
+    &.historia {
+        background-color: #Cf98C6 !important;
+        border: 3px solid #951B81;
+    }
+    &.lingua_inglesa {
+        background-color: #8ccdd2 !important;
+        border: 3px solid #069891;
+    }
+    &.lingua_portuguesa {
+        background-color: #E59798 !important;
+        border: 3px solid #C51A1B;
+    }
+    &.matematica {
+        background-color: #97B7D9 !important;
+        border: 3px solid #1961AC;
+    }
+    &.producao_de_texto {
+        background-color: #92C7D7 !important;
+        border: 3px solid #0F93A6;
+    }
+    &.quimica {
+        background-color: #DF8CBF !important;
+        border: 3px solid #B80071;
+    }
+    &.sociologia {
+        background-color: #E695B1 !important;
+        border: 3px solid #C71553;
+    }
+    > * {
+        &:first-child {
+            margin-top: 0;
+            &._left {
+                + ._right {
+                    margin-top: 0;
+                    padding: 0 68 0 16px;
+                }
+            }
+            &._right {
+                + ._left {
+                    margin-top: 0;
+                    padding: 0 16 0 68px;
+                }
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &._left {
+            + ._right:last-child {
+                margin-bottom: 20px;
+                padding: 0 68 0 16px;
+            }
+        }
+        &._right {
+            + ._left:last-child {
+                margin-bottom: 20px;
+                padding: 0 16 0 68px;
+            }
+        }
+    }
+
+    /* media query */
+    @media only screen and (min-width: $phone-max-width) {
+        &._left {
+            float: left;
+            clear: left;
+            width: 50%;
+            margin-left: 68px;
+            margin-right: 24px;
+            z-index: 1;
+        }
+        &._right {
+            float: right;
+            clear: right;
+            width: 50%;
+            margin-left: 24px;
+            margin-right: 68px;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+/* Container component style*/
+.css_06_boxe4_30 {
+    margin: 16px 228px 16px 268px;
+    padding: 4px 16px 4px 0px;
+    clear: both;
+    border-radius: 10px;
+    background-color: #EFDDEC;
+    &::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    /* class styles for the options properties of the container component */
+    &.artes {
+        background-color: #E8E3EE !important;
+    }
+    &.biologia {
+        background-color: #E3F0E2 !important;
+    }
+    &.filosofia {
+        background-color: #E5E9F2 !important;
+    }
+    &.fisica {
+        background-color: #D9EEF0 !important;
+    }
+    &.geografia {
+        background-color: #F9E5DA !important;
+    }
+    &.historia {
+        background-color: #EFDDEC !important;
+    }
+    &.lingua_inglesa {
+        background-color: #D9EEF0 !important;
+    }
+    &.lingua_portuguesa {
+        background-color: #F7DCDD !important;
+    }
+    &.matematica {
+        background-color: #DCE7F3 !important;
+    }
+    &.producao_de_texto {
+        background-color: #DBECF2 !important;
+    }
+    &.quimica {
+        background-color: #F5D9EA !important;
+    }
+    &.sociologia {
+        background-color: #F7DCE5 !important;
+    }
+    > * {
+        &:first-child {
+            margin-top: 0;
+            &._left {
+                + ._right {
+                    margin-top: 0;
+                    padding: 0 68 0 16px;
+                }
+            }
+            &._right {
+                + ._left {
+                    margin-top: 0;
+                    padding: 0 16 0 68px;
+                }
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &._left {
+            + ._right:last-child {
+                margin-bottom: 20px;
+                padding: 0 68 0 16px;
+            }
+        }
+        &._right {
+            + ._left:last-child {
+                margin-bottom: 20px;
+                padding: 0 16 0 68px;
+            }
+        }
+    }
+
+    /* media query */
+    @media only screen and (min-width: $phone-max-width) {
+        &._left {
+            float: left;
+            clear: left;
+            width: 50%;
+            margin-left: 68px;
+            margin-right: 24px;
+            z-index: 1;
+        }
+        &._right {
+            float: right;
+            clear: right;
+            width: 50%;
+            margin-left: 24px;
+            margin-right: 68px;
+            z-index: 1;
+        }
+    }
+}

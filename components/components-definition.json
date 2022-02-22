@@ -1,5 +1,5 @@
 {
-    "name": "default-components-bio",
+    "name": "default-components-mat",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -1500,6 +1500,12 @@
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_07_secao_olimpica",
+            "icon": "icons/components/container.svg",
+            "label": "Seção Olímpica",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_07_secao_no_enem_e_assim",
             "icon": "icons/components/container.svg",
             "label": "Seção No Enem é Assim",
@@ -2048,6 +2054,7 @@
             "css_07_secao_maos_a_obra",
             "css_07_secao_na_hora_da_prova",
             "css_07_secao_no_enem_e_assim",
+            "css_07_secao_olimpica",
             "css_07_secao_ponto_de_vista",
             "css_07_secao_por_dentro_da_arte",
             "css_07_secao_practice_it",

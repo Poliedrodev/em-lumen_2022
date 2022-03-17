@@ -1,5 +1,5 @@
 {
-    "name": "default-components-mat",
+    "name": "default-components-fis",
     "description": "Studio Digital Editor components",
     "version": "1.8.0",
     "defaultComponentOnEnter": "body",
@@ -747,6 +747,12 @@
             "name": "css_03_exercicio_alternativa",
             "icon": "icons/components/icon_03_exercicio_alternativa.svg",
             "label": "03 Exercício Alternativa",
+            "properties": ["style", "text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_03_exercicio_alternativa_correta",
+            "icon": "icons/components/icon_03_exercicio_alternativa.svg",
+            "label": "03 Exercício Alternativa Correta",
             "properties": ["style", "text-align", "letter-spacing", "line-height"]
         },
         {
@@ -2161,7 +2167,8 @@
                 "css_03_exercicio_citado_titulo",
                 "css_03_exercicio_citado",
                 "css_03_exercicio_citado_item",
-                "css_03_exercicio_texto_font_alt"
+                "css_03_exercicio_texto_font_alt",
+                "css_03_exercicio_alternativa_correta"
             ]
         },
         {
@@ -2777,7 +2784,6 @@
             "css_01_titulo_chapter_num": "auto"
         }, 
         "css_00_arte": {
-            "css_99_bancoquestao_id": "auto",
             "css_00_cartografia": "auto",
             "css_00_multimidia": "auto",
             "css_00_licenciamento_texto_terceiro": "auto",
@@ -2890,7 +2896,8 @@
             "css_03_exercicio_texto": "auto",
             "css_03_item": "auto",
             "css_03_exercicio_item": "auto",
-            "css_03_exercicio_continuacao": "auto"
+            "css_03_exercicio_continuacao": "auto",
+            "css_03_exercicio_alternativa_correta": "auto"
         },        
         "css_03_exercicio_continuacao": {
             "css_03_exercicio_enunciado": "auto",
@@ -2912,7 +2919,8 @@
             "css_03_exercicio_texto": "auto",
             "css_03_item": "auto",
             "css_03_exercicio_continuacao": "auto",
-            "css_03_exercicio_alternativa": "auto"
+            "css_03_exercicio_alternativa": "auto",
+            "css_03_exercicio_alternativa_correta": "auto"
         },        
         "css_03_numero": {"css_03_numero_cor_2": "auto", "css_03_item": "auto", "css_03_item_alinhamento_1": "auto", "css_03_item_alinhamento_1_sem_recuo": "auto", "css_03_numero_alinhamento1": "auto"},
         "css_03_numero_cor_2": {"css_03_numero": "auto", "css_03_item": "auto", "css_03_item_alinhamento_1": "auto", "css_03_item_alinhamento_1_sem_recuo": "auto", "css_03_numero_alinhamento1": "auto"},
@@ -3309,7 +3317,7 @@
             "css_03_item_alinhamento_1_sem_recuo",
             "css_02_texto_geral1",
             "image_inline",
-            "image"
+            "css_03_exercicio_alternativa_correta"
         ]
     },
     "scripts": ["scripts/vendor.js"]

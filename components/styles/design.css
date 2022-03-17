@@ -33,7 +33,7 @@ body {
     outline: none; }
 
 html {
-  background: url("img/background/LUMEN_MAT.svg") center center no-repeat fixed;
+  background: url("img/background/LUMEN_FIS.svg") center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1991,6 +1991,13 @@ blockquote {
   margin: 16px 8px 16px 8px;
   padding: 8px; }
 
+.css_99_bancoquestao_id {
+  display: block;
+  font-family: 'PT Sans';
+  font-weight: 800;
+  font-size: 14px;
+  color: #00aeef; }
+
 .css_00_cartografia {
   display: block;
   font-family: "PT Sans", sans-serif;
@@ -3202,6 +3209,14 @@ blockquote {
     padding-left: 0px; }
 
 .css_03_exercicio_alternativa {
+  display: block;
+  font-family: "Proxima Nova Lt" !important;
+  font-size: 18px;
+  color: #000;
+  float: left;
+  margin: 16px 10px 16px 110px; }
+
+.css_03_exercicio_alternativa_correta {
   display: block;
   font-family: "Proxima Nova Lt" !important;
   font-size: 18px;

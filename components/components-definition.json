@@ -370,6 +370,12 @@
             "properties": ["text-align", "letter-spacing", "line-height"]
         },
         {
+            "name": "css_99_bancoquestao_id",
+            "icon": "icons/components/icon_00_arte.svg",
+            "label": "Banco Questão ID",
+            "properties": ["text-align", "letter-spacing", "line-height"]
+        },
+        {
             "name": "css_00_cartografia",
             "icon": "icons/components/icon_00_cartografia.svg",
             "label": "00 Cartografia",
@@ -2067,6 +2073,7 @@
             "label": "00 Códigos e recados",
             "name": "codigos_e_recados",
             "components": [
+                "css_99_bancoquestao_id",
                 "css_00_arte",
                 "css_00_cartografia",
                 "css_00_multimidia",
@@ -2770,6 +2777,7 @@
             "css_01_titulo_chapter_num": "auto"
         }, 
         "css_00_arte": {
+            "css_99_bancoquestao_id": "auto",
             "css_00_cartografia": "auto",
             "css_00_multimidia": "auto",
             "css_00_licenciamento_texto_terceiro": "auto",

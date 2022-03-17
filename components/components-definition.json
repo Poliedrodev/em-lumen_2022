@@ -378,7 +378,7 @@
         {
             "name": "css_99_bancoquestao_tipo",
             "icon": "icons/components/embed.svg",
-            "label": "Banco Questão ID",
+            "label": "Banco Questão Tipo",
             "properties": ["text-align", "letter-spacing", "line-height"]
         },
         {

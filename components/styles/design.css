@@ -1996,7 +1996,18 @@ blockquote {
   font-family: 'PT Sans';
   font-weight: 800;
   font-size: 14px;
-  color: #00aeef; }
+  color: #00aeef;
+  margin: 28px 0px 16px 68px;
+  max-height: 2px; }
+
+.css_99_bancoquestao_tipo {
+  display: block;
+  font-family: 'PT Sans';
+  font-weight: 800;
+  font-size: 14px;
+  color: #00aeef;
+  margin: 28px 0px 16px 68px;
+  max-height: 2px; }
 
 .css_00_cartografia {
   display: block;

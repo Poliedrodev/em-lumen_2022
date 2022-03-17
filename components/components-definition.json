@@ -371,7 +371,13 @@
         },
         {
             "name": "css_99_bancoquestao_id",
-            "icon": "icons/components/icon_00_arte.svg",
+            "icon": "icons/components/embed.svg",
+            "label": "Banco Questão ID",
+            "properties": ["text-align", "letter-spacing", "line-height"]
+        },
+        {
+            "name": "css_99_bancoquestao_tipo",
+            "icon": "icons/components/embed.svg",
             "label": "Banco Questão ID",
             "properties": ["text-align", "letter-spacing", "line-height"]
         },
@@ -2080,6 +2086,7 @@
             "name": "codigos_e_recados",
             "components": [
                 "css_99_bancoquestao_id",
+                "css_99_bancoquestao_tipo",
                 "css_00_arte",
                 "css_00_cartografia",
                 "css_00_multimidia",

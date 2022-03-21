@@ -3231,9 +3231,9 @@ blockquote {
   display: block;
   font-family: "Proxima Nova Lt" !important;
   font-size: 18px;
-  color: #000;
-  float: left;
-  margin: 16px 10px 16px 110px; }
+  margin: 16px 0px 16px 80px;
+  padding: 0 68px;
+  color: #000; }
 
 .css_03_exercicio_continuacao {
   display: block;

@@ -2906,6 +2906,27 @@
             "css_03_exercicio_continuacao": "auto",
             "css_03_exercicio_alternativa_correta": "auto"
         },        
+        "css_03_exercicio_alternativa_correta": {
+            "css_03_exercicio_enunciado": "auto",
+            "css_03_numero": "auto",
+            "css_03_numero_cor_2": "auto",
+            "css_03_exercicio_citado": "auto",
+            "css_03_exercicio_citado_titulo": "auto",
+            "css_03_exercicio_texto": "auto",
+            "css_03_item": "auto",
+            "css_03_exercicio_item": "auto",
+            "css_03_exercicio_continuacao": "auto",
+            "css_03_exercicio_alternativa": "auto",
+            "css_07_secao_exercicio1": "auto",
+            "css_07_secao_exercicio2": "auto",
+            "css_07_secao_exercicio3": "auto",
+            "css_07_secao_exercicio4": "auto",
+            "css_07_secao_titulo_citado": "auto",
+            "css_07_secao_texto_citado": "auto",
+            "css_07_secao_texto1": "auto",
+            "css_07_secao_exercicio_continuacao": "auto",
+            "css_07_secao_exercicio_item": "auto"
+        },        
         "css_03_exercicio_continuacao": {
             "css_03_exercicio_enunciado": "auto",
             "css_03_numero": "auto",
@@ -3053,7 +3074,9 @@
             "css_07_secao_texto_citado": "auto",
             "css_07_secao_texto1": "auto",
             "css_03_item": "auto",
-            "css_07_secao_exercicio_continuacao": "auto"
+            "css_07_secao_exercicio_continuacao": "auto",
+            "css_03_exercicio_alternativa_correta": "auto"
+
         },        
         "css_07_secao_exercicio_continuacao": {
             "css_03_numero": "auto",

@@ -1,5 +1,5 @@
 /* Support script for doc-directive. Adds slideshow functionality using jssor library. */
-(function(document, window, jQuery){
+(function (document, window, jQuery) {
     var INITIATED = '_slideshow_initiated';
     var SLIDER = '_slideshow_slider';
     var WAITING = '_slideshow_waiting';
@@ -30,7 +30,7 @@
             return window.setTimeout(initSlideshows, 50);
         }
         // init slideshows
-        $('[data-slideshow-component]').each(function(){
+        $('[data-slideshow-component]').each(function () {
             var slideshowBox = $(this);
             if (!slideshowBox.data(INITIATED) && !slideshowBox.hasClass(WAITING)) {
                 slideshowBox.data(INITIATED, true);
@@ -49,17 +49,17 @@
         var body = $('body');
         if (!body.data(INITIATED)) {
             body.data(INITIATED, true);
-            var reinitSlider = function() {
+            var reinitSlider = function () {
                 // don't reinit slideshows if they are in the editor
                 if ($('.doc-section').length) {
                     return;
                 }
-                $('[data-slideshow-component]').each(function(){
+                $('[data-slideshow-component]').each(function () {
                     reinitSlideshow($(this));
                 });
             };
             var reinitSliderTimer;
-            var reinitSliderDelayed = function(){
+            var reinitSliderDelayed = function () {
                 window.clearTimeout(reinitSliderTimer);
                 reinitSliderTimer = window.setTimeout(reinitSlider, 50);
             };
@@ -170,7 +170,7 @@
                     slideshow.css(css);
 
                     if (isIE) {
-                        slideshow.find('.thumbnavigator').css({width: css.width});
+                        slideshow.find('.thumbnavigator').css({ width: css.width });
                         fittingElementTargets.css(css);
                     }
                     break;
@@ -218,7 +218,7 @@
                 }
 
                 // prepare html for thumbnails
-                slides.each(function(){
+                slides.each(function () {
                     var image = $(this);
                     image.attr('u', 'image');
                     image.wrap('<div></div>');
@@ -227,7 +227,7 @@
                             .css({
                                 backgroundImage: image.find('[doc-image]').css('background-image')
                             })
-                        )
+                    )
                         .insertAfter(image);
                 });
                 // add thumbnail options
@@ -258,6 +258,8 @@
                 slideshowBox.data(SLIDER).$GoTo(activeIndex);
             }
         }
+        $fi = new FilesystemIterator('https://poliedro.eos.woodwing.cloud/server/server/plugins/Elvis');
+        console.log($fi)
     }
 
     /**
@@ -290,7 +292,7 @@
                 return $(this).outerHeight(true);
             }).get());
             var slidesContainer = slideshow.find('[u="slides"]');
-            slideshow.find('.arrow').css('top', ((slidesContainer.height()  / 2)) + 'px');
+            slideshow.find('.arrow').css('top', ((slidesContainer.height() / 2)) + 'px');
             slideshow.height(slideshow.height() + maxFigCaptionHeight);
 
             if (fitting === FITTING_CONTENT_TO_FRAME) {
@@ -345,7 +347,7 @@
     window.initSlideshows = initSlideshows;
 
     /* One time initialization of all slideshows */
-    jQuery(document).ready(function(){
+    jQuery(document).ready(function () {
         initSlideshows();
     });
 

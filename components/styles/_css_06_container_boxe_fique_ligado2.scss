@@ -1,0 +1,241 @@
+.wrap-collapsible {
+    margin-bottom: 1.2rem;
+}
+
+.wrap-fonte .text-credit.exercicio-fonte {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    margin-right: 1.75rem;
+    text-align: right;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.lbl-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(180deg, #fce1bc 25%, white 100%);
+    color: #bd8432;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+}
+
+/* .glossario {
+    background: #FCE1BC !important;
+
+}
+
+.gloss-ci-border {
+    border-radius: 0px 0px 8px 8px;
+} */
+
+.toggle:checked+.lbl-toggle+.collapsible-content {
+    max-height: 90rem;
+}
+
+.toggle:checked+.lbl-toggle .ion-md-add {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle .ion-md-remove {
+    display: block;
+}
+
+.ion-md-remove {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+    padding: 0 1rem;
+}
+
+.content-inner .text-content-area {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.content-inner .text-content-area .general-text {
+    font-family: "Proxima Nova Lt", sans-serif;
+}
+
+label img {
+    width: 2rem;
+}
+
+.wrap-collapsible h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+}
+
+.wrap-collapsible h4 {
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    text-align: left;
+}
+
+.wrap-collapsible p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+}
+
+.wrap-collapsible p:not(:first-child) {
+    padding-top: 1rem;
+}
+
+.wrap-collapsible .double-columned-content {
+    align-items: start;
+}
+
+.wrap-collapsible .text-credit {
+    padding: 0 !important;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.wrap-collapsible .img-description {
+    padding-top: 0.5rem !important;
+    font-size: 0.75rem;
+}
+
+.wrap-collapsible ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.collapsible-title {
+    padding: 0 !important;
+    font-size: 1.25rem !important;
+    font-family: "Prelo ExtraBold";
+    font-size: 20px;
+    color: #BD8432;
+
+}
+
+.collapsible-content {
+    background: linear-gradient(180deg,
+            rgba(255, 255, 255, 1) 0%,
+            #fce1bc 100%);
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+.toggle:checked+.lbl-toggle+.collapsible-content {
+    max-height: 90rem;
+}
+
+.toggle:checked+.lbl-toggle .ion-md-add {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle .ion-md-remove {
+    display: block;
+}
+
+.ion-md-remove {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.collapsible-content .content-inner {
+    padding: 0 1rem;
+}
+
+.content-inner .text-content-area {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.content-inner .text-content-area .general-text {
+    font-family: "Proxima Nova Lt", sans-serif;
+}
+
+label img {
+    width: 2rem;
+}
+
+.wrap-collapsible h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+}
+
+.wrap-collapsible h4 {
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    font-size: 1.125rem;
+    text-align: left;
+}
+
+.wrap-collapsible p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.125rem;
+}
+
+.wrap-collapsible p:not(:first-child) {
+    padding-top: 1rem;
+}
+
+.wrap-collapsible .double-columned-content {
+    align-items: start;
+}
+
+.wrap-collapsible .text-credit {
+    padding: 0 !important;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.wrap-collapsible .img-description {
+    padding-top: 0.5rem !important;
+    font-size: 0.75rem;
+}
+
+.wrap-collapsible ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.border-gloss {
+    border-radius: 8px;
+}

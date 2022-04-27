@@ -1083,6 +1083,185 @@ span[style="text-decoration: line-through;"] {
 /* Slideshow component style.
    This component is based on the jssor library. http://jssor.com/
  */
+/* Slider */
+.CSSgal {
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+  width: 100%;
+  border-radius: 7px;
+  /* Or set a fixed height */ }
+
+/* SLIDER */
+.CSSgal .slider {
+  height: 700px;
+  white-space: nowrap;
+  font-size: 0;
+  transition: 0.8s; }
+
+/* SLIDES */
+.CSSgal .slider > * {
+  font-size: 1rem;
+  display: inline-flex;
+  white-space: normal;
+  vertical-align: top;
+  height: 100%;
+  width: 100%;
+  background: none 50% no-repeat;
+  background-size: cover; }
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+.CSSgal .prevNext {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  width: 100%;
+  height: 0; }
+
+.CSSgal .prevNext > div + div {
+  visibility: hidden;
+  /* Hide all but first P/N container */ }
+
+.CSSgal .prevNext a {
+  z-index: 10;
+  background: #033878;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-left-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 11px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  line-height: 60px;
+  /* If you want to place numbers */
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 25px;
+  top: -40px; }
+
+.CSSgal .prevNext a:hover {
+  opacity: 0.7; }
+
+.CSSgal .prevNext a + a {
+  left: auto;
+  right: 25px;
+  background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-right-arrow.png);
+  background-size: 11px; }
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal > s:target ~ .bullets > * {
+  background: rgba(255, 255, 255, 0.5); }
+
+/* ACTIVE */
+#s1:target ~ .bullets > *:nth-child(1) {
+  background: white; }
+
+#s2:target ~ .bullets > *:nth-child(2) {
+  background: white; }
+
+#s3:target ~ .bullets > *:nth-child(3) {
+  background: white; }
+
+#s4:target ~ .bullets > *:nth-child(4) {
+  background: white; }
+
+/* More slides? Add here more rules */
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal > s:target ~ .prevNext > * {
+  visibility: hidden; }
+
+/* ACTIVE: */
+#s1:target ~ .prevNext > *:nth-child(1) {
+  visibility: visible; }
+
+#s2:target ~ .prevNext > *:nth-child(2) {
+  visibility: visible; }
+
+#s3:target ~ .prevNext > *:nth-child(3) {
+  visibility: visible; }
+
+#s4:target ~ .prevNext > *:nth-child(4) {
+  visibility: visible; }
+
+/* More slides? Add here more rules */
+/* SLIDER ANIMATION POSITIONS */
+#s1:target ~ .slider {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%); }
+
+#s2:target ~ .slider {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%); }
+
+#s3:target ~ .slider {
+  transform: translateX(-200%);
+  -webkit-transform: translateX(-200%); }
+
+#s4:target ~ .slider {
+  transform: translateX(-300%);
+  -webkit-transform: translateX(-300%); }
+
+/* More slides? Add here more rules */
+/* YOU'RE THE DESIGNER! 
+____________________
+All above was mainly to get it working :)
+CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+#s1,
+#s2,
+#s3,
+#s4 {
+  position: absolute;
+  top: -20vh; }
+
+.CSSgal {
+  color: #fff;
+  text-align: center; }
+
+.CSSgal .slider h2 {
+  margin-top: 40vh;
+  font-weight: 200;
+  letter-spacing: -0.06em;
+  word-spacing: 0.2em;
+  font-size: 3em; }
+
+.CSSgal a {
+  border-radius: 50%;
+  margin: 0 3px;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none; }
+
+.slide-content .boxe-arrow-orange {
+  gap: .5rem; }
+
+.slide-content p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  -webkit-transform: none !important;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  color: #1961AC;
+  text-align: left;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 2px; }
+
+.slide-content img {
+  max-width: 100%;
+  border-radius: 7px; }
+
+.slide-content .boxe-arrow-orange img {
+  width: 16px;
+  height: 16px;
+  transform: rotate(-90deg); }
+
+/* Slideshow component style.
+   This component is based on the jssor library. http://jssor.com/
+ */
 .slideshow {
   clear: both;
   margin: 12px 0;
@@ -5610,6 +5789,392 @@ blockquote {
       color: #208F6D; }
     .css_06_container_boxe_fique_ligado.sociologia label:after {
       background-image: url(img/css_06_boxe_fique_ligado_sociologia.png); }
+
+.wrap-collapsible {
+  margin-bottom: 1.2rem; }
+
+.wrap-fonte .text-credit.exercicio-fonte {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  margin-right: 1.75rem;
+  text-align: right; }
+
+input[type="checkbox"] {
+  display: none; }
+
+.lbl-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%);
+  color: #bd8432;
+  cursor: pointer;
+  transition: all 0.25s ease-out; }
+
+/* .glossario {
+    background: #FCE1BC !important;
+
+}
+
+.gloss-ci-border {
+    border-radius: 0px 0px 8px 8px;
+} */
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 90rem; }
+
+.toggle:checked + .lbl-toggle .ion-md-add {
+  display: none; }
+
+.toggle:checked + .lbl-toggle .ion-md-remove {
+  display: block; }
+
+.ion-md-remove {
+  display: none; }
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.collapsible-content .content-inner {
+  padding: 0 1rem; }
+
+.content-inner .text-content-area {
+  padding: 0 1rem 1rem 1rem; }
+
+.content-inner .text-content-area .general-text {
+  font-family: "Proxima Nova Lt", sans-serif; }
+
+label img {
+  width: 2rem; }
+
+.wrap-collapsible h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem; }
+
+.wrap-collapsible h4 {
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  font-size: 1.125rem;
+  text-align: left; }
+
+.wrap-collapsible p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem; }
+
+.wrap-collapsible p:not(:first-child) {
+  padding-top: 1rem; }
+
+.wrap-collapsible .double-columned-content {
+  align-items: start; }
+
+.wrap-collapsible .text-credit {
+  padding: 0 !important;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: left; }
+
+.wrap-collapsible .img-description {
+  padding-top: 0.5rem !important;
+  font-size: 0.75rem; }
+
+.wrap-collapsible ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem; }
+
+.collapsible-title {
+  padding: 0 !important;
+  font-size: 1.25rem !important;
+  font-family: "Prelo ExtraBold";
+  font-size: 20px;
+  color: #BD8432; }
+
+.collapsible-content {
+  background: linear-gradient(180deg, white 0%, #fce1bc 100%);
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.25s ease-in-out; }
+
+input[type="checkbox"] {
+  display: none; }
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 90rem; }
+
+.toggle:checked + .lbl-toggle .ion-md-add {
+  display: none; }
+
+.toggle:checked + .lbl-toggle .ion-md-remove {
+  display: block; }
+
+.ion-md-remove {
+  display: none; }
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.collapsible-content .content-inner {
+  padding: 0 1rem; }
+
+.content-inner .text-content-area {
+  padding: 0 1rem 1rem 1rem; }
+
+.content-inner .text-content-area .general-text {
+  font-family: "Proxima Nova Lt", sans-serif; }
+
+label img {
+  width: 2rem; }
+
+.wrap-collapsible h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem; }
+
+.wrap-collapsible h4 {
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  font-size: 1.125rem;
+  text-align: left; }
+
+.wrap-collapsible p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem; }
+
+.wrap-collapsible p:not(:first-child) {
+  padding-top: 1rem; }
+
+.wrap-collapsible .double-columned-content {
+  align-items: start; }
+
+.wrap-collapsible .text-credit {
+  padding: 0 !important;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: left; }
+
+.wrap-collapsible .img-description {
+  padding-top: 0.5rem !important;
+  font-size: 0.75rem; }
+
+.wrap-collapsible ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem; }
+
+.flex-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; }
+
+.border-gloss {
+  border-radius: 8px; }
+
+.wrap-collapsible {
+  margin-bottom: 1.2rem; }
+
+.wrap-fonte .text-credit.exercicio-fonte {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  margin-right: 1.75rem;
+  text-align: right; }
+
+input[type="checkbox"] {
+  display: none; }
+
+.lbl-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(180deg, #fce1bc 25%, white 100%);
+  color: #bd8432;
+  cursor: pointer;
+  transition: all 0.25s ease-out; }
+
+/* .glossario {
+    background: #FCE1BC !important;
+
+}
+
+.gloss-ci-border {
+    border-radius: 0px 0px 8px 8px;
+} */
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 90rem; }
+
+.toggle:checked + .lbl-toggle .ion-md-add {
+  display: none; }
+
+.toggle:checked + .lbl-toggle .ion-md-remove {
+  display: block; }
+
+.ion-md-remove {
+  display: none; }
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.collapsible-content .content-inner {
+  padding: 0 1rem; }
+
+.content-inner .text-content-area {
+  padding: 0 1rem 1rem 1rem; }
+
+.content-inner .text-content-area .general-text {
+  font-family: "Proxima Nova Lt", sans-serif; }
+
+label img {
+  width: 2rem; }
+
+.wrap-collapsible h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem; }
+
+.wrap-collapsible h4 {
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  font-size: 1.125rem;
+  text-align: left; }
+
+.wrap-collapsible p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem; }
+
+.wrap-collapsible p:not(:first-child) {
+  padding-top: 1rem; }
+
+.wrap-collapsible .double-columned-content {
+  align-items: start; }
+
+.wrap-collapsible .text-credit {
+  padding: 0 !important;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: left; }
+
+.wrap-collapsible .img-description {
+  padding-top: 0.5rem !important;
+  font-size: 0.75rem; }
+
+.wrap-collapsible ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem; }
+
+.collapsible-title {
+  padding: 0 !important;
+  font-size: 1.25rem !important;
+  font-family: "Prelo ExtraBold";
+  font-size: 20px;
+  color: #BD8432; }
+
+.collapsible-content {
+  background: linear-gradient(180deg, white 0%, #fce1bc 100%);
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.25s ease-in-out; }
+
+input[type="checkbox"] {
+  display: none; }
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 90rem; }
+
+.toggle:checked + .lbl-toggle .ion-md-add {
+  display: none; }
+
+.toggle:checked + .lbl-toggle .ion-md-remove {
+  display: block; }
+
+.ion-md-remove {
+  display: none; }
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.collapsible-content .content-inner {
+  padding: 0 1rem; }
+
+.content-inner .text-content-area {
+  padding: 0 1rem 1rem 1rem; }
+
+.content-inner .text-content-area .general-text {
+  font-family: "Proxima Nova Lt", sans-serif; }
+
+label img {
+  width: 2rem; }
+
+.wrap-collapsible h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem; }
+
+.wrap-collapsible h4 {
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  font-size: 1.125rem;
+  text-align: left; }
+
+.wrap-collapsible p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem; }
+
+.wrap-collapsible p:not(:first-child) {
+  padding-top: 1rem; }
+
+.wrap-collapsible .double-columned-content {
+  align-items: start; }
+
+.wrap-collapsible .text-credit {
+  padding: 0 !important;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: left; }
+
+.wrap-collapsible .img-description {
+  padding-top: 0.5rem !important;
+  font-size: 0.75rem; }
+
+.wrap-collapsible ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem; }
+
+.flex-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; }
+
+.border-gloss {
+  border-radius: 8px; }
 
 .css_06_boxe_em_arte {
   float: left;

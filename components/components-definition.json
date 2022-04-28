@@ -345,6 +345,96 @@
                 "line-height"
             ],
             "restrictChildren": {
+                "slideshow-2image": {
+                    "withContent": "image"
+                }
+            }
+        },
+        {
+            "name": "slideshow-2image",
+            "label": "2 Imagens",
+            "icon": "icons/components/body.svg",
+            "defaultComponentOnEnter": "slideshow-2image",
+            "properties": [
+                "fitting",
+                "slideshow-inside-caption",
+                "slideshow-play-orientation",
+                "slideshow-autoplay",
+                "slideshow-filmstrip",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "edit-image",
+                    "directiveKey": "image"
+                },
+                {
+                    "name": "hyperlink",
+                    "directiveKey": "hyperlink"
+                }
+            ],
+            "restrictChildren": {
+                "image": {
+                    "withContent": "image"
+                }
+            }
+        },
+        {
+            "name": "slideshow-3image",
+            "label": "3 Imagens",
+            "icon": "icons/components/body.svg",
+            "defaultComponentOnEnter": "slideshow-3image",
+            "properties": [
+                "fitting",
+                "slideshow-inside-caption",
+                "slideshow-play-orientation",
+                "slideshow-autoplay",
+                "slideshow-filmstrip",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "edit-image",
+                    "directiveKey": "image"
+                },
+                {
+                    "name": "hyperlink",
+                    "directiveKey": "hyperlink"
+                }
+            ],
+            "restrictChildren": {
+                "image": {
+                    "withContent": "image"
+                }
+            }
+        },
+        {
+            "name": "slideshow-4image",
+            "label": "4 Imagens",
+            "icon": "icons/components/body.svg",
+            "defaultComponentOnEnter": "slideshow-4image",
+            "properties": [
+                "fitting",
+                "slideshow-inside-caption",
+                "slideshow-play-orientation",
+                "slideshow-autoplay",
+                "slideshow-filmstrip",
+                "style",
+                "text-align",
+                "letter-spacing",
+                "line-height",
+                {
+                    "name": "edit-image",
+                    "directiveKey": "image"
+                },
+                {
+                    "name": "hyperlink",
+                    "directiveKey": "hyperlink"
+                }
+            ],
+            "restrictChildren": {
                 "image": {
                     "withContent": "image"
                 }

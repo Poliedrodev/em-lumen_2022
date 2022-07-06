@@ -2,10 +2,10 @@
   display: block;
   align-items: left;
   font-size: 20px;  
-  font-family: $font-prelo-extraBold;
+  font-family: $fontName;
   border-top: solid 3px;
   border-bottom: solid 3px;
-  margin-bottom: -20px;
+  margin: 0;
   &.artes {
     border-color: #84a214;
     color: #84a214 !important;

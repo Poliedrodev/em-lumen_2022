@@ -1,70 +1,136 @@
 .css_01_titulo_cap_num {
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  gap: 8px;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  padding: 8px 8px;
-  width: 85px;
-  font-size: 14px;
-  position: absolute;
-  z-index: 999;
-  margin-left: 80px;
-  max-height: 135px;
-  margin-top: 40px;
-  .cap-texto {
-    font-family: $font-prelo-extraBold;
-    text-transform: uppercase;
-    color: #fff;
-    position: absolute;
-    top: 28px;
-  }
-  .cap-number{
-    font-size: 76px;
-    font-weight: 800;
-    font-family: $font-prelo-extraBold;
-    padding-top: 24px;
-    color: #fff;
-  }
-  &.artes {
-    background-color: #C8D300 !important;
-  }
-  &.biologia {
-    background-color: #F7A941 !important;
-  }
-  &.filosofia {
-    background-color: #8CCAAE !important;
-  }
-  &.fisica {
-    background-color: #F7A941 !important;
-  }
-  &.geografia {
-    background-color: #8CCAAE !important;
-  }
-  &.historia {
-    background-color: #8CCAAE !important;
-  }
-  &.lingua_inglesa {
-    background-color: #C8D300 !important;
-  }
-  &.lingua_portuguesa {
-    background-color: #C8D300 !important;
-  }
-  &.matematica {
-    background-color: #F1CB40 !important;
-  }
-  &.producao_de_texto {
-    background-color: #C8D300 !important;
-  }
-  &.quimica {
-    background-color: #F7A941 !important;
-  }
-  &.sociologia {
-    background-color: #8CCAAE !important;
-  }
+
+    /* Características do texto */
+    font-family: "Montserrat";
+    color: $preto;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+  
+    /* Características do componente */
+  
+    margin-top: 2.5rem;
+    padding: 0px 0px 16px 0px;
+  
+    /* Variações de cores */
+    &.artes {
+      background-color: #63B9E9;
+      .icone_tituo1cap_num{
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/callis/01_TITULO_CAP_NUM_ART.svg.svg");
+      width: 3.125rem;
+      height: 3.125rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: left;
+      position: absolute;
+      z-index: 2;
+      }
+    }
   
   
-    
-}
+    &.ciencias {
+      background-color:#3AAA35;
+      .icone_tituo1cap_num{
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/callis/01_TITULO_CAP_NUM_CIE.svg.svg");
+      width: 3.125rem;
+      height: 3.125rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: left;
+      position: absolute;
+      z-index: 2;
+      }
+      
+    }
+  
+    &.geografia {
+      background-color:#0080C9 ;
+      .icone_tituo1cap_num{
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/callis/01_TITULO_CAP_NUM_GEO.svg");
+      width: 3.125rem;
+      height: 3.125rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: left;
+      position: absolute;
+      z-index: 2;
+      }
+    }
+  
+   
+  
+    &.historia {
+      background-color: #8A1E82;
+      .icone_tituo1cap_num{
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/callis/01_TITULO_CAP_NUM_HIS.svg");
+      width: 3.125rem;
+      height: 3.125rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: left;
+      position: absolute;
+      z-index: 2;
+      }
+    }
+  
+  
+    &.lingua_inglesa {
+      background-color: #E94E1B;
+      .icone_tituo1cap_num{
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/callis/01_TITULO_CAP_NUM_ING.svg");
+      width: 3.125rem;
+      height: 3.125rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: left;
+      position: absolute;
+      z-index: 2;
+      }
+      
+    }
+  
+    &.lingua_portuguesa {
+      background-color: #E30613;
+      .icone_tituo1cap_num{
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/callis//01_TITULO_CAP_NUM_LPO.svg");
+      width: 3.125rem;
+      height: 3.125rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: left;
+      position: absolute;
+      z-index: 2;
+      }
+    }
+  
+   
+  
+    &.matematica {
+      background-color:#FFD500;
+      .icone_tituo1cap_num{
+      background-image: url("https://livro-digital.p4ed.com/assets/icons/callis//01_TITULO_CAP_NUM_MAT.svg");
+      width: 3.125rem;
+      height: 3.125rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-items: left;
+      position: absolute;
+      z-index: 2;
+      }
+    }
+  }
+  .text{
+      font-family: $fontName;
+      font-size: 2.625rem;
+      font-weight: 400;
+      color: $preto;
+      margin: 40px 0px 0px 68px;
+      padding: 0px 0px 0px 0px;
+      }
+  
+  
+  
+  

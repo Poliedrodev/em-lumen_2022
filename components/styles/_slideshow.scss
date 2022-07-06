@@ -49,7 +49,6 @@ $slideshowThumbNavigatorMaxHeight: 100px;
                     /* Transform is added as inline-style to the caption by Jssor library.
                        This results in blurry font rendering on Safari. */
                     -webkit-transform: none !important;
-                    padding: 0 68px;
                     @include webkit-prefix(flex-shrink, 0);
                 }
             }
@@ -65,7 +64,7 @@ $slideshowThumbNavigatorMaxHeight: 100px;
             &::before {
                 width: 30px;
                 height: 30px;
-                content: "";
+                content: '';
                 position: absolute;
                 top: 50%;
                 left: 10px;
@@ -79,7 +78,7 @@ $slideshowThumbNavigatorMaxHeight: 100px;
             &::after {
                 width: 11px;
                 height: 10px;
-                content: "";
+                content: '';
                 position: absolute;
                 top: 50%;
                 left: 50%;
@@ -256,10 +255,8 @@ $slideshowThumbNavigatorMaxHeight: 100px;
 }
 
 .slideshow {
-
     &._fit-frame-to-content,
     &._fit-frame-height-to-content {
-
         .slideshow-container {
             .slides {
                 top: 0;
@@ -316,7 +313,5 @@ $slideshowThumbNavigatorMaxHeight: 100px;
                 }
             }
         }
-
     }
-
 }

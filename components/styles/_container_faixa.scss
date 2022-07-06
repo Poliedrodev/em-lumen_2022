@@ -1,0 +1,17 @@
+.container_faixa {
+  width: 100%;
+  min-height: 400px;
+
+  &.biologia {
+    .faixa {
+      background-color: red;
+
+    }
+  }
+
+  &.matematica {
+    .faixa {
+      background-color: blue;
+    }
+  }
+}

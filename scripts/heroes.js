@@ -19,6 +19,7 @@
             if (isAndroid) {
                 htmlEl.addClass('hero-js-android');
             }
+            
 
             // Link bg items to their corresponding hero items
             var count = 0;

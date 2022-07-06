@@ -1,8 +1,9 @@
 .css_06_boxe_texto2 {
   display: block;
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   color: $textColor;
-  font-family: $font-proximaNova-light;
-  margin: 16px 0px 16px 0px;
+  font-family: $fonteSerifa;
+  line-height: 1.5em;
+  margin-top: 16px;
 }

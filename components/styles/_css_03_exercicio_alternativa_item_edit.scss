@@ -1,0 +1,30 @@
+.css_03_exercicio_alternativa_item_edit {
+  margin-top: 16px;
+
+  display: grid;
+  gap: 8px;
+
+  font-family: $fontName;
+  font-weight: 300;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+
+
+  list-style: none;
+  position: relative;
+
+  .container_inside_alternativa :first-child {
+    margin-top: 0 !important;
+  }
+
+  .number_alternativa_edit {
+    width: 32px;
+    font-family: $fontName;
+    font-size: $fontSizeIndiceQuestion;
+    font-weight: 600;
+    position: absolute;
+    left: -32px;
+  }
+}

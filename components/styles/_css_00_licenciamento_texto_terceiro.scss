@@ -1,9 +1,15 @@
 .css_00_licenciamento_texto_terceiro {
-  display: block;  
-  font-family: $font-ptsans;
+
+  /* Características do texto */
+  font-family: $fontName;
+  font-weight: 400;
   font-size: 14px;
-  color: #89b30b;
-  border: 2px solid #89b30b;
-  margin: 16px 8px 16px 8px;
-  padding: 8px;
+  color: $multimidia;
+
+  /* Características do fundo */
+  background-color: $cinza;
+
+  /* Características do componente */
+  display: block;
+
 }

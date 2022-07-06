@@ -1,0 +1,27 @@
+.css_03_exercicio_item_romano_itens {
+  margin-top: 16px;
+
+  font-family: $fontName;
+  font-weight: 300;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+
+  list-style: none;
+  position: relative;
+
+  .group_item :first-child{
+    margin-top: 0 !important;
+  }
+
+  &::before {
+    font-family: $fontName;
+    font-size: $fontSizeIndiceQuestion;
+    font-weight: 600;
+    counter-increment: list;
+    content: counter(list, upper-roman) ".";
+    position: absolute;
+    left: -32px;
+  }
+}

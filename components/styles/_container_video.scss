@@ -1,0 +1,214 @@
+.doc-section [doc-editable]:empty {
+    background: transparent !important;
+}
+
+.none {
+    display: none !important;
+}
+
+/* Image component style */
+.video_popup_center {
+    position: relative;
+    width: 83%;
+    margin: 32px 0px 20px 0px;
+    display: block;
+    background-color: #fff;
+    transition: all .3s;
+    border: 5px solid $seg_lin_cor1;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &.artes {
+        border: 5px solid $seg_lin_cor1;
+
+        .video_popup__content .content-video__title {
+            color: $art_cor1;
+        }
+
+        &:before {
+            background-image: url(img/play-button-lin.png);
+        }
+
+        .video_popup_center.popup_actived {
+            background-color: #452848bf;
+        }
+    }
+
+    &.lingua_inglesa {
+        border: 5px solid $seg_lin_cor1;
+
+        .video_popup__content .content-video__title {
+            color: $ing_cor1;
+        }
+
+        &:before {
+            background-image: url(img/play-button-ing.png);
+        }
+
+        .video_popup_center.popup_actived {
+            background-color: #284847bf;
+        }
+    }
+
+    &.lingua_portuguesa {
+        border: 5px solid $seg_lin_cor1;
+
+        .video_popup__content .content-video__title {
+            color: $por_cor1;
+        }
+
+        &:before {
+            background-image: url(img/play-button.png);
+        }
+
+        .video_popup_center.popup_actived {
+            background-color: #482828bf;
+        }
+    }
+
+    &.matematica {
+        border: 5px solid $seg_mat_cor1;
+
+        .video_popup__content .content-video__title {
+            color: $mat_cor1;
+        }
+
+        &:before {
+            background-image: url(img/play-button-mat.png);
+        }
+
+        .video_popup_center.popup_actived {
+            background-color: #282f48bf;
+        }
+    }
+
+    &.__ready {
+        .video_popup__content {
+            .content-video {
+                &__url {
+                    border: 0;
+                }
+
+                &__title {
+                    border: 0;
+                }
+
+                &__text {
+                    border: 0;
+                }
+            }
+        }
+    }
+
+    &.popup_actived {
+        position: fixed;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: #000000bf;
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0s;
+        border: 0;
+        z-index: 9;
+
+        &:before {
+            content: none;
+        }
+
+        .video_popup__content {
+            width: 60%;
+            margin: 0 auto;
+            height: 100%;
+            padding: 5%;
+            box-sizing: border-box;
+
+            a {
+                display: block;
+            }
+
+            .video_popup__img,
+            .content-video {
+                display: none !important;
+            }
+
+            #playerYoutube {
+                &.show {
+                    display: block !important;
+                }
+            }
+
+            #playerDefault {
+                &.show {
+                    display: block !important;
+                }
+            }
+        }
+    }
+
+    .video_popup__content {
+        a {
+            width: 25px;
+            height: 25px;
+            display: none;
+            background-image: url('img/btn-modal-close.png');
+            position: absolute;
+            z-index: 9;
+            right: 20px;
+            top: 15px;
+        }
+
+        .video_popup__img {
+            position: relative;
+            height: 280px !important;
+            padding: 0 !important;
+            background-size: cover;
+        }
+
+        .content-video {
+            padding: 20px;
+
+            &__url {
+                padding: 2px;
+                overflow: hidden;
+                height: 19px;
+                word-break: break-all;
+                border: 1px solid #ccc;
+                margin-bottom: 10px;
+            }
+
+            &__title {
+                color: $por_cor1;
+                font-size: 16px;
+                font-weight: 700;
+                font-family: 'Montserrat';
+                text-transform: uppercase;
+                border: 1px solid #ccc;
+                margin-bottom: 10px;
+            }
+
+            &__text {
+                border: 1px solid #ccc;
+                color: #666;
+                font-size: 14px;
+                font-family: 'Montserrat';
+                font-weight: 300;
+
+                span {
+                    color: #666 !important;
+                }
+            }
+        }
+
+        #playerDefault,
+        #playerYoutube {
+            display: none;
+        }
+
+        #playerDefault {
+            width: 100%;
+        }
+    }
+}

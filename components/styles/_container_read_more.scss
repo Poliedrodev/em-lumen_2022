@@ -1,0 +1,193 @@
+.container_read_more {
+  padding: 8px 16px 16px 16px;
+  margin: 48px 0px 0px 0px;
+  clear: both;
+  display: block;
+
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .text-read2 {
+    //border: solid 2px #981711; 
+    font-size: 16px;
+    border-bottom: solid 3px $ing_cor3;
+    color: $ing_cor1;
+    width: 235px;
+    text-align: center;
+    padding: 3px;
+    font-family: montserrat;
+    font-weight: 700;
+  }
+
+  .line3 {
+    width: 100%;
+    height: 2px;
+    background-color: $ing_cor1;
+  }
+
+  >* {
+    &:first-child {
+      margin-top: 0;
+
+      &._left {
+        +._right {
+          margin-top: 0;
+        }
+      }
+
+      &._right {
+        +._left {
+          margin-top: 0;
+        }
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &._left {
+      +._right:last-child {
+        margin-bottom: 20px;
+      }
+    }
+
+    &._right {
+      +._left:last-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+
+  // .box_green{
+  //   width: 93.5%;
+  //   height: 23px;
+  //   position: relative;
+  //   display: flex;
+  //   top: 18px;
+  //   left: 16px;
+  //   padding: 1px 0px 0px 0px;
+  //   margin: 0px 0px 32px 0px;
+  //   border-bottom: solid 2px #000000;
+  //   border-left: solid 6px #999999;
+  //   text-decoration: overline;
+  //   font-family: $fontName-extrabold;
+  //   font-size: 16px;
+  //   color: #000000;
+
+  //   &:before {
+  //     content: '';
+  //     display: block;
+  //   }
+  // }
+
+  &.artes {
+    .box_green {
+      background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
+      border: solid 3px #64428C;
+
+    }
+  }
+
+  &.biologia {
+    .box_green {
+      background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
+      border: solid 3px #45973d;
+    }
+  }
+
+  &.filosofia {
+    .box_green {
+      background: linear-gradient(-90deg, #536DA7 0%, rgba(83, 109, 167, 0.7) 100%);
+      border: solid 3px #536DA7;
+    }
+  }
+
+  &.fisica {
+    .box_green {
+      background: linear-gradient(-90deg, #00909B 0%, rgba(0, 144, 155, 0.7) 100%);
+      border: solid 3px #00909B;
+    }
+  }
+
+  &.geografia {
+    .box_green {
+      background: linear-gradient(-90deg, #D85509 0%, rgba(216, 85, 9, 0.7) 100%);
+      border: solid 3px #D85509;
+    }
+  }
+
+  &.historia {
+    .box_green {
+      background: linear-gradient(-90deg, #951B81 0%, rgba(149, 27, 129, 0.7) 100%);
+      border: solid 3px #951B81;
+    }
+  }
+
+  &.lingua_inglesa {
+    .box_green {
+      background: linear-gradient(-90deg, #069891 0%, rgba(6, 152, 145, 0.7) 100%);
+      border: solid 3px #069891;
+    }
+  }
+
+  &.lingua_portuguesa {
+    border: 2px solid #981711;
+
+    .box_green {
+      color: #981711;
+      border-bottom: solid 2px #981711;
+      border-left: solid 6px #E59798;
+    }
+  }
+
+  &.matematica {
+    .box_green {
+      background: linear-gradient(-90deg, #1961AC 0%, rgba(25, 97, 172, 0.7) 100%);
+      border: solid 3px #1961AC;
+    }
+  }
+
+  &.producao_de_texto {
+    .box_green {
+      background: linear-gradient(-90deg, #0F83A6 0%, rgba(15, 131, 166, 0.7) 100%);
+      border: solid 3px #0F83A6;
+    }
+  }
+
+  &.quimica {
+    .box_green {
+      background: linear-gradient(-90deg, #B80071 0%, rgba(184, 0, 113, 0.7) 100%);
+      border: solid 3px #B80071;
+    }
+  }
+
+  &.sociologia {
+    .box_green {
+      background: linear-gradient(-90deg, #C71553 0%, rgba(199, 21, 83, 0.7) 100%);
+      border: solid 3px #C71553;
+    }
+  }
+
+  /* media query */
+  @media only screen and (min-width: $phone-max-width) {
+    &._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1;
+    }
+
+    &._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1;
+
+    }
+  }
+}

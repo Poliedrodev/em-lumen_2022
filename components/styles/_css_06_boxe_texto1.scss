@@ -1,8 +1,24 @@
 .css_06_boxe_texto1 {
-  text-align: center;
-  font-size: 18px;
-  color: $textColor;
-  font-family: $font-proximaNova-light;
-  margin: 16px 0px 16px 0px;
-}
+  display: block;
+  font-size: 16px;
+  color: $seg_lin_cor2;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  line-height: 1.5em;
 
+  &.artes {
+    color: $seg_lin_cor2;
+  }
+
+  &.lingua_inglesa {
+    color: $seg_lin_cor2;
+  }
+
+  &.lingua_portuguesa {
+    color: $seg_lin_cor2;
+  }
+
+  &.matematica {
+    color: $seg_mat_cor2;
+  }
+}

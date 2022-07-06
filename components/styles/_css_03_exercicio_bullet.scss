@@ -1,10 +1,18 @@
 .css_03_exercicio_bullet {
   display: block;
-  font-family: $font-proximaNova-light;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
   font-size: 18px;
-  color: #000;
-  margin: 16px 68px 16px 88px;
-  ul li{
-    padding-left: 0px;
+  margin-top: 8px;
+
+  ul {
+    list-style-type: disc;
+    margin: 0px;
+  }
+
+  li {
+    padding-left: 12px;
   }
 }

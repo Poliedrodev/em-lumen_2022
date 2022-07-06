@@ -1,7 +1,14 @@
 .css_01_texto_unid {
-  font-family: $font-proximaNova-light;
-  font-size: 20px;
-  color: #FFF;
-  padding-bottom: 10px;
-  margin: 16px 0px 16px 0px;
+
+  /* Características do texto */
+  font-family: $fontName;
+  font-weight: 300;
+  font-size: 18px;
+  color: $preto;
+
+  /* Características do componente */
+  display: block;
+  line-height: 1.5em;
+  margin: 24px 0px;
+
 }

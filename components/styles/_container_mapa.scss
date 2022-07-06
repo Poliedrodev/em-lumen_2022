@@ -1,0 +1,44 @@
+.container_mapa {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: 2px solid $mapa;
+  width: 100%;
+  align-items: flex-start;
+
+
+  .mapa_titulo_section {
+    padding: 5px 8px;
+    background-color: $mapa;
+    display: flex;
+    gap: 8px;
+    width: 100%;
+
+
+    .mapa_icone {
+      width: 30px;
+    }
+
+    .mapa_titulo {
+      font-weight: 400;
+      font-size: 24px;
+      color: white;
+      line-height: 31.75px;
+      margin: 0px;
+    }
+  }
+
+  .mapa_image_section {
+    min-height: 200px;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    ._image {
+      width: 100%;
+    }
+  }
+
+}

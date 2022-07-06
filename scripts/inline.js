@@ -15,10 +15,11 @@ $(document).ready(function() {
             $(item).parent().addClass('align-img-inline');
             setTimeout(function() {
                 var imgItem = $(item).children();
-                var imgHeight = imgItem.height() / 2;
+                var imgHeight = imgItem.height() / 3.2;
                 var imgAttr = imgItem.attr('style');
                 
-                debugger;
+                
+                
                 if(typeof imgAttr !== 'undefined' && imgAttr !== false) {
                 console.log('não faz nada');
                 } else {

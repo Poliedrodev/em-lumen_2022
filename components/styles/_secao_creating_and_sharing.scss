@@ -1,0 +1,89 @@
+/* Author component style */
+.secao_creating_and_sharing {
+    margin-left: 20px;
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+    padding: 0 0 0 38px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    background-color: #edf8f7;
+    color: $ing_cor2;
+
+    & .titulo_creating_and_sharing {
+        font-family: $fontName;
+        font-weight: 700;
+        font-size: 1.875rem;
+
+    }
+
+
+}
+
+.icone_disciplina_ing_creating {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/ING_produzir_e_compartilhar.svg");
+    width: 50px;
+    height: 50px;
+    align-items: left;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+    top: -1px;
+}
+
+.arrow-menor {
+    border: 1px solid #039c92;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4.1px;
+    transform: rotate(-45deg);
+    z-index: 2;
+}
+
+.arrow-ponta {
+    border: #edf8f7;
+    width: 35.7px;
+    height: 35.5px;
+    position: absolute;
+    background: #edf8f7;
+    display: inline-block;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    align-items: center;
+    right: -18px;
+}
+
+.secao_creating_and_sharing_teste>div {
+    display: flex;
+    align-items: center;
+
+}
+
+.secao_creating_and_sharing_teste a div,
+a {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.vejamais {
+    font-size: 10px;
+    font-family: 'Montserrat';
+    text-align: right;
+    color: #9a9898;
+    background-size: 100%;
+    z-index: 1;
+    margin-right: 1px;
+    font-weight: 530;
+}
+
+
+.alinhamento {
+    align-items: center;
+    display: flex;
+}

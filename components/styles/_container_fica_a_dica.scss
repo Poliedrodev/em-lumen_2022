@@ -1,0 +1,231 @@
+.container_fica_a_dica {
+    width: 100%;
+    min-height: 40px;
+    margin-top: 32px;
+    background-color: #ECF0A6;
+    position: relative;
+    box-sizing: border-box;
+    padding: 8px 28px 8px 28px;
+    border-radius: 5px;
+    transition: all 0.3;
+
+    .collapsible-title {
+        margin: 0;
+        font-family: $fontName;
+        font-size: 0.875rem;
+        font-weight: 900;
+    }
+
+    &.artes {
+        background-color: #ECF0A6;
+
+        .collapsible-title {
+            color: #C8D300;
+        }
+
+        .plus {
+            --b: 3px;
+            /* the thickness */
+            width: 18px;
+            /* the size */
+            aspect-ratio: 1/1;
+            border: 8px solid #ECF0A6;
+            /* the outer space */
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+            display: inline-block;
+        }
+
+        .less {
+            --b: 3px;
+            /* the thickness */
+            width: 18px;
+            /* the size */
+            aspect-ratio: 1/1;
+            border: 8px solid #ECF0A6;
+            /* the outer space */
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+        }
+    }
+
+    &.lingua_inglesa {
+        background-color: #ECF0A6;
+
+        .collapsible-title {
+            color: #C8D300;
+
+        }
+
+        .plus {
+            --b: 3px;
+            /* the thickness */
+            width: 18px;
+            /* the size */
+            aspect-ratio: 1/1;
+            border: 8px solid #ECF0A6;
+            /* the outer space */
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+            display: inline-block;
+        }
+
+        .less {
+            --b: 3px;
+            /* the thickness */
+            width: 18px;
+            /* the size */
+            aspect-ratio: 1/1;
+            border: 8px solid #ECF0A6;
+            /* the outer space */
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+        }
+    }
+
+    &.lingua_portuguesa {
+        background-color: #ECF0A6;
+
+        .collapsible-title {
+            color: #84A214;
+
+        }
+
+        .plus {
+            --b: 3px;
+            /* the thickness */
+            width: 18px;
+            /* the size */
+            aspect-ratio: 1/1;
+            border: 8px solid #ECF0A6;
+            /* the outer space */
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+            display: inline-block;
+        }
+
+        .less {
+            --b: 3px;
+            /* the thickness */
+            width: 18px;
+            /* the size */
+            aspect-ratio: 1/1;
+            border: 8px solid #ECF0A6;
+            /* the outer space */
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #ECF0A6 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+        }
+    }
+
+    &.matematica {
+        background-color: #FAEDBC;
+
+        .collapsible-title {
+            color: #C09100;
+
+        }
+
+        .plus {
+            --b: 3px;
+            /* the thickness */
+            width: 18px;
+            /* the size */
+            aspect-ratio: 1/1;
+
+            /* the outer space */
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #FAEDBC 90deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+            display: inline-block;
+        }
+
+        .less {
+            --b: 3px;
+            /* the thickness */
+            width: 18px;
+            /* the size */
+            aspect-ratio: 1/1;
+
+            /* the outer space */
+            background:
+                conic-gradient(from 90deg at var(--b) var(--b), #FAEDBC 180deg, #fff 0) calc(100% + var(--b)/2) calc(100% + var(--b)/2)/ calc(50% + var(--b)) calc(50% + var(--b));
+        }
+    }
+
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    .lbl-toggle-fica_a_dica {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.25s ease-out;
+        padding-bottom: 8px;
+
+    }
+
+
+    .toggle:checked+.lbl-toggle-fica_a_dica+.collapsible-content-fica_a_dica {
+        max-height: 90rem;
+    }
+
+    .toggle:checked+.lbl-toggle-fica_a_dica .plus {
+        display: none;
+    }
+
+    .toggle:checked+.lbl-toggle-fica_a_dica .less {
+        display: block;
+    }
+
+    .less {
+        display: none;
+    }
+
+    .toggle:checked+.lbl-toggle-fica_a_dica {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .collapsible-content-fica_a_dica .content-inner {
+        padding: 0 1rem;
+        border-left: 3px solid white;
+    }
+
+    .collapsible-content-fica_a_dica {
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 0.25s ease-in-out;
+    }
+
+    .flex-icon {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+
+
+
+    /*
+
+@media only screen and (min-width: $phone-max-width) {
+    &._left {
+        float: left;
+        clear: left;
+        width: 33%;
+        z-index: 1;
+    }
+
+    &._right {
+        float: right;
+        clear: right;
+        width: 33%;
+        z-index: 1;
+    }
+} */
+}

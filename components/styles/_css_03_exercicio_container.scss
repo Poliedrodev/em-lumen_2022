@@ -1,0 +1,102 @@
+.css_03_exercicio_container {
+  margin-top: 31px;
+
+  position: relative;
+  display: grid;
+  grid-template-columns: min-content auto;
+  gap: 8px;
+
+  font-family: $fontName;
+  font-weight: 400;
+  color: $textColor;
+  line-height: 1.5em;
+  font-size: $fontSizeQuestion;
+  align-items: baseline;
+
+  .content_number {
+    width: 34px;
+
+    .background_number {
+      width: 34px;
+      height: 24px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      font-family: $fontName;
+      font-weight: 700;
+      font-variant: tabular-nums;
+      font-size: $fontSizeIndiceQuestion;
+    }
+  }
+
+  .group_exercicio {
+    margin: 0;
+
+    &::first-child {
+      margin: 0;
+    }
+  }
+
+  &.artes {
+    .background_number {
+      font-weight: 700;
+      color: #64428C;
+    }
+
+    .background_number:first-child {
+      &::before {
+        border-bottom: solid 3px #bfd730;
+        counter-increment: artes;
+        content: counter(artes, decimal) "";
+      }
+    }
+  }
+
+  &.lingua_inglesa {
+    .background_number {
+      font-weight: 700;
+      color: #069891;
+    }
+
+    .background_number:first-child {
+      &::before {
+        border-bottom: solid 3px #bfd730;
+        counter-increment: lingua_inglesa;
+        content: counter(artes, decimal) "";
+      }
+    }
+  }
+
+  &.lingua_portuguesa {
+    .background_number {
+      font-weight: 700;
+      color: #c9252c;
+    }
+
+    .background_number:first-child {
+      &::before {
+        border-bottom: solid 3px #bfd730;
+        counter-increment: lingua_portuguesa;
+        content: counter(artes, decimal) "";
+      }
+    }
+  }
+
+  &.matematica {
+    .background_number {
+      font-weight: 700;
+      color: #1961AC;
+    }
+
+    .background_number:first-child {
+      &::before {
+        border-bottom: solid 3px #F1CB40;
+        counter-increment: matematica;
+        content: counter(artes, decimal) "";
+      }
+    }
+  }
+}

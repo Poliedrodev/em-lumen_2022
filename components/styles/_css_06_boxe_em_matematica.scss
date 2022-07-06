@@ -1,220 +1,283 @@
 .css_06_boxe_em_matematica {
-    float: left;
-    position: relative;
-    box-sizing: border-box;
-    margin: 32px 68px 56px 68px;
-    width: 83%;
-    min-height: 50px;
-    background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
+    margin-top: 32px;
 
-    input[type=checkbox] {
-        display: none;
+    .collapsible-title {
+        margin: 0;
     }
 
-    input[type=checkbox]:checked ~ label {
-        background: url(img/icon-box-collapsed-open.png) right -3px no-repeat;
-    }
+    &.artes {
+        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
 
-    input[type=checkbox]:checked ~ .txt_boxe_collapsed {
-        display: block;
-    }
-
-    label {
-        width: 100%;
-        height: 40px;
-        background: url(img/icon-box-collapsed-close.png) right -3px no-repeat;
-        position: relative;
-        float: left;
-
-        &:before {
-            content: 'Em Matemática, vemos que...';
-            font-size: 20px;
-            color: #BD8432;
-            position: absolute;
-            left: 50px;
-            top: 10px;
-            font-family: $font-prelo-extraBold;
+        .collapsible-title {
+            color: #84A214;
         }
 
-        &:after {
-            content: '';
-            width: 30px;
-            height: 30px;
-            position: absolute;
-            left: 14px;
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
             background-size: contain !important;
             background-repeat: no-repeat;
             background-position: center;
-            top: 8px;
-            background-image: url(img/css_06_boxe_em_matematica_artes.png);
         }
     }
 
-    .txt_boxe_collapsed {
-        position: relative;
-        float: left;
-        width: 100%;
-        padding: 15px;
-        box-sizing: border-box;
-        font-family: $font-proximaNova-light;
-        font-size: 16px;        
-        display: none; 
-    }
-    
-    &.artes {
-        background: linear-gradient(180deg, #ECF0A6 25%, rgba(255,255,255,1) 100%);
-
-        label {
-            &:before {
-                color: #84A214;
-            }
-
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_artes.png);
-            }
-        }
-    }
     &.biologia {
-        background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #BD8432;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_biologia.png);
-            }
+        .collapsible-title {
+            color: #BD8432;
+        }
+
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_MT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+
     &.filosofia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #208F6D;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_filosofia.png);
-            }
+        .collapsible-title {
+            color: #208F6D;
         }
-    } 
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
     &.fisica {
-        background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #BD8432;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_fisica.png);
-            }
+        .collapsible-title {
+            color: #BD8432;
+        }
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+
     &.geografia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #208F6D;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_geografia.png);
-            }
+        .collapsible-title {
+            color: #208F6D;
+        }
+
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+
     &.historia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #208F6D;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_historia.png);
-            }
+        .collapsible-title {
+            color: #208F6D;
+        }
+
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+
     &.lingua_inglesa {
-        background: linear-gradient(180deg, #ECF0A6 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #84A214;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_lingua_inglesa.png);
-            }
+        .collapsible-title {
+            color: #84A214 !important;
+        }
+
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+
     &.lingua_portuguesa {
-        background: linear-gradient(180deg, #ECF0A6 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #84A214;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_lingua_portuguesa.png);
-            }
+        .collapsible-title {
+            color: #84A214 !important;
+        }
+
+
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+
     &.matematica {
-        background: linear-gradient(180deg, rgba(250,237,188,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(250, 237, 188, 1) 25%, rgba(255, 255, 255, 1) 100%) !important;
 
-        label {
-            &:before {
-                color: #C09100;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_matematica.png);
-            }
+        .collapsible-title {
+            color: #C09100 !important;
+        }
+
+
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+
     &.producao_de_texto {
-        background: linear-gradient(180deg, #ECF0A6 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgb(220, 228, 194) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #84A214;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_producao_de_texto.png);
-            }
+        .collapsible-title {
+            color: #84A214;
+        }
+
+
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+
     &.quimica {
-        background: linear-gradient(180deg, rgba(252,225,188,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #BD8432;
-            }
-            
-            &:after {                
-                background-image: url(img/css_06_boxe_em_matematica_quimica.png);
-            }
+        .collapsible-title {
+            color: #BD8432;
+        }
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_MT.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+
     &.sociologia {
-        background: linear-gradient(180deg, rgba(215,237,227,1) 25%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(180deg, rgba(215, 237, 227, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
-        label {
-            &:before {
-                color: #208F6D;
-            }
-            
-            &:after {
-                background-image: url(img/css_06_boxe_em_matematica_sociologia.png);
-            }
+        .collapsible-title {
+            color: #208F6D;
+        }
+
+        .icon_boxe_em_matematica {
+            width: 2rem;
+            height: 2rem;
+            background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
+            background-size: contain !important;
+            background-repeat: no-repeat;
+            background-position: center;
         }
     }
+}
+
+.css_06_boxe_em_matematica .text-credit {
+    padding: 0 !important;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.lbl-toggle-matematica {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+
+}
+
+.toggle:checked+.lbl-toggle-matematica+.collapsible-content-em-matematica {
+    max-height: 90rem;
+}
+
+.toggle:checked+.lbl-toggle-matematica .ion-md-add {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle-matematica .ion-md-remove {
+    display: block;
+}
+
+.ion-md-remove {
+    display: none;
+}
+
+.toggle:checked+.lbl-toggle-matematica {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.collapsible-content-em-matematica .content-inner {
+    padding: 0 1rem;
+}
+
+.collapsible-content-em-matematica {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+}
+
+.flex-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }

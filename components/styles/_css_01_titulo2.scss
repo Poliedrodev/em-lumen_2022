@@ -1,45 +1,69 @@
 .css_01_titulo2 {
-  font-size: 26px;
-  color: $title-color;
-  font-family: $font-prelo-extraBold;
-  margin-top: 48px;
-  padding: 0 68px;
-  margin-bottom: 16px;
 
+  /* Características do componente */
+  position: relative;
+  display: block;
+
+  /* Variações de cores */
   &.artes {
-    color: #64428C !important;
+
+      color: $art_cor2;
+      
+    }
+  
+
+  &.ciencias {
+
+      color: $cie_cor2;
+
   }
-  &.biologia {
-    color: #45973D !important;
-  }
-  &.filosofia {
-    color: #64428C !important;
-  }
-  &.fisica {
-    color: #00909B !important;
-  }
+
+
+
   &.geografia {
-    color: #D85509 !important;
+    
+      color: $geo_cor2;
+    
   }
+
+ 
   &.historia {
-    color: #951B81 !important;
+    
+      color: $his_cor2;
+    
   }
+
+ 
+
   &.lingua_inglesa {
-    color: #069891 !important;
+    
+      color: $ing_cor2;
+    
   }
+
   &.lingua_portuguesa {
-    color: #C51A1B !important;
+   
+      color: $por_cor2;
+    
   }
+
+ 
+
   &.matematica {
-    color: #1961AC !important;
-  }
-  &.producao_de_texto {
-    color: #0F83A6 !important;
-  }
-  &.quimica {
-    color: #B80071 !important;
-  }
-  &.sociologia {
-    color: #C71553 !important;
-  }
+    
+      color: $mat_cor2;
+
+    }
+ 
 }
+
+ 
+  /* Características do texto */
+  .text{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2rem;
+    color: $preto;
+    margin: 40px 0px 0px 68px;
+    padding: 0px 0px 0px 0px;
+    }

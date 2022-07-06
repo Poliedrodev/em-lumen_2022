@@ -1,0 +1,404 @@
+.CSSgal {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    min-height: 400px;
+    height: fit-content;
+    width: 100%;
+
+    /* Or set a fixed height */
+    &.artes {
+        .prevNext a {
+            background-color: $art_cor2;
+        }
+
+        .slider-subtitle {
+            font-family: $fontName;
+            font-weight: 500;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            color: $art_cor2;
+            text-align: left;
+            font-size: 14px;
+            margin-top: 4px;
+            margin-bottom: 2px;
+
+        }
+
+        .slider-credit {
+            font-family: $fontName;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            color: $art_cor2;
+            text-align: left;
+            font-size: 10px;
+            margin-top: 4px;
+            margin-bottom: 2px;
+
+        }
+    }
+
+    &.lingua_portuguesa {
+        .prevNext a {
+            background-color: $por_cor2;
+        }
+
+        .slider-subtitle {
+            font-family: $fontName;
+            font-weight: 500;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            color: $por_cor2;
+            text-align: left;
+            font-size: 14px;
+            margin-top: 4px;
+            margin-bottom: 2px;
+
+        }
+
+        .slider-credit {
+            font-family: $fontName;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            color: $por_cor2;
+            text-align: left;
+            font-size: 10px;
+            margin-top: 4px;
+            margin-bottom: 2px;
+
+        }
+    }
+
+    &.matematica {
+        .prevNext a {
+            background-color: $mat_cor2;
+        }
+
+        .slider-subtitle {
+            font-family: $fontName;
+            font-weight: 500;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            color: $mat_cor2;
+            text-align: left;
+            font-size: 14px;
+            margin-top: 4px;
+            margin-bottom: 2px;
+
+        }
+
+        .slider-credit {
+            font-family: $fontName;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            color: $mat_cor2;
+            text-align: left;
+            font-size: 10px;
+            margin-top: 4px;
+            margin-bottom: 2px;
+
+        }
+    }
+
+    &.lingua_inglesa {
+
+        .prevNext a {
+            background-color: $ing_cor2;
+        }
+
+        .slider-subtitle {
+            font-family: $fontName;
+            font-weight: 500;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            color: $ing_cor2;
+            text-align: left;
+            font-size: 14px;
+            margin-top: 4px;
+            margin-bottom: 2px;
+
+        }
+
+        .slider-credit {
+            font-family: $fontName;
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+            color: $ing_cor2;
+            text-align: left;
+            font-size: 10px;
+            margin-top: 4px;
+            margin-bottom: 2px;
+
+        }
+    }
+}
+
+/* carroussel */
+
+.flex-direction-collumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 3px solid #cecece;
+    padding: 4px;
+    overflow: visible !important;
+    height: fit-content !important;
+}
+
+.CSSgal .carroussel-box {
+    /*   height: 700px; */
+    white-space: nowrap;
+    font-size: 0;
+    transition: 0.8s;
+}
+
+.slider-subtitle {
+    font-family: $fontName;
+    font-weight: 500;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.slider-credit {
+    font-family: $fontName;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
+    color: black;
+    text-align: left;
+    font-size: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.carroussel-content {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* SLIDES */
+
+.CSSgal .carroussel-box>* {
+    font-size: 1rem;
+    display: inline-flex;
+    white-space: normal;
+    vertical-align: top;
+    height: 100%;
+    width: 100%;
+    background: none 50% no-repeat;
+    background-size: cover;
+}
+
+/* PREV/NEXT, CONTAINERS & ANCHORS */
+
+.CSSgal .prevNext {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    width: 100%;
+    height: 0;
+}
+
+.CSSgal .prevNext>div+div {
+    visibility: hidden;
+    /* Hide all but first P/N container */
+}
+
+.CSSgal .prevNext a {
+    z-index: 10;
+    border-radius: 16px;
+    background: white;
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-left-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 11px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    line-height: 60px;
+    /* If you want to place numbers */
+    text-align: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 25px;
+    top: -40px;
+}
+
+.CSSgal .prevNext a:hover {
+    opacity: 0.7;
+}
+
+.CSSgal .prevNext a+a {
+    left: auto;
+    right: 25px;
+    background-image: url(https://pmaislivrodigitalprd.blob.core.windows.net/assets/01_em_ac_2023_l1_mat_cap08_abertura/slideshow-right-arrow.png);
+    background-size: 11px;
+
+}
+
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal>s:target~.bullets>* {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* ACTIVE */
+#s1:target~.bullets>*:nth-child(1) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s2:target~.bullets>*:nth-child(2) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s3:target~.bullets>*:nth-child(3) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s4:target~.bullets>*:nth-child(4) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s5:target~.bullets>*:nth-child(5) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s6:target~.bullets>*:nth-child(6) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s7:target~.bullets>*:nth-child(7) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s8:target~.bullets>*:nth-child(8) {
+    background: rgba(255, 255, 255, 1);
+}
+
+#s9:target~.bullets>*:nth-child(9) {
+    background: rgba(255, 255, 255, 1);
+}
+
+/* More slides? Add here more rules */
+
+/* PREV/NEXT CONTAINERS VISIBILITY */
+/* ALL: */
+.CSSgal>s:target~.prevNext>* {
+    visibility: hidden;
+}
+
+/* ACTIVE: */
+#s1:target~.prevNext>*:nth-child(1) {
+    visibility: visible;
+}
+
+#s2:target~.prevNext>*:nth-child(2) {
+    visibility: visible;
+}
+
+#s3:target~.prevNext>*:nth-child(3) {
+    visibility: visible;
+}
+
+#s4:target~.prevNext>*:nth-child(4) {
+    visibility: visible;
+}
+
+#s5:target~.prevNext>*:nth-child(5) {
+    visibility: visible;
+}
+
+#s6:target~.prevNext>*:nth-child(6) {
+    visibility: visible;
+}
+
+#s7:target~.prevNext>*:nth-child(7) {
+    visibility: visible;
+}
+
+#s8:target~.prevNext>*:nth-child(8) {
+    visibility: visible;
+}
+
+#s9:target~.prevNext>*:nth-child(9) {
+    visibility: visible;
+}
+
+/* More slides? Add here more rules */
+
+/* carroussel ANIMATION POSITIONS */
+
+#s1:target~.carroussel-box {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+}
+
+#s2:target~.carroussel-box {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+#s3:target~.carroussel-box {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#s4:target~.carroussel-box {
+    transform: translateX(-300%);
+    -webkit-transform: translateX(-300%);
+}
+
+#s5:target~.carroussel-box {
+    transform: translateX(-400%);
+    -webkit-transform: translateX(-400%);
+}
+
+#s6:target~.carroussel-box {
+    transform: translateX(-500%);
+    -webkit-transform: translateX(-500%);
+}
+
+#s7:target~.carroussel-box {
+    transform: translateX(-600%);
+    -webkit-transform: translateX(-600%);
+}
+
+#s8:target~.carroussel-box {
+    transform: translateX(-700%);
+    -webkit-transform: translateX(-700%);
+}
+
+#s9:target~.carroussel-box {
+    transform: translateX(-800%);
+    -webkit-transform: translateX(-800%);
+}
+
+/* More slides? Add here more rules */
+
+
+/* YOU'RE THE DESIGNER! 
+____________________
+All above was mainly to get it working :)
+CSSgal CUSTOM STYLES / OVERRIDES HERE: */
+
+#s1,
+#s2,
+#s3,
+#s4,
+#s5,
+#s6,
+#s7,
+#s8,
+#s9 {
+    position: absolute;
+    top: -20vh;
+}

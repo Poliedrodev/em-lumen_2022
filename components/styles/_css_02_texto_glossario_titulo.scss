@@ -1,8 +1,28 @@
 .css_02_texto_glossario_titulo {
-  font-family: $font-proximaNova-bold;
-  font-size: 16px;
-  color: #000;
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #000000;
   display: block;
-  margin: 24px 0px 16px 0px;
-  padding: 0px 68px;
+  margin: 24px 0px 24px 0px;
+  padding: 8px 16px;
+  border: solid 2px #000000;
+
+  &.artes {
+    border: solid 2px $art_cor1  !important;
+  }
+
+  &.lingua_inglesa {
+    border: solid 2px $ing_cor1  !important;
+  }
+
+  &.lingua_portuguesa {
+    border: solid 2px $por_cor1  !important;
+  }
+
+  &.matematica {
+    border: solid 2px $seg_mat_cor1  !important;
+  }
+
 }

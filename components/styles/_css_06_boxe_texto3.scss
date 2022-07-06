@@ -1,9 +1,12 @@
 .css_06_boxe_texto3 {
   display: block;
-  text-align: left;
+  text-align: center;
   font-size: 18px;
-  color: $textColor;
-  font-family: $font-proximaNova-light;
-  margin: 16px 0px 16px 0px;
-  padding: 0 68px;
+  color: #505050;
+  font-family: $fonteSerifa;
+  margin-top: 24px;
+  padding: 24px;
+  line-height: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 1px #ddd;
 }

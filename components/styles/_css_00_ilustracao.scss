@@ -1,9 +1,15 @@
 .css_00_ilustracao {
-  display: block;  
-  font-family: $font-ptsans;
+
+  /* Características do texto */
+  font-family: $fontName;
+  font-weight: 400;
   font-size: 14px;
-  color: #e94898;
-  border: 2px solid #e94898;
-  margin: 16px 8px 16px 8px;
-  padding: 8px;
+  color: $arte;
+
+  /* Características do fundo */
+  background-color: $cinza;
+
+  /* Características do componente */
+  display: block;
+
 }

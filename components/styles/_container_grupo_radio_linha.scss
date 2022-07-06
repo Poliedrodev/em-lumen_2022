@@ -1,0 +1,338 @@
+.container_grupo_radio {
+  min-width: 50%;
+  margin-top: 15px;
+
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  /* class styles for the options properties of the container component */
+  &.artes {
+    background-color: $art_cor1;
+    color: #FFF;
+  }
+
+  &.biologia {
+    background-color: $bio_cor1;
+  }
+
+  &.ciencias {
+    background-color: $cie_cor1;
+  }
+
+  &.filosofia {
+    background-color: $fil_cor1;
+  }
+
+  &.fisica {
+    background-color: $edf_cor1;
+  }
+
+  &.geografia {
+    background-color: $geo_cor1;
+  }
+
+  &.historia {
+    background-color: $his_cor1;
+  }
+
+  &.lingua_inglesa {
+    background-color: $ing_cor1;
+  }
+
+  &.lingua_portuguesa {
+    background-color: $por_cor1;
+  }
+
+  &.matematica {
+    background-color: $mat_cor1;
+  }
+
+  &.producao_de_texto {
+    background-color: $ptx_cor1;
+  }
+
+  &.quimica {
+    background-color: $qui_cor1;
+  }
+
+  &.sociologia {
+    background-color: $soc_cor1;
+  }
+
+  &.lingua_espanhola {
+    background-color: $esp_cor1;
+  }
+
+  &.gramatica {
+    background-color: $gra_cor1;
+  }
+
+  >* {
+    &:first-child {
+      margin-top: 0;
+
+      &._left {
+        +._right {
+          margin-top: 0;
+          padding: 0 68 0 16px;
+        }
+      }
+
+      &._right {
+        +._left {
+          margin-top: 0;
+          padding: 0 16 0 68px;
+        }
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &._left {
+      +._right:last-child {
+        margin-bottom: 20px;
+        padding: 0 68 0 16px;
+      }
+    }
+
+    &._right {
+      +._left:last-child {
+        margin-bottom: 20px;
+        padding: 0 16 0 68px;
+      }
+    }
+  }
+
+  /* media query */
+  @media only screen and (min-width: $phone-max-width) {
+    &._left {
+      float: left;
+      clear: left;
+      width: 47%;
+      margin-right: 24px;
+      z-index: 1;
+    }
+
+    &._right {
+      float: right;
+      clear: right;
+      width: 47%;
+      margin-left: 24px;
+      z-index: 1;
+    }
+  }
+}
+
+
+.group-radio {
+  width: 100%;
+
+  &.artes {
+    .container input:checked~.checkmark {
+      background-color: $art_cor1;
+    }
+  }
+
+  &.biologia {
+    .container input:checked~.checkmark {
+      background-color: $bio_cor1;
+    }
+  }
+
+  &.ciencias {
+    .container input:checked~.checkmark {
+      background-color: $cie_cor1;
+    }
+  }
+
+  &.filosofia {
+    .container input:checked~.checkmark {
+      background-color: $fil_cor1;
+    }
+  }
+
+  &.fisica {
+    .container input:checked~.checkmark {
+      background-color: $edf_cor1;
+    }
+  }
+
+  &.geografia {
+    .container input:checked~.checkmark {
+      background-color: $geo_cor1;
+    }
+  }
+
+  &.historia {
+    .container input:checked~.checkmark {
+      background-color: $his_cor1;
+    }
+  }
+
+  &.lingua_inglesa {
+    .container input:checked~.checkmark {
+      background-color: $ing_cor1;
+    }
+  }
+
+  &.lingua_portuguesa {
+    .container input:checked~.checkmark {
+      background-color: $por_cor1;
+    }
+  }
+
+  &.matematica {
+    .container input:checked~.checkmark {
+      background-color: $mat_cor1;
+    }
+  }
+
+  &.producao_de_texto {
+    .container input:checked~.checkmark {
+      background-color: $ptx_cor1;
+    }
+  }
+
+  &.quimica {
+    .container input:checked~.checkmark {
+      background-color: $qui_cor1;
+    }
+  }
+
+  &.sociologia {
+    .container input:checked~.checkmark {
+      background-color: $soc_cor1;
+    }
+  }
+
+  &.lingua_espanhola {
+    .container input:checked~.checkmark {
+      background-color: $esp_cor1;
+    }
+  }
+
+  &.gramatica {
+    .container input:checked~.checkmark {
+      background-color: $gra_cor1;
+    }
+  }
+
+  &.educacao_fisica {
+    .container input:checked~.checkmark {
+      background-color: $edf_cor1;
+    }
+  }
+
+  &.integrado {
+    .container input:checked~.checkmark {
+      background-color: $int_cor1;
+    }
+  }
+
+  &.inter_de_texto {
+    .container input:checked~.checkmark {
+      background-color: $itx_cor1;
+    }
+  }
+
+  &.linguagens {
+    .container input:checked~.checkmark {
+      background-color: $lin_cor1;
+    }
+  }
+
+  &.literatura {
+    .container input:checked~.checkmark {
+      background-color: $lit_cor1;
+    }
+  }
+
+  &.musica {
+    .container input:checked~.checkmark {
+      background-color: $mus_cor1;
+    }
+  }
+
+  /* Customize the label (the container) */
+  .container_questao_radio {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    margin-top: 16px;
+
+    /* Hide the browser's default radio button */
+    .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    /* Create a custom radio button */
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input~.checkmark {
+      background-color: #ddd;
+    }
+
+    /* When the radio button is checked, add a blue background */
+    .container .checkmark {
+      background-color: #eee;
+    }
+
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    /* Show the indicator (dot/circle) when checked */
+    .container input:checked~.checkmark:after {
+      display: block;
+    }
+
+    /* Style the indicator (dot/circle) */
+    .container .checkmark:after {
+      top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+    }
+
+    .textradio_inline {
+      font-family: 'Noticia Text';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+      text-align: start;
+      margin: 0;
+    }
+  }
+}
+
+.container_grupo_radio_linha {
+  .container_questao_radio {
+    .textradio_inline {
+      height: fit-content;
+    }
+  }
+}

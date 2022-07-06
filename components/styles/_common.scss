@@ -1,8 +1,172 @@
-/* Constants */
+/* Cores básicas */
+$branco: #ffffff;
+$preto: #000000;
+$cinza: #d6d6d6;
+$arte: #b92e74;
+$edicao: #2f7a8d;
+$revisao: #b47331;
+$multimidia: #69880d;
+$bancoquestao: #00aeef;
 $bodyBackground: #ffffff;
 $textColor: #000000;
-$textColor2: #666666;
-$fontName: 'Lato';
+$mapa: #143F70;
+
+/* Variações de cores */
+/* Artes */
+$art_cor1: #64428C;
+$art_cor2: #3F1F71;
+$art_cor3: #B9A9CB;
+$art_cor4: #dfdaea;
+
+/* Biologia */
+$bio_cor1: #45973D;
+$bio_cor2: #306E2B;
+$bio_cor3: #ABD0A7;
+$bio_cor4: #E3F0E2;
+
+/* Ciências */
+$cie_cor1: #45973D;
+$cie_cor2: #306E2B;
+$cie_cor3: #ABD0A7;
+$cie_cor4: #E3F0E2;
+
+/* Educação Física */
+$edf_cor1: #64428C;
+$edf_cor2: #3F1F71;
+$edf_cor3: #B9A9CB;
+$edf_cor4: #dfdaea;
+
+/* Filosofia */
+$fil_cor1: #536DA7;
+$fil_cor2: #3A4C74;
+$fil_cor3: #B1BDD7;
+$fil_cor4: #E5E9F2;
+
+/* Física */
+$fis_cor1: #00909B;
+$fis_cor2: #00666D;
+$fis_cor3: #8CCDD2;
+$fis_cor4: #D9EEF0;
+
+/* Geografia */
+$geo_cor1: #D85509;
+$geo_cor2: #9E2705;
+$geo_cor3: #EDB290;
+$geo_cor4: #F9E5DA;
+
+/* Gramática */
+$gra_cor1: #c9252c;
+$gra_cor2: #96171a;
+$gra_cor3: #E59798;
+$gra_cor4: #f7dedf;
+
+/* História */
+$his_cor1: #951B81;
+$his_cor2: #6A0F5A;
+$his_cor3: #CF98C6;
+$his_cor4: #EFDDEC;
+
+/* Integrado */
+$int_cor1: #0F83A6;
+$int_cor2: #005E7C;
+$int_cor3: #92C7D7;
+$int_cor4: #DBECF2;
+
+/* Intepretação de Texto */
+$itx_cor1: #c9252c;
+$itx_cor2: #96171a;
+$itx_cor3: #E59798;
+$itx_cor4: #f7dedf;
+
+
+/* Língua Espanhola */
+$esp_cor1: #069891;
+$esp_cor2: #015F5B;
+$esp_cor3: #8CCDD2;
+$esp_cor4: #d9f0ef;
+
+/* Língua Inglesa */
+$ing_cor1: #069891;
+$ing_cor2: #015F5B;
+$ing_cor3: #8CCDD2;
+$ing_cor4: #d9f0ef;
+
+/* Língua Portuguesa */
+$por_cor1: #c9252c;
+$por_cor2: #96171a;
+$por_cor3: #E59798;
+$por_cor4: #f7dedf;
+
+/* Linguagens */
+$lin_cor1: #64428C;
+$lin_cor2: #3F1F71;
+$lin_cor3: #B9A9CB;
+$lin_cor4: #dfdaea;
+
+/* Literatura */
+$lit_cor1: #c9252c;
+$lit_cor2: #96171a;
+$lit_cor3: #E59798;
+$lit_cor4: #f7dedf;
+
+/* Matemática */
+$mat_cor1: #1961AC;
+$mat_cor2: #033878;
+$mat_cor3: #97B7D9;
+$mat_cor4: #d0e1f0;
+
+/* Música */
+$mus_cor1: #64428C;
+$mus_cor2: #3F1F71;
+$mus_cor3: #B9A9CB;
+$mus_cor4: #dfdaea;
+
+/* Produção de Texto */
+$ptx_cor1: #0F83A6;
+$ptx_cor2: #005E7C;
+$ptx_cor3: #92C7D7;
+$ptx_cor4: #DBECF2;
+
+/* Química */
+$qui_cor1: #B80071;
+$qui_cor2: #850343;
+$qui_cor3: #DF8CBF;
+$qui_cor4: #F5D9EA;
+
+/* Sociologia */
+$soc_cor1: #C71553;
+$soc_cor2: #8B1038;
+$soc_cor3: #E695B1;
+$soc_cor4: #F7DCE5;
+
+/* Variações de cores de segmento */
+/* Linguagens */
+$seg_lin_cor1: #bfd730;
+$seg_lin_cor2: #62883b;
+$seg_lin_cor3: #ECF0A6;
+$seg_lin_cor4: #F7F9D9;
+
+/* Matemática */
+$seg_mat_cor1: #F1CB40;
+$seg_mat_cor2: #C09100;
+$seg_mat_cor3: #FAEDBC;
+$seg_mat_cor4: #FDF7E2;
+
+/* Ciências da Natureza */
+$seg_nat_cor1: #F7A941;
+$seg_nat_cor2: #BD8432;
+$seg_nat_cor3: #FCE1BC;
+$seg_nat_cor4: #FEF2E3;
+
+/* Ciências Humanas */
+$seg_hum_cor1: #8CCAAE;
+$seg_hum_cor2: #208F6D;
+$seg_hum_cor3: #D7EDE3;
+$seg_hum_cor4: #EEF7F3;
+
+/* Outros */
+$fontName: 'Montserrat';
+$fonteSerifa: 'Noticia Text';
 $defaultFontSize: 14px;
 $defaultFontWeight: 300;
 $screen-sm-max: 991px;
@@ -10,124 +174,108 @@ $speed: 0.2s;
 $img-dir: 'img/';
 $max-width: 860px;
 $phone-max-width: 481px;
-$title-color: #45973D;
-$font-title: 'Arial', sans-serif;
-$font-size-text: 18px;
-$font-ptsans: 'PT Sans', sans-serif;
-$font-prelo-extraBold: 'Prelo ExtraBold';
-$font-prelo-bold: "Prelo Bold";
-$font-proximaNova-light: 'Proxima Nova Lt' !important;
-$font-proximaNova-regular: 'proxima_novaregular' !important;
-$font-cookie-google: 'cookie';
-$font-theSerif-hp6: 'TheSerif-HP6SeBld' !important;
-$font-TheSerif-hp2: 'TheSerif-HP2ExLig';
-$font-ptSans: 'Pt Sans';
-$font-proximaNova-black:'proxima_novablack';
-$font-proximaNova-bold:'proxima_novabold';
-$font-prelo-book:'prelo-book';
-$font-montserrat-regular: 'montserrat regular', '400';
-$font-montserrat-bold: 'montserrat bold', '700';
-$font-montserrat-extrabold: 'montserrat extrabold', '800';
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,800&display=swap);
+
+// Question
+$fontSizeQuestion: 18px;
+$fontSizeIndiceQuestion: 18px;
+
+// Remove default style
+ol,
+ul,
+li {
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* Mixin's helpers, more info: http://sass-lang.com/guide#topic-6*/
 @mixin display-flex() {
-    display: -webkit-flex;
-    display: flex;
+  display: -webkit-flex;
+  display: flex;
 }
+
 @mixin webkit-prefix($property, $value) {
-    -webkit-#{$property}: $value;
-    #{$property}: $value;
+  -webkit-#{$property}: $value;
+  #{$property}: $value;
 }
 
 /* Font embeds, examples see: https://www.google.com/fonts */
 /* Imports the style from the google fonts cdn */
-@import url(https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-@import url(https://fonts.googleapis.com/css2?family=Cookie&display=swap);
-@import url(https://perugluglu.net/poliedro/stylesheet.css);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+
 /* Article view style */
 html,
 body {
-    padding: 0;
-    margin: 0;
-    font: $defaultFontSize $fontName;
-    color: $textColor;
-    background-color: $bodyBackground;
-    font-weight: $defaultFontWeight;
-    word-wrap: break-word;
-    -webkit-font-smoothing: antialiased !important;
-    -moz-osx-font-smoothing: grayscale !important;
-    -webkit-overflow-scrolling: touch;
-    background-color: #fff;
-    :focus {
-        outline: none;
-    }
-}
+  padding: 0;
+  margin: 0;
+  font: $defaultFontSize $fontName;
+  color: $textColor;
+  background-color: $bodyBackground;
+  font-weight: $defaultFontWeight;
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-overflow-scrolling: touch;
 
-html{
-    background: url('img/background/LUMEN_FIS.svg') center center no-repeat fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  :focus {
+    outline: none;
+  }
 }
 
 body {
-    max-width: $max-width;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-    overflow-x: hidden;
-    background-color: #fff;
-    &::after {
-        content: ' ';
-        display: block;
-        clear: both;
-    }
-}
+  max-width: $max-width;
+  padding: 0 5px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
 
-.image_inline {
-    display: none;
-}
-
-.align-img-inline {
-    line-height: 40px;
+  &::after {
+    content: ' ';
+    display: block;
+    clear: both;
+  }
 }
 
 /* Set link color */
 span[data-text-edit-color] {
-    a {
-        color: inherit;
-    }
+  a {
+    color: inherit;
+  }
 }
 
 /* Components style */
 /* Shared style for text related components: title, subtitle, intro, body and footer */
 .text {
-    display: block;
-    margin: 34px auto;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 0;
+  display: block;
+  margin: 34px auto;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0;
 }
 
 /* Implements text-align property values. */
 ._align-right {
-    text-align: right;
+  text-align: right;
 }
+
 ._align-middle {
-    text-align: center;
+  text-align: center;
 }
 
 /* media query */
 @media (max-width: $screen-sm-max) {
-    .text {
-        font-size: 17px;
-        line-height: 1.65;
-    }
+  .text {
+    font-size: 17px;
+    line-height: 1.65;
+  }
 }
 
 /* Woodwing Inception internal style.
@@ -135,89 +283,102 @@ span[data-text-edit-color] {
  * Please don't change this style class
  */
 .hero-js {
+  height: 100%;
+
+  body {
     height: 100%;
-    body {
-        height: 100%;
+  }
+
+  ._hero-bg-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+
+    ._hero-bg-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0;
+      transition-property: opacity;
+      transition-timing-function: linear;
+      transition-duration: $speed * 2;
+
+      &._current {
+        opacity: 1;
+      }
     }
-    ._hero-bg-box {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        pointer-events: none;
-        overflow: hidden;
-        ._hero-bg-item {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0;
-            transition-property: opacity;
-            transition-timing-function: linear;
-            transition-duration: $speed * 2;
-            &._current {
-                opacity: 1;
-            }
-        }
-    }
-    ._hero-content-box {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+  }
+
+  ._hero-content-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    ._hero-content-wrapper {
+      background-color: $bodyBackground;
+
+      ._hero-content-body {
+        max-width: $max-width;
+        padding: 0 5px;
+        margin-left: auto;
+        margin-right: auto;
         overflow-x: hidden;
-        overflow-y: auto;
-        ._hero-content-wrapper {
-            background-color: $bodyBackground;
-            ._hero-content-body {
-                max-width: $max-width;
-                padding: 0 5px;
-                margin-left: auto;
-                margin-right: auto;
-                overflow-x: hidden;
-                &::after {
-                    content: ' ';
-                    display: block;
-                    clear: both;
-                }
-            }
+
+        &::after {
+          content: ' ';
+          display: block;
+          clear: both;
         }
+      }
     }
-    &.hero-js-android {
-        body {
-            max-width: none;
-        }
-        ._hero-bg-box {
-            position: fixed;
-        }
-        ._hero-content-box {
-            position: relative;
-            margin: 0 -5px;
-            top: auto;
-            right: auto;
-            bottom: auto;
-            left: auto;
-        }
+  }
+
+  &.hero-js-android {
+    body {
+      max-width: none;
     }
+
+    ._hero-bg-box {
+      position: fixed;
+    }
+
+    ._hero-content-box {
+      position: relative;
+      margin: 0 -5px;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+    }
+  }
 }
 
 // Keyframes, see mixin triple-blinking-spans()
 @keyframes kf-triple-blinking-spans {
-    0% {
-        opacity: 0.2;
-    }
-    20% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0.2;
-    }
+  0% {
+    opacity: 0.2;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
 }
 
 /**
@@ -229,76 +390,75 @@ span[data-text-edit-color] {
  }
  */
 @mixin triple-blinking-spans() {
-    // blink the dots after the label
-    span {
-        animation-name: kf-triple-blinking-spans;
-        animation-duration: 1.4s;
-        animation-iteration-count: infinite;
-        animation-fill-mode: both;
-    }
-    span:nth-child(2) {
-        animation-delay: 0.2s;
-    }
-    span:nth-child(3) {
-        animation-delay: 0.4s;
-    }
-}
 
-span[style="text-decoration: line-through;"] {
-    font-family: 'MathSymbol_JSD' !important;
-    font-style: normal !important;
-    text-decoration: none !important;
+  // blink the dots after the label
+  span {
+    animation-name: kf-triple-blinking-spans;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+  }
+
+  span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
 }
 
 /**
  Additional styles for .social and .video components
  */
 @mixin media-component-states() {
-    &.loading,
-    &.error {
-        font-weight: 300;
-        font-size: $defaultFontSize;
-        font-style: italic;
-        line-height: 1.6;
-        padding: 0.5em;
+
+  &.loading,
+  &.error {
+    font-weight: 300;
+    font-size: $defaultFontSize;
+    font-style: italic;
+    line-height: 1.6;
+    padding: 0.5em;
+  }
+
+  &.loading {
+    color: #888888;
+    background-color: rgb(252, 252, 252);
+    text-transform: lowercase;
+
+    @include triple-blinking-spans();
+
+    span {
+      padding-left: 0.2em;
+      font-weight: bold;
+      color: #666666;
     }
-    &.loading {
-        color: #888888;
-        background-color: rgb(252, 252, 252);
-        text-transform: lowercase;
+  }
 
-        @include triple-blinking-spans();
-        span {
-            padding-left: 0.2em;
-            font-weight: bold;
-            color: #666666;
-        }
+  &.error {
+    background-color: rgba(169, 68, 66, 0.05);
+    color: rgba(169, 68, 66, 0.8);
+
+    >div {
+      display: flex;
+      -webkit-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      align-items: center;
+
+      div:first-child {
+        display: inline-block;
+        flex: 1 auto;
+        color: rgba(169, 68, 66, 0.5);
+        // horizontally align and size the icon to equal the drop icon of the hero component
+        font-size: 30px;
+        padding: 0 40px 0 40px;
+      }
+
+      >div:last-child {
+        display: inline-block;
+        flex: 1 100%;
+      }
     }
-    &.error {
-        background-color: rgba(169, 68, 66, 0.05);
-        color: rgba(169, 68, 66, 0.8);
-
-        > div {
-            display: flex;
-            -webkit-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-            align-items: center;
-
-            div:first-child {
-                display: inline-block;
-                flex: 1 auto;
-                color: rgba(169, 68, 66, 0.5);
-                // horizontally align and size the icon to equal the drop icon of the hero component
-                font-size: 30px;
-                padding: 0 40px 0 40px;
-            }
-
-            > div:last-child {
-                display: inline-block;
-                flex: 1 100%;
-            }
-        }
-    }
-
-
+  }
 }

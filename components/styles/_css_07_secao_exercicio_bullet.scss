@@ -1,10 +1,13 @@
 .css_07_secao_exercicio_bullet {
   display: block;
-  font-family: $font-proximaNova-light;
+  font-family: 'Noticia Text';
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5em;
   font-size: 18px;
-  color: #000;
-  margin: 16px 68px 16px 88px;
-  ul li{
-    padding-left: 0px;
+  margin-top: 16px;
+
+  ul li {
+    padding-left: 12px;
   }
 }

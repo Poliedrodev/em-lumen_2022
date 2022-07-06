@@ -1,5 +1,99 @@
-.css_01_titulo_unid{
-    font-size: 50px;
-    color: #FFF;
-    font-family: $font-prelo-extraBold;
+.css_01_titulo_unid {
+
+  /* Características do texto */
+  font-family: $fontName;
+  font-weight: 700;
+  font-size: 100px;
+  color: $preto;
+
+  /* Características do componente */
+  display: block;
+  margin-top: 40px;
+  padding: 0px 0px 16px 0px;
+
+  /* Variações de cores */
+  &.artes {
+    color: $art_cor1;
+  }
+
+  &.biologia {
+    color: $bio_cor1;
+  }
+
+  &.ciencias {
+    color: $cie_cor1;
+  }
+
+  &.educacao_fisica {
+    color: $edf_cor1;
+  }
+
+  &.filosofia {
+    color: $fil_cor1;
+  }
+
+  &.fisica {
+    color: $fis_cor1;
+  }
+
+  &.geografia {
+    color: $geo_cor1;
+  }
+
+  &.gramatica {
+    color: $gra_cor1;
+  }
+
+  &.historia {
+    color: $his_cor1;
+  }
+
+  &.integrado {
+    color: $int_cor1;
+  }
+
+  &.inter_de_texto {
+    color: $itx_cor1;
+  }
+
+  &.lingua_espanhola {
+    color: $esp_cor1;
+  }
+
+  &.lingua_inglesa {
+    color: $ing_cor1;
+  }
+
+  &.lingua_portuguesa {
+    color: $por_cor1;
+  }
+
+  &.linguagens {
+    color: $lin_cor1;
+  }
+
+  &.literatura {
+    color: $lit_cor1;
+  }
+
+  &.matematica {
+    color: $mat_cor1;
+  }
+
+  &.musica {
+    color: $mus_cor1;
+  }
+
+  &.producao_de_texto {
+    color: $ptx_cor1;
+  }
+
+  &.quimica {
+    color: $qui_cor1;
+  }
+
+  &.sociologia {
+    color: $soc_cor1;
+  }
+
 }

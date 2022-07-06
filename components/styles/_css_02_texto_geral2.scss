@@ -1,7 +1,13 @@
 .css_02_texto_geral2 {
   display: block;
-  font-family: $font-proximaNova-light;
+  text-align: center;
   font-size: 18px;
-  color: #000;
-  margin: 16px 0px 16px 0px;
+  color: $textColor;
+  font-family: 'Noticia Text';
+  font-weight: 700;
+  line-height: 1.5em;
+  margin-top: 24px;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 1px #ddd;
 }

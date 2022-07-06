@@ -1,0 +1,86 @@
+$blue: rgb(124, 192, 203);
+$icon: $blue;
+
+.audio {
+    position: relative;
+    width: 84%;
+    margin: 32px 0px 20px 0px;
+    transition: all .3s;
+    border: 5px solid $seg_lin_cor1;
+    background-color: #fff;
+    border-radius: 4px;
+    min-height: 104px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+
+    .audio-box audio {
+        background-color: #f1f3f4;
+        width: 100%;
+    }
+
+    &.artes {
+        border: 5px solid $seg_lin_cor1;
+
+        .audio__title {
+            color: $art_cor1;
+        }
+
+    }
+
+    &.lingua_inglesa {
+        border: 5px solid $seg_lin_cor1;
+
+        .audio__title {
+            color: $ing_cor1;
+        }
+
+    }
+
+    &.lingua_portuguesa {
+        border: 5px solid $seg_lin_cor1;
+
+        .audio__title {
+            color: $por_cor1;
+        }
+
+    }
+
+    &.matematica {
+        border: 5px solid $seg_mat_cor1;
+
+        .audio__title {
+            color: $mat_cor1;
+        }
+
+    }
+
+    .none {
+        display: none !important;
+    }
+
+
+    &__url {
+        border: 1px solid #ccc;
+        padding: 2px;
+        overflow: hidden;
+        height: 19px;
+        word-break: break-all;
+    }
+
+    &__title {
+        color: $por_cor1;
+        font-size: 16px;
+        font-weight: 700;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        margin-bottom: 2px;
+    }
+
+    &__text {
+        color: #666;
+        font-size: 14px;
+        font-family: 'Montserrat';
+        font-weight: 300;
+    }
+
+}

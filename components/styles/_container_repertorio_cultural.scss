@@ -1,0 +1,204 @@
+.container_repertorio_cultural {
+    position: relative;
+    box-sizing: border-box;
+    margin: 32px 0px 0px 0px;
+    padding: 0px 28px 8px 28px;
+    transition: all 0.3;
+    background-color: #ECF0A6;
+    border-radius: 8px;
+
+    input[type=checkbox] {
+        display: none;
+    }
+
+    input[type=checkbox]:checked ~ label {
+        background: url(img/icons8-minus-close_white.png) left 5px top 9px no-repeat;
+    }
+
+    input[type=checkbox]:checked ~ .txt_boxe_collapsed {
+        display: block;
+        transition: all 0.25s ease-out;
+    }
+
+    input[type=checkbox]:checked ~ .line-box {
+        display: block;
+        transition: all 0.25s ease-out;
+    }
+
+    label {
+        width: 100%;
+        height: 40px;
+        background: url(img/icons8-plus-open_white.png) left 5px top 9px no-repeat;
+        position: relative;
+        background-size: 18px !important;
+        display: block;
+        left: -13px;
+
+        &:before {
+            content: 'REPERTÓRIO CULTURAL';
+            font-family: "nunito sans";
+            font-size: 14px;
+            font-weight: 900;
+            color: #62883b;
+            position: absolute;
+            left: 28px;
+            top: 10px;
+        }
+    }
+
+    .line-box{
+        border-left: 3px solid #FFF;
+        display: none;
+    }
+
+    .txt_boxe_collapsed{
+        display: none;
+    }
+
+    .doc_container {
+        position: relative;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    
+    &.artes {
+        background-color: #ECF0A6;
+
+        label {
+            &:before {
+                color: #C8D300;
+            }
+        }
+    }
+    &.biologia {
+        background-color: #FCE1BC;
+
+        label {
+            &:before {
+                color: #F7A941;
+            }
+            
+
+        }
+    }
+    &.filosofia {
+        background-color: #D7EDE3;
+
+        label {
+            &:before {
+                color: #8CCAAE;
+            }
+            
+
+        }
+    } 
+    &.fisica {
+        background-color: #FCE1BC;
+
+        label {
+            &:before {
+                color: #F7A941;
+            }
+        }
+            
+
+    }
+    &.geografia {
+        background-color: #D7EDE3;
+
+        label {
+            &:before {
+                color: #8CCAAE;
+            }
+            
+        }
+    }
+    &.historia {
+        background-color: #D7EDE3;
+
+        label {
+            &:before {
+                color: #8CCAAE;
+            }
+            
+        }
+    }
+    &.lingua_inglesa {
+        background-color: #ECF0A6;
+
+        label {
+            &:before {
+                color: #C8D300;
+            }
+            
+        }
+    }
+    &.lingua_portuguesa {
+        background-color: #ECF0A6;
+
+        label {
+            &:before {
+                color: #84A214;
+            }
+            
+        }
+    }
+    &.matematica {
+        background-color: #FAEDBC;
+
+        label {
+            &:before {
+                color: #F1CB40;
+            }
+            
+        }
+    }
+    &.producao_de_texto {
+        background-color: #ECF0A6;
+
+        label {
+            &:before {
+                color: #C8D300;
+            }
+            
+
+        }
+    }
+    &.quimica {
+        background-color: #FCE1BC;
+
+        label {
+            &:before {
+                color: #F7A941;
+            }
+            
+            
+        }
+    }
+    &.sociologia {
+        background-color: #D7EDE3;
+
+        label {
+            &:before {
+                color: #8CCAAE;
+            }
+            
+        }
+    }
+
+  /* media query */
+  @media only screen and (min-width: $phone-max-width) {
+    &._left {
+        float: left;
+        clear: left;
+        width: 33%;
+        z-index: 1;
+    }
+    &._right {
+        float: right;
+        clear: right;
+        width: 33%;
+        z-index: 1;
+    }
+  }
+}

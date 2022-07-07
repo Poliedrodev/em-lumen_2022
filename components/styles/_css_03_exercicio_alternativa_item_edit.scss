@@ -4,7 +4,7 @@
   display: grid;
   gap: 8px;
 
-  font-family: $fontName;
+  font-family: $fontPrincipal;
   font-weight: 300;
   color: $textColor;
   line-height: 1.5em;
@@ -21,7 +21,7 @@
 
   .number_alternativa_edit {
     width: 32px;
-    font-family: $fontName;
+    font-family: $fontPrincipal;
     font-size: $fontSizeIndiceQuestion;
     font-weight: 600;
     position: absolute;

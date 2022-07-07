@@ -1,7 +1,7 @@
 .css_03_exercicio_alternativa {
   margin-top: 16px;
 
-  font-family: $fontName;
+  font-family: $fontPrincipal;
   font-weight: 400;
   color: $textColor;
   line-height: 1.5em;
@@ -17,7 +17,7 @@
   
   &.item_romano_itens .css_03_exercicio_alternativa_item {
     &::before {
-      font-family: $fontName;
+      font-family: $fontPrincipal;
       font-size: $fontSizeIndiceQuestion;
       font-weight: 600;
       counter-increment: list;
@@ -43,7 +43,7 @@
 
   &.alternativa_assinalar_itens .css_03_exercicio_alternativa_item {
     &::after {
-      font-family: $fontName;
+      font-family: $fontPrincipal;
       font-size: 20px;
       font-weight: 600;
       content: "(";
@@ -53,7 +53,7 @@
     }
 
     &::before {
-      font-family: $fontName;
+      font-family: $fontPrincipal;
       font-size: 20px;
       font-weight: 600;
       content: ")";

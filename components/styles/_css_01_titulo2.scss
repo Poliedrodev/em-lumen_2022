@@ -1,69 +1,54 @@
 .css_01_titulo2 {
 
-  /* Características do componente */
-  position: relative;
-  display: block;
+    /* Características do componente */
+    position: relative;
+    display: block;
 
-  /* Variações de cores */
-  &.artes {
-
-      color: $art_cor2;
-      
+    /* Variações de cores */
+    &.artes {
+        color: $art_cor2;
     }
-  
 
-  &.ciencias {
-
-      color: $cie_cor2;
-
-  }
-
-
-
-  &.geografia {
-    
-      color: $geo_cor2;
-    
-  }
-
- 
-  &.historia {
-    
-      color: $his_cor2;
-    
-  }
-
- 
-
-  &.lingua_inglesa {
-    
-      color: $ing_cor2;
-    
-  }
-
-  &.lingua_portuguesa {
-   
-      color: $por_cor2;
-    
-  }
-
- 
-
-  &.matematica {
-    
-      color: $mat_cor2;
-
+    &.ciencias {
+        color: $cie_cor2;
     }
- 
+
+
+
+    &.geografia {
+        color: $geo_cor2;
+    }
+
+
+    &.historia {
+        color: $his_cor2;
+    }
+
+
+
+    &.lingua_inglesa {
+        color: $ing_cor2;
+    }
+
+    &.lingua_portuguesa {
+        color: $por_cor2;
+    }
+
+
+
+    &.matematica {
+        color: $mat_cor2;
+    }
+
 }
 
- 
-  /* Características do texto */
-  .text{
+
+/* Características do texto */
+.text {
     font-family: $fonteNova;
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 32px;
     color: $preto;
     margin: 40px 0px 0px 68px;
     padding: 0px 0px 0px 0px;
-    }
+}

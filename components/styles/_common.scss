@@ -165,7 +165,7 @@ $seg_hum_cor3: #D7EDE3;
 $seg_hum_cor4: #EEF7F3;
 
 /* Outros */
-$fontPrincipal: 'Montserrat';
+$fontPrincipal: 'Red Hat Displayt';
 $fonteSerifa: 'Bitter';
 $fonteNova:'Anek Gurmukhi';
 $defaultFontSize: 14px;
@@ -190,6 +190,8 @@ li {
 p,
 h1,
 h2,
+blockquote,
+h4,
 h3 {
   margin: 0;
   padding: 0;

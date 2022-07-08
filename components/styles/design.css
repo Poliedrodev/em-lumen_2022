@@ -34,6 +34,7 @@
 /* Outros */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@300;600;700&family=Bitter:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&family=Red+Hat+Display:ital,wght@0,300;0,600;0,700;1,300;1,600&display=swap);
 ol,
 ul,
 li {
@@ -42,6 +43,8 @@ li {
 p,
 h1,
 h2,
+blockquote,
+h4,
 h3 {
   margin: 0;
   padding: 0; }
@@ -54,7 +57,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font: 14px'Red Hat Display';
+  font: 14px "Red Hat Displayt";
   color: #000000;
   background-color: #ffffff;
   font-weight: 300;
@@ -227,13 +230,13 @@ span[data-text-edit-color] a {
     color: #c9252c;
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Red Hat Display';
+    font-family: "Red Hat Displayt";
     text-transform: uppercase;
     margin-bottom: 2px; }
   .audio__text {
     color: #666;
     font-size: 14px;
-    font-family: 'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 300; }
 
 /* Author component style */
@@ -344,7 +347,7 @@ span[data-text-edit-color] a {
 } */ }
   .container_fica_a_dica .collapsible-title {
     margin: 0;
-    font-family: 'Anek Gurmukhi';
+    font-family: "Anek Gurmukhi";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_fica_a_dica.artes {
@@ -632,7 +635,7 @@ span[data-text-edit-color] a {
       border-radius: 50%;
       background: white; }
     .group-radio .container_questao_radio .textradio_inline {
-      font-family: 'Red Hat Display';
+      font-family: 'Noticia Text';
       font-weight: 400;
       font-size: 16px;
       color: #000000;
@@ -837,7 +840,7 @@ span[data-text-edit-color] a {
     .group_checkbox .container_questao_checkbox .textradio_inline,
     .container_grupo_checkbox .container_questao_checkbox .textradio_inline,
     .container_grupo_checkbox_lado_a_lado .container_questao_checkbox .textradio_inline {
-      font-family: 'Red Hat Display';
+      font-family: 'Noticia Text';
       font-weight: 400;
       font-size: 16px;
       color: #000000;
@@ -866,7 +869,7 @@ span[data-text-edit-color] a {
     width: 235px;
     text-align: center;
     padding: 3px;
-    font-family: 'Red Hat Display';
+    font-family: montserrat;
     font-weight: 700; }
   .container_read_more .line3 {
     width: 100%;
@@ -964,7 +967,7 @@ span[data-text-edit-color] a {
     left: -13px; }
     .container_repertorio_cultural label:before {
       content: 'REPERTÓRIO CULTURAL';
-      font-family: "Red Hat Display";
+      font-family: "nunito sans";
       font-size: 14px;
       font-weight: 900;
       color: #62883b;
@@ -1052,7 +1055,7 @@ span[data-text-edit-color] a {
   margin-top: 32px; }
   .container_saiba_mais .collapsible-title {
     margin: 0;
-    font-family: 'Anek Gurmukhi';
+    font-family: "Red Hat Displayt";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_saiba_mais.artes {
@@ -1352,7 +1355,7 @@ span[data-text-edit-color] a {
 
 .css_00_arte {
   /* Características do texto */
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   font-size: 14px;
   color: #b92e74;
@@ -1363,7 +1366,7 @@ span[data-text-edit-color] a {
 
 .css_00_cartografia {
   /* Características do texto */
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   font-size: 14px;
   color: #b92e74;
@@ -1374,7 +1377,7 @@ span[data-text-edit-color] a {
 
 .css_00_ilustracao {
   /* Características do texto */
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   font-size: 14px;
   color: #b92e74;
@@ -1385,7 +1388,7 @@ span[data-text-edit-color] a {
 
 .css_00_licenciamento_texto_terceiro {
   /* Características do texto */
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   font-size: 14px;
   color: #69880d;
@@ -1396,7 +1399,7 @@ span[data-text-edit-color] a {
 
 .css_00_multimidia {
   /* Características do texto */
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   font-size: 14px;
   color: #69880d;
@@ -1407,7 +1410,7 @@ span[data-text-edit-color] a {
 
 .css_00_revisao {
   /* Características do texto */
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   font-size: 14px;
   color: #b47331;
@@ -1418,7 +1421,7 @@ span[data-text-edit-color] a {
 
 .css_01_bullet_unid {
   /* Características do texto */
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
@@ -1437,7 +1440,7 @@ span[data-text-edit-color] a {
 
 .css_01_texto_unid {
   /* Características do texto */
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 300;
   font-size: 18px;
   color: #000000;
@@ -1448,7 +1451,7 @@ span[data-text-edit-color] a {
 
 .css_01_titulo_cap_num {
   /* Características do texto */
-  font-family: 'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   color: #000000;
   width: 100%;
   height: 60px;
@@ -1539,7 +1542,7 @@ span[data-text-edit-color] a {
       z-index: 2; }
 
 .text {
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-size: 2.625rem;
   font-weight: 400;
   color: #000000;
@@ -1548,7 +1551,7 @@ span[data-text-edit-color] a {
 
 .css_01_titulo_cap {
   /* Características do texto */
-  font-family: 'Anek Gurmukhi';
+  font-family: "Anek Gurmukhi";
   color: #000000;
   width: 100%;
   height: 53px;
@@ -1617,7 +1620,7 @@ span[data-text-edit-color] a {
     align-items: left;
     position: absolute; }
   .css_01_titulo_cap .text {
-    font-family: 'Anek Gurmukhi';
+    font-family: "Red Hat Displayt";
     font-size: 2.5rem;
     font-weight: 300;
     color: #000000;
@@ -1626,7 +1629,7 @@ span[data-text-edit-color] a {
 
 .css_01_titulo_unid {
   /* Características do texto */
-  font-family: 'Anek Gurmukhi';
+  font-family: "Red Hat Displayt";
   font-weight: 700;
   font-size: 100px;
   color: #000000;
@@ -1700,7 +1703,7 @@ span[data-text-edit-color] a {
 
 /* Características do texto */
 .text {
-  font-family:'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   font-weight: 800;
   font-size: 2.5rem;
   color: #000000;
@@ -1729,18 +1732,18 @@ span[data-text-edit-color] a {
 
 /* Características do texto */
 .text {
-  font-family:'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 32px;
   color: #000000;
   margin: 40px 0px 0px 68px;
   padding: 0px 0px 0px 0px; }
 
 .css_01_titulo3 {
   /* Características do texto */
-  font-family:'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 28px;
   color: #4B4B4B;
   /* Características do componente */
   display: block;
@@ -1751,10 +1754,10 @@ span[data-text-edit-color] a {
 
 .css_01_titulo4 {
   /* Características do texto */
-  font-family:'Anek Gurmukhi';
+  font-family: "Anek Gurmukhi";
   font-weight: 600;
   font-size: 1.5rem;
-  color: #71706F;
+  color: #000;
   /* Características do componente */
   display: block;
   position: relative;
@@ -1767,14 +1770,14 @@ span[data-text-edit-color] a {
   display: block;
   font-size: 18px;
   color: #000000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   line-height: 1.5em;
   padding-inline-start: 20px; }
 
 .css_02_texto_bullet_itens {
   font-size: 18px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   line-height: 1.5em;
   padding-left: 4px;
@@ -1784,7 +1787,7 @@ span[data-text-edit-color] a {
 
 .css_02_texto_bullet_item_texto {
   font-size: 18px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   line-height: 1.5em;
   padding-left: 4px;
@@ -1794,15 +1797,15 @@ span[data-text-edit-color] a {
 
 .css_02_texto_citado_fonte {
   display: block;
-  color: #000000;
-  font-family: 'Red Hat Display';
+  color: #71706F;
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   font-size: 12px;
   text-align: right;
   margin: 0px 0px 0px 0px; }
 
 .css_02_texto_citado_titulo {
-  font-family: 'Red Hat Display';
+  font-family: "Bitter";
   font-weight: 700;
   color: #000000;
   line-height: 1.5em;
@@ -1814,7 +1817,7 @@ span[data-text-edit-color] a {
   display: block;
   font-size: 16px;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Bitter";
   font-weight: 400;
   line-height: 1.5em;
   margin-top: 8px; }
@@ -1824,7 +1827,7 @@ span[data-text-edit-color] a {
   text-align: center;
   font-size: 18px;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 700;
   line-height: 1.5em;
   margin-top: 24px;
@@ -1836,7 +1839,7 @@ span[data-text-edit-color] a {
   display: block;
   color: #FFFFFF;
   font-size: 60px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 700;
   text-transform: uppercase;
   margin: 0px;
@@ -1845,7 +1848,7 @@ span[data-text-edit-color] a {
 .css_02_texto_geral {
   display: block;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
@@ -1854,7 +1857,7 @@ span[data-text-edit-color] a {
 .css_02_texto_geral1 {
   display: block;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
@@ -1865,7 +1868,7 @@ span[data-text-edit-color] a {
   text-align: center;
   font-size: 18px;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 700;
   line-height: 1.5em;
   margin-top: 24px;
@@ -1876,14 +1879,14 @@ span[data-text-edit-color] a {
 .css_02_texto_geral3 {
   display: block;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
   margin-top: 8px; }
 
 .css_02_texto_glossario_titulo {
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5em;
@@ -1902,7 +1905,7 @@ span[data-text-edit-color] a {
     border: solid 2px #F1CB40 !important; }
 
 .css_02_texto_glossario {
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5em;
@@ -1923,7 +1926,7 @@ span[data-text-edit-color] a {
 .css_02_texto_item {
   display: block;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   line-height: 1.5em;
   font-size: 18px;
@@ -1939,7 +1942,7 @@ span[data-text-edit-color] a {
 .css_02_texto_vocabulario {
   display: block;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   line-height: 1.5em;
   font-size: 16px;
@@ -1949,7 +1952,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_enunciado {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -1957,14 +1960,14 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_continuacao {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
   font-size: 18px; }
 
 .css_99_bancoquestao {
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #2a6fd6;
   line-height: 1.5em;
@@ -1979,7 +1982,7 @@ span[data-text-edit-color] a {
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -1994,7 +1997,7 @@ span[data-text-edit-color] a {
       align-items: center;
       justify-content: center;
       text-align: center;
-      font-family:'Red Hat Display';
+      font-family: "Red Hat Displayt";
       font-weight: 700;
       font-variant: tabular-nums;
       font-size: 18px; }
@@ -2037,7 +2040,7 @@ span[data-text-edit-color] a {
   display: grid;
   grid-template-columns: min-content auto;
   gap: 8px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2053,7 +2056,7 @@ span[data-text-edit-color] a {
       justify-content: center;
       text-align: center; }
       .css_03_exercicio_container_edit .content_number .background_number .number_exercicio {
-        font-family:'Red Hat Display';
+        font-family: "Red Hat Displayt";
         font-weight: 700;
         font-variant: tabular-nums;
         font-size: 18px; }
@@ -2084,7 +2087,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_alternativa {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2094,7 +2097,7 @@ span[data-text-edit-color] a {
   .css_03_exercicio_alternativa .group_alternativa :first-child {
     margin-top: 0 !important; }
   .css_03_exercicio_alternativa.item_romano_itens .css_03_exercicio_alternativa_item::before {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -2108,7 +2111,7 @@ span[data-text-edit-color] a {
     counter-increment: list;
     content: counter(list, upper-roman) "."; }
   .css_03_exercicio_alternativa.alternativa_assinalar_itens .css_03_exercicio_alternativa_item::after {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-size: 20px;
     font-weight: 600;
     content: "(";
@@ -2116,7 +2119,7 @@ span[data-text-edit-color] a {
     left: -32px;
     top: 0; }
   .css_03_exercicio_alternativa.alternativa_assinalar_itens .css_03_exercicio_alternativa_item::before {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-size: 20px;
     font-weight: 600;
     content: ")";
@@ -2125,7 +2128,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_alternativa_item {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -2134,7 +2137,7 @@ span[data-text-edit-color] a {
   list-style: none;
   position: relative; }
   .css_03_exercicio_alternativa_item::before {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -2144,7 +2147,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_alternativa_edit {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2155,7 +2158,7 @@ span[data-text-edit-color] a {
   margin-top: 16px;
   display: grid;
   gap: 8px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -2167,14 +2170,14 @@ span[data-text-edit-color] a {
     margin-top: 0 !important; }
   .css_03_exercicio_alternativa_item_edit .number_alternativa_edit {
     width: 32px;
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-size: 18px;
     font-weight: 600;
     position: absolute;
     left: -32px; }
 
 .css_03_exercicio_alternativa_item_texto {
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -2182,7 +2185,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_alternativa_assinalar {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2192,7 +2195,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_alternativa_assinalar_itens {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -2203,7 +2206,7 @@ span[data-text-edit-color] a {
   .css_03_exercicio_alternativa_assinalar_itens .group_item :first-child {
     margin-top: 0 !important; }
   .css_03_exercicio_alternativa_assinalar_itens::after {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-size: 20px;
     font-weight: 600;
     content: "(";
@@ -2211,7 +2214,7 @@ span[data-text-edit-color] a {
     left: -32px;
     top: 0; }
   .css_03_exercicio_alternativa_assinalar_itens::before {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-size: 20px;
     font-weight: 600;
     content: ")";
@@ -2220,7 +2223,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_item {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2230,7 +2233,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_itens {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -2241,7 +2244,7 @@ span[data-text-edit-color] a {
   .css_03_exercicio_itens .group_item :first-child {
     margin-top: 0 !important; }
   .css_03_exercicio_itens::before {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -2251,7 +2254,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_item_romano {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2261,7 +2264,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_item_romano_itens {
   margin-top: 16px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 300;
   color: #000000;
   line-height: 1.5em;
@@ -2272,7 +2275,7 @@ span[data-text-edit-color] a {
   .css_03_exercicio_item_romano_itens .group_item :first-child {
     margin-top: 0 !important; }
   .css_03_exercicio_item_romano_itens::before {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-size: 18px;
     font-weight: 600;
     counter-increment: list;
@@ -2282,7 +2285,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_bullet {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2295,7 +2298,7 @@ span[data-text-edit-color] a {
     padding-left: 12px; }
 
 .css_03_exercicio_citado_titulo {
-  font-family: 'Bitter';
+  font-family: "Bitter";
   font-weight: 700;
   color: #000000;
   line-height: 1.5em;
@@ -2308,14 +2311,14 @@ span[data-text-edit-color] a {
   display: block;
   font-size: 16px;
   color: #000000;
-  font-family: 'Bitter';
+  font-family: "Bitter";
   font-weight: 400;
   line-height: 1.5em;
   margin-top: 16px; }
 
 .css_03_exercicio_item_vf {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -2324,7 +2327,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_resolvido_bullet {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2335,7 +2338,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_resolvido_item {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -2344,7 +2347,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_resolvido {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2353,7 +2356,7 @@ span[data-text-edit-color] a {
 
 .css_03_exercicio_texto {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2362,42 +2365,42 @@ span[data-text-edit-color] a {
 
 .css_04_professor_comentario {
   display: block;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-size: 16px;
   color: #f5006b;
   margin-top: 16px; }
 
 .css_04_professor_resposta {
   display: block;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-size: 16px;
   color: #f5006b;
   margin-top: 16px; }
 
 .css_04_professor_roteiro_cd {
   display: block;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-size: 16px;
   color: #f5006b;
   margin-top: 16px; }
 
 .css_04_proposta_citado_fonte {
   display: block;
-  font-family:'Bitter';
+  font-family: "Red Hat Displayt";
   font-size: 16px;
   color: #f5006b;
   margin-top: 16px; }
 
 .css_04_proposta_didatica_citado {
   display: block;
-  font-family:'Bitter';
+  font-family: "Red Hat Displayt";
   font-size: 16px;
   color: #f5006b;
   margin-top: 16px; }
 
 .css_04_proposta_didatica {
   display: block;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-size: 16px;
   color: #f5006b;
   margin-top: 16px; }
@@ -2408,14 +2411,14 @@ span[data-text-edit-color] a {
   font-size: 18px;
   color: #000000;
   text-transform: uppercase;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin-top: 24px; }
 
 .css_05_cota_titulo {
   display: block;
   font-size: 13px;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   font-weight: 700;
   margin-top: 8px; }
 
@@ -2423,15 +2426,15 @@ span[data-text-edit-color] a {
   display: block;
   font-size: 13px;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   margin-top: 8px; }
 
 .css_05_credito1 {
   display: block;
   font-size: 9.8px;
-  color: #707070;
-  font-family: 'Red Hat Display';
+  color: #71706F;
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   margin-bottom: 0px;
   padding: 0 68px; }
@@ -2439,8 +2442,8 @@ span[data-text-edit-color] a {
 .css_05_credito2 {
   display: block;
   font-size: 9.8px;
-  color: #707070;
-  font-family: 'Red Hat Display';
+  color: #71706F;
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   margin-bottom: 0px;
   padding: 0 68px; }
@@ -2450,7 +2453,7 @@ span[data-text-edit-color] a {
   text-align: right;
   font-size: 14px;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   margin: 0px 0px 0px 0px;
   padding: 0px 68px 0px 108px; }
@@ -2460,7 +2463,7 @@ span[data-text-edit-color] a {
   text-align: right;
   font-size: 14px;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   margin: 0px 0px 0px 0px;
   padding: 0px 68px 0px 108px; }
@@ -2469,13 +2472,13 @@ span[data-text-edit-color] a {
   display: block;
   font-size: 13px;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   margin: 8px 0px 0px 0px; }
 
 .css_05_grafico_titulo {
   display: block;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   text-align: center;
   font-size: 20px;
   margin: 8px 0px 0px 0px; }
@@ -2508,13 +2511,13 @@ span[data-text-edit-color] a {
   display: block;
   font-size: 16px;
   color: #000000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin-bottom: 0px; }
 
 .css_05_legenda {
   display: block;
   color: #000000;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   font-size: 14px;
   font-variant: tabular-nums;
@@ -2595,7 +2598,7 @@ span[data-text-edit-color] a {
 
 .css_05_linha_exercicio {
   display: block;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-size: 16px;
   color: #f5006b;
   margin: 0px;
@@ -2606,7 +2609,7 @@ span[data-text-edit-color] a {
   display: block;
   align-items: left;
   font-size: 20px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   border-top: solid 3px;
   border-bottom: solid 3px;
   margin: 0; }
@@ -2666,13 +2669,13 @@ span[data-text-edit-color] a {
   font-size: 14px;
   color: #000000;
   border-top: 2px solid #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin-top: 32px;
   padding: 8px 0px 0px 0px; }
 
 .css_06_boxe_bullet {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #62883b;
   line-height: 1.5em;
@@ -2686,21 +2689,21 @@ span[data-text-edit-color] a {
 
 .css_06_boxe_exercicio_continuacao {
   display: block;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-size: 18px;
   margin-top: 16px;
   color: #000; }
 
 .css_06_boxe_exercicio {
   display: block;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-size: 18px;
   color: #000;
   margin-top: 16px; }
 
 .css_06_boxe_item {
   display: block;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-size: 18px;
   color: #000;
   margin-top: 16px; }
@@ -2708,7 +2711,7 @@ span[data-text-edit-color] a {
 .css_06_boxe_texto_citado {
   display: block;
   font-size: 20px;
-  color: #000000;
+  color: "Bitter";
   margin-top: 16px;
   padding: 0 19px; }
 
@@ -2716,7 +2719,7 @@ span[data-text-edit-color] a {
   display: block;
   font-size: 16px;
   color: #62883b;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   line-height: 1.5em; }
   .css_06_boxe_texto1.artes {
@@ -2733,7 +2736,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000000;
-  font-family: "Noticia Text";
+  font-family: "Bitter";
   line-height: 1.5em;
   margin-top: 16px; }
 
@@ -2742,7 +2745,7 @@ span[data-text-edit-color] a {
   text-align: center;
   font-size: 18px;
   color: #505050;
-  font-family: "Noticia Text";
+  font-family: "Bitter";
   margin-top: 24px;
   padding: 24px;
   line-height: 1.5em;
@@ -2753,7 +2756,7 @@ span[data-text-edit-color] a {
   display: block;
   text-align: center;
   font-size: 20px;
-  font-family:'Bitter';
+  font-family: "Red Hat Displayt";
   color: #000000;
   margin-top: 24px;
   padding: 0 19px; }
@@ -2761,14 +2764,14 @@ span[data-text-edit-color] a {
 .css_06_boxe_titulo1 {
   font-size: 20px;
   color: #62883b;
-  font-family:'Anek Gurmukhi';
+  font-family: "Red Hat Displayt";
   margin: 0px; }
 
 .css_06_boxe_titulo2 {
   display: block;
   text-align: left;
   font-size: 26px;
-  font-family:'Anek Gurmukhi';
+  font-family: "Red Hat Displayt";
   margin: 0px; }
   .css_06_boxe_titulo2.artes {
     color: #C8D300 !important; }
@@ -2801,11 +2804,11 @@ span[data-text-edit-color] a {
   font-size: 24px;
   color: #ffffff;
   margin-top: 24px;
-  font-family:'Anek Gurmukhi'; }
+  font-family: "Red Hat Displayt"; }
 
 .css_07_secao_exercicio_alternativa {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -2814,7 +2817,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_exercicio_bullet {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2825,7 +2828,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_exercicio_continuacao {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -2834,7 +2837,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_exercicio_item {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   font-size: 18px;
@@ -2843,7 +2846,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_exercicio1 {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2852,7 +2855,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_exercicio2 {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2861,7 +2864,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_exercicio3 {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2870,7 +2873,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_exercicio4 {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2878,7 +2881,7 @@ span[data-text-edit-color] a {
   margin-top: 32px; }
 
 .css_07_secao_texto_citado {
-  font-family: 'Bitter';
+  font-family: "Bitter";
   font-size: 16px;
   color: #000;
   display: block;
@@ -2887,7 +2890,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_texto1 {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2896,7 +2899,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_texto2 {
   display: block;
-  font-family: 'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 400;
   color: #000000;
   line-height: 1.5em;
@@ -2905,7 +2908,7 @@ span[data-text-edit-color] a {
 
 .css_07_secao_titulo_citado {
   text-align: center;
-  font-family:'Bitter';
+  font-family: "Red Hat Displayt";
   font-size: 20px;
   margin-top: 24px;
   padding: 0 68px;
@@ -2917,7 +2920,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 26px;
   color: #000000;
-  font-family:'Anek Gurmukhi'; }
+  font-family: "Red Hat Displayt"; }
   .css_07_secao_titulo1.artes {
     color: #64428C !important; }
   .css_07_secao_titulo1.biologia {
@@ -2946,7 +2949,7 @@ span[data-text-edit-color] a {
 .css_07_secao_titulo2 {
   text-align: left;
   font-size: 24px;
-  font-family:'Anek Gurmukhi';
+  font-family: "Red Hat Displayt";
   margin-top: 24px; }
   .css_07_secao_titulo2.artes {
     color: #B9A9CB !important; }
@@ -2989,56 +2992,56 @@ span[data-text-edit-color] a {
   display: block;
   font-size: 11px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_08_tabela_gravata1 {
   display: block;
   font-size: 14px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin-top: 16px; }
 
 .css_08_tabela_gravata2 {
   display: block;
   font-size: 14px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin-top: 16px; }
 
 .css_08_tabela_gravata3 {
   display: block;
   font-size: 14px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin-top: 16px; }
 
 .css_08_tabela_item {
   display: block;
   font-size: 11px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_08_tabela_texto {
   display: block;
   font-size: 11px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_08_tabela_titulo {
   display: block;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_09_iniciais_peso1 {
   display: block;
   text-align: left;
   font-size: 24px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   text-transform: uppercase;
   margin: 16px 0px; }
   .css_09_iniciais_peso1.artes {
@@ -3070,7 +3073,7 @@ span[data-text-edit-color] a {
   display: block;
   text-align: left;
   font-size: 20px;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
   .css_09_iniciais_peso2.artes {
     color: #B9A9CB !important; }
@@ -3102,7 +3105,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_09_iniciais_peso4 {
@@ -3110,7 +3113,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_09_iniciais_texto1 {
@@ -3118,7 +3121,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_09_iniciais_texto2 {
@@ -3126,7 +3129,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_10_finais_exercicio_alternativa {
@@ -3134,7 +3137,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .container_faixa {
@@ -3350,7 +3353,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   padding-left: 10px;
   margin: 16px 0px; }
 
@@ -3359,7 +3362,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_10_finais_exercicio_item {
@@ -3367,7 +3370,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_10_finais_exercicio {
@@ -3375,7 +3378,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_10_finais_texto1 {
@@ -3383,7 +3386,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_10_finais_texto2 {
@@ -3391,7 +3394,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_10_finais_texto3 {
@@ -3399,14 +3402,14 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   margin: 16px 0px; }
 
 .css_10_finais_titulo1 {
   display: block;
   text-align: left;
   font-size: 20px;
-  font-family:'Anek Gurmukhi';
+  font-family: "Red Hat Displayt";
   margin-top: 24px; }
   .css_10_finais_titulo1.artes {
     color: #3F1F71 !important; }
@@ -3437,7 +3440,7 @@ span[data-text-edit-color] a {
   display: block;
   text-align: left;
   font-size: 20px;
-  font-family:'Anek Gurmukhi';
+  font-family: "Red Hat Displayt";
   margin-top: 24px; }
   .css_10_finais_titulo2.artes {
     color: #84A214 !important; }
@@ -3469,7 +3472,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #000;
-  font-family:'Anek Gurmukhi';
+  font-family: "Red Hat Displayt";
   margin-top: 24px; }
 
 .css_10_finais_titulo4 {
@@ -3477,7 +3480,7 @@ span[data-text-edit-color] a {
   text-align: left;
   font-size: 18px;
   color: #666666;
-  font-family:'Anek Gurmukhi';
+  font-family: "Red Hat Displayt";
   margin-top: 24px; }
 
 /* Container component style*/
@@ -4415,7 +4418,7 @@ blockquote {
   justify-content: space-between;
   color: #96171a; }
   .secao_produzir_e_compartilhar .titulo_produzir_e_compartilhar {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.875rem;
     margin: 0; }
@@ -4568,7 +4571,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: 'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -4591,7 +4594,7 @@ a {
   position: relative;
   justify-content: flex-start; }
   .secao_topo_produzir_e_compartilhar .titulo_topo_produzir_e_compartilhar {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.25rem;
     margin: 0; }
@@ -4674,7 +4677,7 @@ a {
   position: relative;
   justify-content: flex-start; }
   .secao_topo_quiz .titulo_topo_quiz {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.25rem;
     margin: 0; }
@@ -4758,7 +4761,7 @@ a {
   position: relative;
   justify-content: flex-start; }
   .secao_topo_para_aprofundar .titulo_topo_para_aprofundar {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.25rem;
     margin: 0; }
@@ -4843,7 +4846,7 @@ a {
   justify-content: space-between;
   color: #96171a; }
   .secao_para_aprofundar .titulo_para_aprofundar {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.875rem;
     margin: 0; }
@@ -4996,7 +4999,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: 'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -5017,7 +5020,7 @@ a {
   justify-content: space-between;
   color: #96171a; }
   .secao_para_consolidar .titulo_para_consolidar {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.875rem;
     margin: 0; }
@@ -5170,7 +5173,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: 'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -5189,7 +5192,7 @@ a {
   position: relative;
   justify-content: flex-start; }
   .secao_topo_para_consolidar .titulo_topo_para_consolidar {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.25rem;
     margin: 0; }
@@ -5276,7 +5279,7 @@ a {
   background-color: #edf8f7;
   color: #015F5B; }
   .secao_creating_and_sharing .titulo_creating_and_sharing {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.875rem; }
 
@@ -5325,7 +5328,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: 'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -5351,7 +5354,7 @@ a {
   border-right: 3px solid #ccebe9;
   color: #015F5B; }
   .secao_topo_creating_and_sharing .titulo_topo_creating_and_sharing {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.25rem;
     margin: 0; }
@@ -5387,7 +5390,7 @@ a {
   background-color: #edf8f7;
   color: #015F5B; }
   .secao_extra_practice .titulo_extra_practice {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.875rem;
     margin: 0; }
@@ -5437,7 +5440,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: 'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -5463,7 +5466,7 @@ a {
   border-right: 3px solid #ccebe9;
   color: #015F5B; }
   .secao_topo_extra_practice .titulo_topo_extra_practice {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.25rem;
     margin: 0; }
@@ -5499,7 +5502,7 @@ a {
   background-color: #edf8f7;
   color: #015F5B; }
   .secao_find_out_more .titulo_find_out_more {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.875rem;
     margin: 0; }
@@ -5549,7 +5552,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: 'Red Hat Display';
+  font-family: "Anek Gurmukhi";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -5575,7 +5578,7 @@ a {
   border-right: 3px solid #ccebe9;
   color: #015F5B; }
   .secao_topo_find_out_more .titulo_topo_find_out_more {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 700;
     font-size: 1.25rem;
     margin: 0; }
@@ -8463,7 +8466,7 @@ input[type="checkbox"] {
       color: #c9252c;
       font-size: 16px;
       font-weight: 700;
-      font-family: 'Red Hat Display';
+      font-family: "Red Hat Displayt";
       text-transform: uppercase;
       border: 1px solid #ccc;
       margin-bottom: 10px; }
@@ -8471,7 +8474,7 @@ input[type="checkbox"] {
       border: 1px solid #ccc;
       color: #666;
       font-size: 14px;
-      font-family: 'Red Hat Display';
+      font-family: "Red Hat Displayt";
       font-weight: 300; }
       .video_popup_center .video_popup__content .content-video__text span {
         color: #666 !important; }
@@ -8492,7 +8495,7 @@ input[type="checkbox"] {
   .CSSgal.artes .prevNext a {
     background-color: #3F1F71; }
   .CSSgal.artes .slider-subtitle {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 500;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
@@ -8502,7 +8505,7 @@ input[type="checkbox"] {
     margin-top: 4px;
     margin-bottom: 2px; }
   .CSSgal.artes .slider-credit {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
     color: #3F1F71;
@@ -8513,7 +8516,7 @@ input[type="checkbox"] {
   .CSSgal.lingua_portuguesa .prevNext a {
     background-color: #96171a; }
   .CSSgal.lingua_portuguesa .slider-subtitle {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 500;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
@@ -8523,7 +8526,7 @@ input[type="checkbox"] {
     margin-top: 4px;
     margin-bottom: 2px; }
   .CSSgal.lingua_portuguesa .slider-credit {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
     color: #96171a;
@@ -8534,7 +8537,7 @@ input[type="checkbox"] {
   .CSSgal.matematica .prevNext a {
     background-color: #033878; }
   .CSSgal.matematica .slider-subtitle {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 500;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
@@ -8544,7 +8547,7 @@ input[type="checkbox"] {
     margin-top: 4px;
     margin-bottom: 2px; }
   .CSSgal.matematica .slider-credit {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
     color: #033878;
@@ -8555,7 +8558,7 @@ input[type="checkbox"] {
   .CSSgal.lingua_inglesa .prevNext a {
     background-color: #015F5B; }
   .CSSgal.lingua_inglesa .slider-subtitle {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     font-weight: 500;
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
@@ -8565,7 +8568,7 @@ input[type="checkbox"] {
     margin-top: 4px;
     margin-bottom: 2px; }
   .CSSgal.lingua_inglesa .slider-credit {
-    font-family:'Red Hat Display';
+    font-family: "Red Hat Displayt";
     -webkit-flex-shrink: 0;
     flex-shrink: 0;
     color: #015F5B;
@@ -8591,7 +8594,7 @@ input[type="checkbox"] {
   transition: 0.8s; }
 
 .slider-subtitle {
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   font-weight: 500;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
@@ -8602,7 +8605,7 @@ input[type="checkbox"] {
   margin-bottom: 2px; }
 
 .slider-credit {
-  font-family:'Red Hat Display';
+  font-family: "Red Hat Displayt";
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
   color: black;

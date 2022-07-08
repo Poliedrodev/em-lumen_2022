@@ -71,7 +71,7 @@ $icon: $blue;
         color: $por_cor1;
         font-size: 16px;
         font-weight: 700;
-        font-family: 'Montserrat';
+        font-family: $fontPrincipal;
         text-transform: uppercase;
         margin-bottom: 2px;
     }
@@ -79,7 +79,7 @@ $icon: $blue;
     &__text {
         color: #666;
         font-size: 14px;
-        font-family: 'Montserrat';
+        font-family: $fontPrincipal;
         font-weight: 300;
     }
 

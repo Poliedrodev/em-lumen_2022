@@ -1,4 +1,7 @@
 .body-book {
+  background-position: center;
+  background-attachment: fixed;
+
   &.artes {
     background-image: url('https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ART.svg');
     background-size: cover;
@@ -84,6 +87,24 @@
     background-repeat: no-repeat;
     height: 100%;
 
+  }
+
+  &.edit-mode {
+    [doc-container] {
+      padding-bottom: 24px !important;
+      border-bottom: 3px solid #cecece !important;
+    }
+
+    [doc-container]:empty {
+      padding-bottom: 0 !important;
+      border-bottom: 0 !important;
+    }
+
+    [doc-editable] .empty-editable {
+      background-color: orange;
+      min-width: 5px;
+      min-height: 3px;
+    }
   }
 
 }

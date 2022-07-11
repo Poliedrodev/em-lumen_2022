@@ -1,0 +1,21 @@
+._06_BOXE_01 {
+  width: 100%;
+  padding: 16px 16px 24px 16px;
+  border: 2px solid $seg_mat_cor1;
+
+  &._mat_su_tec {
+    border: 2px solid $seg_mat_cor1;
+  }
+
+  &._cie_hu_su_tec {
+    border: 2px solid $seg_nat_cor1;
+  }
+
+  &._lin_su_tec {
+    border: 2px solid $seg_lin_cor1;
+  }
+
+  &._seg_hum_cor1 {
+    border: 2px solid $seg_mat_cor1;
+  }
+}

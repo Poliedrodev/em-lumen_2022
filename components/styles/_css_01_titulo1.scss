@@ -1,77 +1,95 @@
 .css_01_titulo1 {
 
-  /* Características do componente */
-  position: relative;
-  display: inline-flex;
+    /* Características do componente */
+    display: inline-flex;
+    margin-left: 59px;
 
-  .icone{
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/01_titulo1_lumen");
-  width: 25px;
-  height: 30px;
-  align-items: center;
-  }
-/* Características do texto */
-.text{
+
+    .icone {
+        background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+        width: 40px;
+        height: 30px;
+        align-items: center;
+        margin-top:6px;
+        background-repeat: no-repeat;
+    }
+
+    .texto{
         font-family: $fonteNova;
         font-weight: 800;
         font-size: 32px;
-        color: $preto;
-        margin: 40px 68px 0px 68px;
-        padding: 0px 0px 5px 0px;
+        margin: 0;
+        padding: 0;
         text-align: left;
         }
 
-  /* Variações de cores */
-  &.artes {
-    color: $art_cor1;
+    
+    /* Variações de cores */
+    &.artes {
+        .texto { color: $art_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+       
+    }
+
+    &.biologia {
+        .texto { color: $bio_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+        
+    }
+
+    &.quimica {
+        .texto { color: $qui_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+       
+    }
+
+    &.fisica {
+        .texto { color: $fis_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+        
+    }
+
+
+    &.geografia {
+        .texto { color: $geo_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+    }
+
+
+    &.historia {
+        .texto { color: $his_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+    }
+
+
+    &.sociologia {
+        .texto { color: $soc_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+    }
+
+
+    &.lingua_inglesa {
+        .texto { color: $ing_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+        
+    }
+
+    &.lingua_portuguesa {
+        .texto { color: $por_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+        
+    }
+
+    &.producao_de_texto {
+        .texto { color: $ptx_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+        
+    }
+
+
+    &.matematica {
+        .texto { color: $mat_cor1;}
+        .icone { background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");}
+    }
+
 }
-
-&.biologia {
-    color: $bio_cor1;
-}
-
-&.quimica {
-    color: $qui_cor1;
-}
-
-&.fisica {
-    color: $fis_cor1;
-}
-
-
-
-&.geografia {
-    color: $geo_cor1;
-}
-
-
-&.historia {
-    color: $his_cor1;
-}
-
-
-&.sociologia {
-    color: $soc_cor1;
-}
-
-
-&.lingua_inglesa {
-    color: $ing_cor1;
-}
-
-&.lingua_portuguesa {
-    color: $por_cor1;
-}
-
-&.producao_de_texto {
-    color: $ptx_cor1;
-}
-
-
-&.matematica {
-    color: $mat_cor1;
-}
-
-}
-
-

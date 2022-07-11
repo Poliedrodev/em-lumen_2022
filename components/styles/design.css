@@ -1727,45 +1727,67 @@ span[data-text-edit-color] a {
 
 .css_01_titulo1 {
   /* Características do componente */
-  position: relative;
   display: inline-flex;
-  /* Características do texto */
+  margin-left: 59px;
   /* Variações de cores */ }
   .css_01_titulo1 .icone {
-    background-image: url("https://livro-digital.p4ed.com/assets/icons/01_titulo1_lumen");
-    width: 25px;
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    width: 40px;
     height: 30px;
-    align-items: center; }
-  .css_01_titulo1 .text {
+    align-items: center;
+    margin-top: 6px;
+    background-repeat: no-repeat; }
+  .css_01_titulo1 .texto {
     font-family: "Anek Gurmukhi";
     font-weight: 800;
     font-size: 32px;
-    color: #000000;
-    margin: 40px 68px 0px 68px;
-    padding: 0px 0px 5px 0px;
+    margin: 0;
+    padding: 0;
     text-align: left; }
-  .css_01_titulo1.artes {
+  .css_01_titulo1.artes .texto {
     color: #64428C; }
-  .css_01_titulo1.biologia {
+  .css_01_titulo1.artes .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.biologia .texto {
     color: #45973D; }
-  .css_01_titulo1.quimica {
+  .css_01_titulo1.biologia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.quimica .texto {
     color: #B80071; }
-  .css_01_titulo1.fisica {
+  .css_01_titulo1.quimica .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.fisica .texto {
     color: #00909B; }
-  .css_01_titulo1.geografia {
+  .css_01_titulo1.fisica .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.geografia .texto {
     color: #D85509; }
-  .css_01_titulo1.historia {
+  .css_01_titulo1.geografia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.historia .texto {
     color: #951B81; }
-  .css_01_titulo1.sociologia {
+  .css_01_titulo1.historia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.sociologia .texto {
     color: #C71553; }
-  .css_01_titulo1.lingua_inglesa {
+  .css_01_titulo1.sociologia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.lingua_inglesa .texto {
     color: #069891; }
-  .css_01_titulo1.lingua_portuguesa {
+  .css_01_titulo1.lingua_inglesa .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.lingua_portuguesa .texto {
     color: #c9252c; }
-  .css_01_titulo1.producao_de_texto {
+  .css_01_titulo1.lingua_portuguesa .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.producao_de_texto .texto {
     color: #0F83A6; }
-  .css_01_titulo1.matematica {
+  .css_01_titulo1.producao_de_texto .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.matematica .texto {
     color: #1961AC; }
+  .css_01_titulo1.matematica .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
 
 .css_01_titulo2 {
   /* Características do componente */

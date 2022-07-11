@@ -66,5 +66,7 @@
     "TEMPLATE_PRODUCT_DESCRIPTION_PLACEHOLDER": "Escreva uma breve descrição do produto.",
     "TEMPLATE_PRODUCT_LINK_PLACEHOLDER": "www.example.com",
     "TEMPLATE_PRODUCT_PRICE_PLACEHOLDER": "Preço do produto",
+    "PROPERTY_CAPTION_LABEL": "Legenda",
+    "PROPERTY_CAPTION_CREDIT": "Créditos",
     "TEMPLATE_PRODUCT_TITLE_PLACEHOLDER": "Nome do produto"
 }

@@ -34,7 +34,7 @@
 /* Outros */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@300;600;700&family=Bitter:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&family=Red+Hat+Display:ital,wght@0,300;0,600;0,700;1,300;1,600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@300;600;700;800&family=Bitter:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&family=Red+Hat+Display:ital,wght@0,300;0,600;0,700;1,300;1,600&display=swap);
 ol,
 ul,
 li {
@@ -1684,67 +1684,85 @@ span[data-text-edit-color] a {
 .css_01_titulo1 {
   /* Características do componente */
   position: relative;
-  display: block;
+  display: inline-flex;
+  /* Características do texto */
   /* Variações de cores */ }
+  .css_01_titulo1 .icone {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/01_titulo1_lumen");
+    width: 25px;
+    height: 30px;
+    align-items: center; }
+  .css_01_titulo1 .text {
+    font-family: "Anek Gurmukhi";
+    font-weight: 800;
+    font-size: 32px;
+    color: #000000;
+    margin: 40px 68px 0px 68px;
+    padding: 0px 0px 5px 0px;
+    text-align: left; }
   .css_01_titulo1.artes {
-    color: #3F1F71; }
-  .css_01_titulo1.ciencias {
-    color: #306E2B; }
+    color: #64428C; }
+  .css_01_titulo1.biologia {
+    color: #45973D; }
+  .css_01_titulo1.quimica {
+    color: #B80071; }
+  .css_01_titulo1.fisica {
+    color: #00909B; }
   .css_01_titulo1.geografia {
-    color: #9E2705; }
+    color: #D85509; }
   .css_01_titulo1.historia {
-    color: #6A0F5A; }
+    color: #951B81; }
+  .css_01_titulo1.sociologia {
+    color: #C71553; }
   .css_01_titulo1.lingua_inglesa {
-    color: #015F5B; }
+    color: #069891; }
   .css_01_titulo1.lingua_portuguesa {
-    color: #96171a; }
+    color: #c9252c; }
+  .css_01_titulo1.producao_de_texto {
+    color: #0F83A6; }
   .css_01_titulo1.matematica {
-    color: #033878; }
-
-/* Características do texto */
-.text {
-  font-family: "Anek Gurmukhi";
-  font-weight: 800;
-  font-size: 2.5rem;
-  color: #000000;
-  margin: 40px 68px 0px 68px;
-  padding: 0px 0px 0px 0px; }
+    color: #1961AC; }
 
 .css_01_titulo2 {
   /* Características do componente */
-  position: relative;
   display: block;
-  /* Variações de cores */ }
-  .css_01_titulo2.artes {
-    color: #3F1F71; }
-  .css_01_titulo2.ciencias {
-    color: #306E2B; }
-  .css_01_titulo2.geografia {
-    color: #9E2705; }
-  .css_01_titulo2.historia {
-    color: #6A0F5A; }
-  .css_01_titulo2.lingua_inglesa {
-    color: #015F5B; }
-  .css_01_titulo2.lingua_portuguesa {
-    color: #96171a; }
-  .css_01_titulo2.matematica {
-    color: #033878; }
-
-/* Características do texto */
-.text {
   font-family: "Anek Gurmukhi";
-  font-weight: 600;
-  font-size: 32px;
+  font-weight: 400;
+  font-size: 26px;
   color: #000000;
   margin: 40px 0px 0px 68px;
-  padding: 0px 0px 0px 0px; }
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  /* Variações de cores */ }
+  .css_01_titulo2.artes {
+    color: #64428C; }
+  .css_01_titulo2.biologia {
+    color: #45973D; }
+  .css_01_titulo2.quimica {
+    color: #B80071; }
+  .css_01_titulo2.fisica {
+    color: #00909B; }
+  .css_01_titulo2.geografia {
+    color: #D85509; }
+  .css_01_titulo2.historia {
+    color: #951B81; }
+  .css_01_titulo2.sociologia {
+    color: #C71553; }
+  .css_01_titulo2.lingua_inglesa {
+    color: #069891; }
+  .css_01_titulo2.lingua_portuguesa {
+    color: #c9252c; }
+  .css_01_titulo2.producao_de_texto {
+    color: #0F83A6; }
+  .css_01_titulo2.matematica {
+    color: #1961AC; }
 
 .css_01_titulo3 {
   /* Características do texto */
   font-family: "Anek Gurmukhi";
   font-weight: 600;
-  font-size: 28px;
-  color: #4B4B4B;
+  font-size: 24px;
+  color: #666666;
   /* Características do componente */
   display: block;
   margin-top: 20px;
@@ -1756,7 +1774,7 @@ span[data-text-edit-color] a {
   /* Características do texto */
   font-family: "Anek Gurmukhi";
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 20px;
   color: #000;
   /* Características do componente */
   display: block;
@@ -2349,7 +2367,7 @@ span[data-text-edit-color] a {
   display: block;
   font-family: "Red Hat Displayt";
   font-weight: 400;
-  color: #000000;
+  color: #666666;
   line-height: 1.5em;
   font-size: 18px;
   margin-top: 32px; }
@@ -2432,8 +2450,8 @@ span[data-text-edit-color] a {
 
 .css_05_credito1 {
   display: block;
-  font-size: 9.8px;
-  color: #71706F;
+  font-size: 12x;
+  color: #666666;
   font-family: "Red Hat Displayt";
   font-weight: 400;
   margin-bottom: 0px;
@@ -2442,7 +2460,7 @@ span[data-text-edit-color] a {
 .css_05_credito2 {
   display: block;
   font-size: 9.8px;
-  color: #71706F;
+  color: #666666;
   font-family: "Red Hat Displayt";
   font-weight: 400;
   margin-bottom: 0px;

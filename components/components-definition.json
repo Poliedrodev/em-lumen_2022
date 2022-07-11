@@ -5,6 +5,28 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "css_07_secao_questão_resolvida",
+      "icon": "icons/components/container.svg",
+      "label": "Seção Questão resolvida",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_07_secao_aplicando_conhecimentos",
+      "icon": "icons/components/container.svg",
+      "label": "Seção Aplicando Conhecimentos",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "css_03_container_questao_resolvida",
       "icon": "icons/components/icon_03_exercicio_resolvido.svg",
       "label": "Questão Resolvida",
@@ -3796,6 +3818,8 @@
       "label": "07 secoes",
       "name": "07_secoes",
       "components": [
+        "css_07_secao_aplicando_conhecimentos",
+        "css_07_secao_questão_resolvida",
         "css_07_secao_exercicio_alternativa",
         "css_07_secao_exercicio_bullet",
         "css_07_secao_exercicio_continuacao",

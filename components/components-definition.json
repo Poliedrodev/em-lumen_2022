@@ -5,6 +5,18 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "css_03_container_questao_resolvida",
+      "icon": "icons/components/icon_03_exercicio_resolvido.svg",
+      "label": "Questão Resolvida",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "position",
+        "background-color"
+      ]
+    },
+    {
       "name": "06_BOXE_01",
       "icon": "icons/components/container.svg",
       "label": "Boxe com bordas",
@@ -3706,7 +3718,8 @@
         "css_03_exercicio_resolvido_bullet",
         "css_03_exercicio_resolvido_item",
         "css_03_exercicio_resolvido",
-        "css_03_exercicio_texto"
+        "css_03_exercicio_texto",
+        "css_03_container_questao_resolvida"
       ]
     },
     {

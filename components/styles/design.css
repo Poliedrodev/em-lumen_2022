@@ -188,9 +188,106 @@ span[data-text-edit-color] a {
 /**
  Additional styles for .social and .video components
  */
+.css_03_container_questao_resolvida {
+  clear: both;
+  background-color: #ECECEC !important;
+  display: block;
+  padding: 0px 16px 24px 16px;
+  margin-top: 80px;
+  font-family: "Anek Gurmukhi";
+  font-size: 20px;
+  /* media query */ }
+  .css_03_container_questao_resolvida .title_questao_resolvida {
+    margin-top: 6px; }
+  .css_03_container_questao_resolvida::after {
+    content: '';
+    display: block;
+    clear: both; }
+  .css_03_container_questao_resolvida > *:first-child {
+    margin-top: 0; }
+    .css_03_container_questao_resolvida > *:first-child._left + ._right {
+      margin-top: 0; }
+    .css_03_container_questao_resolvida > *:first-child._right + ._left {
+      margin-top: 0; }
+  .css_03_container_questao_resolvida > *:last-child {
+    margin-bottom: 0; }
+  .css_03_container_questao_resolvida > *._left + ._right:last-child {
+    margin-bottom: 20px; }
+  .css_03_container_questao_resolvida > *._right + ._left:last-child {
+    margin-bottom: 20px; }
+  .css_03_container_questao_resolvida .box_green {
+    width: 220px;
+    height: 44px;
+    position: relative;
+    top: -24px;
+    left: -16px;
+    background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #ffffff;
+    border: solid 3px #45973D; }
+    .css_03_container_questao_resolvida .box_green:before {
+      content: '';
+      background-image: url("img/css_03_boxe_questao_resolvida.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 36px;
+      height: 36px;
+      display: block; }
+  .css_03_container_questao_resolvida.artes .box_green {
+    background: linear-gradient(-90deg, #64428C 0%, rgba(100, 66, 140, 0.7) 100%);
+    border: solid 3px #64428C; }
+  .css_03_container_questao_resolvida.biologia .box_green {
+    background: linear-gradient(-90deg, #45973d 0%, rgba(69, 151, 61, 0.7) 100%);
+    border: solid 3px #45973d; }
+  .css_03_container_questao_resolvida.filosofia .box_green {
+    background: linear-gradient(-90deg, #536DA7 0%, rgba(83, 109, 167, 0.7) 100%);
+    border: solid 3px #536DA7; }
+  .css_03_container_questao_resolvida.fisica .box_green {
+    background: linear-gradient(-90deg, #00909B 0%, rgba(0, 144, 155, 0.7) 100%);
+    border: solid 3px #00909B; }
+  .css_03_container_questao_resolvida.geografia .box_green {
+    background: linear-gradient(-90deg, #D85509 0%, rgba(216, 85, 9, 0.7) 100%);
+    border: solid 3px #D85509; }
+  .css_03_container_questao_resolvida.historia .box_green {
+    background: linear-gradient(-90deg, #951B81 0%, rgba(149, 27, 129, 0.7) 100%);
+    border: solid 3px #951B81; }
+  .css_03_container_questao_resolvida.lingua_inglesa .box_green {
+    background: linear-gradient(-90deg, #069891 0%, rgba(6, 152, 145, 0.7) 100%);
+    border: solid 3px #069891; }
+  .css_03_container_questao_resolvida.lingua_portuguesa .box_green {
+    background: linear-gradient(-90deg, #C51A1B 0%, rgba(197, 26, 27, 0.7) 100%);
+    border: solid 3px #C51A1B; }
+  .css_03_container_questao_resolvida.matematica .box_green {
+    background: linear-gradient(-90deg, #1961AC 0%, rgba(25, 97, 172, 0.7) 100%);
+    border: solid 3px #1961AC; }
+  .css_03_container_questao_resolvida.producao_de_texto .box_green {
+    background: linear-gradient(-90deg, #0F83A6 0%, rgba(15, 131, 166, 0.7) 100%);
+    border: solid 3px #0F83A6; }
+  .css_03_container_questao_resolvida.quimica .box_green {
+    background: linear-gradient(-90deg, #B80071 0%, rgba(184, 0, 113, 0.7) 100%);
+    border: solid 3px #B80071; }
+  .css_03_container_questao_resolvida.sociologia .box_green {
+    background: linear-gradient(-90deg, #C71553 0%, rgba(199, 21, 83, 0.7) 100%);
+    border: solid 3px #C71553; }
+  @media only screen and (min-width: 481px) {
+    .css_03_container_questao_resolvida._left {
+      float: left;
+      clear: left;
+      width: 50%;
+      z-index: 1; }
+    .css_03_container_questao_resolvida._right {
+      float: right;
+      clear: right;
+      width: 50%;
+      z-index: 1; } }
+
 ._06_BOXE_01 {
   margin-top: 2.375rem;
-  width: 100%;
   padding: 16px 16px 24px 16px;
   border: 2px solid #F1CB40; }
   ._06_BOXE_01:first-child {
@@ -358,6 +455,7 @@ span[data-text-edit-color] a {
       background-color: #D7EDE3; }
 
 ._06_BOXE_19 {
+  margin-top: 2.375rem;
   padding: 16px 16px 24px 16px;
   background-color: #F1CB40; }
   ._06_BOXE_19:first-child {

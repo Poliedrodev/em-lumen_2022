@@ -23,6 +23,33 @@
       ]
     },
     {
+      "name": "06_BOXE_03",
+      "icon": "icons/components/container.svg",
+      "label": "Boxe Discussão em sala",
+      "properties": [
+        "style_areas",
+        "text-align"
+      ]
+    },
+    {
+      "name": "06_BOXE_04",
+      "icon": "icons/components/container.svg",
+      "label": "Boxe Experimento",
+      "properties": [
+        "style_areas",
+        "text-align"
+      ]
+    },
+    {
+      "name": "06_BOXE_19",
+      "icon": "icons/components/container.svg",
+      "label": "Boxe Background Color",
+      "properties": [
+        "style_areas",
+        "text-align"
+      ]
+    },
+    {
       "name": "audio",
       "icon": "icons/components/icon_00_arte.svg",
       "label": "Componente Áudio",
@@ -3721,6 +3748,9 @@
       "components": [
         "06_BOXE_01",
         "06_BOXE_02",
+        "06_BOXE_03",
+        "06_BOXE_04",
+        "06_BOXE_19",
         "css_06_boxe_bullet",
         "css_06_boxe_exercicio_continuacao",
         "css_06_boxe_exercicio",

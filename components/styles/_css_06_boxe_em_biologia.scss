@@ -1,4 +1,4 @@
-.css_06_boxe_em_fisica {
+.css_06_boxe_em_biologia {
     margin-top: 32px;
 
     .collapsible-title {
@@ -12,7 +12,7 @@
             color: #84A214;
         }
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
@@ -30,7 +30,7 @@
         }
 
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_MT.svg');
@@ -47,7 +47,7 @@
             color: #208F6D;
         }
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
@@ -57,14 +57,14 @@
         }
     }
 
-    &.fisica {
+    &.biologia {
         background: linear-gradient(180deg, rgba(252, 225, 188, 1) 25%, rgba(255, 255, 255, 1) 100%);
 
         .collapsible-title {
             color: #BD8432;
         }
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CT.svg');
@@ -82,7 +82,7 @@
         }
 
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
@@ -100,7 +100,7 @@
         }
 
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
@@ -118,7 +118,7 @@
         }
 
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
@@ -137,7 +137,7 @@
 
 
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
@@ -156,7 +156,7 @@
 
 
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CT.svg');
@@ -175,7 +175,7 @@
 
 
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg');
@@ -192,7 +192,7 @@
             color: #BD8432;
         }
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_MT.svg');
@@ -209,7 +209,7 @@
             color: #208F6D;
         }
 
-        .icon_boxe_em_fisica {
+        .icon_boxe_em_biologia {
             width: 2rem;
             height: 2rem;
             background: url('https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg');
@@ -220,7 +220,7 @@
     }
 }
 
-.css_06_boxe_em_fisica .text-credit {
+.css_06_boxe_em_biologia .text-credit {
     padding: 0 !important;
     margin-bottom: 1rem;
     font-size: 0.75rem;
@@ -232,7 +232,7 @@ input[type="checkbox"] {
     display: none;
 }
 
-.lbl-toggle-fisica {
+.lbl-toggle-biologia {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -245,15 +245,15 @@ input[type="checkbox"] {
 
 }
 
-.toggle:checked+.lbl-toggle-fisica+.collapsible-content-em-fisica {
+.toggle:checked+.lbl-toggle-biologia+.collapsible-content-em-biologia {
     max-height: 90rem;
 }
 
-.toggle:checked+.lbl-toggle-fisica .ion-md-add {
+.toggle:checked+.lbl-toggle-biologia .ion-md-add {
     display: none;
 }
 
-.toggle:checked+.lbl-toggle-fisica .ion-md-remove {
+.toggle:checked+.lbl-toggle-biologia .ion-md-remove {
     display: block;
 }
 
@@ -261,16 +261,16 @@ input[type="checkbox"] {
     display: none;
 }
 
-.toggle:checked+.lbl-toggle-fisica {
+.toggle:checked+.lbl-toggle-biologia {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.collapsible-content-em-fisica .content-inner {
+.collapsible-content-em-biologia .content-inner {
     padding: 0 1rem;
 }
 
-.collapsible-content-em-fisica {
+.collapsible-content-em-biologia {
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.25s ease-in-out;

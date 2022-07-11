@@ -189,48 +189,187 @@ span[data-text-edit-color] a {
  Additional styles for .social and .video components
  */
 ._06_BOXE_01 {
+  margin-top: 2.375rem;
   width: 100%;
   padding: 16px 16px 24px 16px;
   border: 2px solid #F1CB40; }
+  ._06_BOXE_01:first-child {
+    margin-top: 0; }
   ._06_BOXE_01._mat_su_tec {
     border: 2px solid #F1CB40; }
   ._06_BOXE_01._cie_hu_su_tec {
     border: 2px solid #F7A941; }
   ._06_BOXE_01._lin_su_tec {
     border: 2px solid #bfd730; }
-  ._06_BOXE_01._seg_hum_cor1 {
+  ._06_BOXE_01._cie_hu_so_api {
     border: 2px solid #F1CB40; }
 
 ._06_BOXE_02 {
+  margin-top: 2.375rem;
   width: 100%;
-  padding: 16px 16px 24px 16px;
-  border: 2px solid #F1CB40;
+  border: 3px solid #F1CB40;
   position: relative; }
-  ._06_BOXE_02 .header {
+  ._06_BOXE_02:first-child {
+    margin-top: 0; }
+  ._06_BOXE_02 .header_06_BOXE_02 {
+    font-family: "Anek Gurmukhi";
     position: absolute;
-    top: -10px;
-    left: 0;
+    top: -25px;
+    left: -3px;
     background-color: #C09100;
-    border: 2px solid #F1CB40;
+    border: 3px solid #F1CB40;
     width: 100px;
     height: 44px;
     display: flex;
-    align-items: center; }
-    ._06_BOXE_02 .header .icon {
+    align-items: center;
+    gap: 8px; }
+    ._06_BOXE_02 .header_06_BOXE_02 .icon_06_BOXE_02 {
       width: 36px;
       height: 36px; }
-    ._06_BOXE_02 .header .title {
+    ._06_BOXE_02 .header_06_BOXE_02 .title_06_BOXE_02 {
+      margin-top: 6px;
       font-size: 20px;
       letter-spacing: 0px;
       color: #FFFFFF; }
+  ._06_BOXE_02 .main_06_BOXE_02 {
+    padding: 38px 16px 24px 16px; }
   ._06_BOXE_02._mat_su_tec {
-    border: 2px solid #F1CB40; }
+    border: 3px solid #F1CB40; }
+    ._06_BOXE_02._mat_su_tec .header_06_BOXE_02 {
+      border: 3px solid #F1CB40;
+      background-color: #C09100; }
   ._06_BOXE_02._cie_hu_su_tec {
-    border: 2px solid #F7A941; }
+    border: 3px solid #F7A941; }
+    ._06_BOXE_02._cie_hu_su_tec .header_06_BOXE_02 {
+      border: 3px solid #F7A941;
+      background-color: #BD8432; }
   ._06_BOXE_02._lin_su_tec {
-    border: 2px solid #bfd730; }
-  ._06_BOXE_02._seg_hum_cor1 {
-    border: 2px solid #F1CB40; }
+    border: 3px solid #bfd730; }
+    ._06_BOXE_02._lin_su_tec .header_06_BOXE_02 {
+      border: 3px solid #bfd730;
+      background-color: #62883b; }
+  ._06_BOXE_02._cie_hu_so_api {
+    border: 3px solid #8CCAAE; }
+    ._06_BOXE_02._cie_hu_so_api .header_06_BOXE_02 {
+      border: 3px solid #8CCAAE;
+      background-color: #208F6D; }
+
+._06_BOXE_03 {
+  margin-top: 2.375rem;
+  width: 100%;
+  border: 3px solid #F1CB40;
+  position: relative; }
+  ._06_BOXE_03:first-child {
+    margin-top: 0; }
+  ._06_BOXE_03 .header_06_BOXE_03 {
+    font-family: "Anek Gurmukhi";
+    position: absolute;
+    top: -25px;
+    left: -3px;
+    background-color: #C09100;
+    border: 3px solid #F1CB40;
+    width: 220px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 8px; }
+    ._06_BOXE_03 .header_06_BOXE_03 .icon_06_BOXE_03 {
+      width: 36px;
+      height: 36px; }
+    ._06_BOXE_03 .header_06_BOXE_03 .title_06_BOXE_03 {
+      margin-top: 6px;
+      font-size: 20px;
+      letter-spacing: 0px;
+      color: #FFFFFF; }
+  ._06_BOXE_03 .main_06_BOXE_03 {
+    padding: 38px 16px 24px 16px; }
+  ._06_BOXE_03._mat_su_tec {
+    border: 3px solid #F1CB40; }
+    ._06_BOXE_03._mat_su_tec .header_06_BOXE_03 {
+      border: 3px solid #F1CB40;
+      background-color: #C09100; }
+  ._06_BOXE_03._cie_hu_su_tec {
+    border: 3px solid #F7A941; }
+    ._06_BOXE_03._cie_hu_su_tec .header_06_BOXE_03 {
+      border: 3px solid #F7A941;
+      background-color: #BD8432; }
+  ._06_BOXE_03._lin_su_tec {
+    border: 3px solid #bfd730; }
+    ._06_BOXE_03._lin_su_tec .header_06_BOXE_03 {
+      border: 3px solid #bfd730;
+      background-color: #62883b; }
+  ._06_BOXE_03._cie_hu_so_api {
+    border: 3px solid #8CCAAE; }
+    ._06_BOXE_03._cie_hu_so_api .header_06_BOXE_03 {
+      border: 3px solid #8CCAAE;
+      background-color: #208F6D; }
+
+._06_BOXE_04 {
+  margin-top: 2.375rem;
+  width: 100%;
+  border: 3px solid #F1CB40; }
+  ._06_BOXE_04:first-child {
+    margin-top: 0; }
+  ._06_BOXE_04 .header_06_BOXE_04 {
+    height: 44px;
+    font-family: "Anek Gurmukhi";
+    background-color: #C09100;
+    border-bottom: 3px solid #F1CB40;
+    display: flex;
+    align-items: center;
+    gap: 8px; }
+    ._06_BOXE_04 .header_06_BOXE_04 .icon_06_BOXE_04 {
+      width: 36px;
+      height: 36px; }
+    ._06_BOXE_04 .header_06_BOXE_04 .title_06_BOXE_04 {
+      margin-top: 6px;
+      font-size: 20px;
+      letter-spacing: 0px;
+      color: #FFFFFF; }
+  ._06_BOXE_04 .main_06_BOXE_04 {
+    padding: 38px 16px 24px 16px; }
+  ._06_BOXE_04._mat_su_tec {
+    border: 3px solid #F1CB40; }
+    ._06_BOXE_04._mat_su_tec .header_06_BOXE_04 {
+      border-bottom: 3px solid #F1CB40;
+      background: transparent linear-gradient(90deg, #F1CB40 0%, #C09100 100%) 0% 0% no-repeat padding-box; }
+    ._06_BOXE_04._mat_su_tec .main_06_BOXE_04 {
+      background-color: #FAEDBC; }
+  ._06_BOXE_04._cie_hu_su_tec {
+    border: 3px solid #F7A941; }
+    ._06_BOXE_04._cie_hu_su_tec .header_06_BOXE_04 {
+      border-bottom: 3px solid #F7A941;
+      background: transparent linear-gradient(90deg, #F7A941 0%, #BD8432 100%) 0% 0% no-repeat padding-box; }
+    ._06_BOXE_04._cie_hu_su_tec .main_06_BOXE_04 {
+      background-color: #FCE1BC; }
+  ._06_BOXE_04._lin_su_tec {
+    border: 3px solid #bfd730; }
+    ._06_BOXE_04._lin_su_tec .header_06_BOXE_04 {
+      border-bottom: 3px solid #bfd730;
+      background: transparent linear-gradient(90deg, #F1CB40 0%, #C09100 100%) 0% 0% no-repeat padding-box; }
+    ._06_BOXE_04._lin_su_tec .main_06_BOXE_04 {
+      background-color: #ECF0A6; }
+  ._06_BOXE_04._cie_hu_so_api {
+    border: 3px solid #8CCAAE; }
+    ._06_BOXE_04._cie_hu_so_api .header_06_BOXE_04 {
+      border-bottom: 3px solid #8CCAAE;
+      background: transparent linear-gradient(90deg, #8CCAAE 0%, #208F6D 100%) 0% 0% no-repeat padding-box; }
+    ._06_BOXE_04._cie_hu_so_api .main_06_BOXE_04 {
+      background-color: #D7EDE3; }
+
+._06_BOXE_19 {
+  padding: 16px 16px 24px 16px;
+  background-color: #F1CB40; }
+  ._06_BOXE_19:first-child {
+    margin-top: 0; }
+  ._06_BOXE_19._mat_su_tec {
+    background-color: #F1CB40; }
+  ._06_BOXE_19._cie_hu_su_tec {
+    background-color: #F7A941; }
+  ._06_BOXE_19._lin_su_tec {
+    background-color: #bfd730; }
+  ._06_BOXE_19._cie_hu_so_api {
+    background-color: #F1CB40; }
 
 .audio {
   position: relative;
@@ -5831,136 +5970,140 @@ input[type="checkbox"] {
   align-items: center;
   gap: 0.5rem; }
 
-.css_06_boxe_em_fisica {
+.collapsible-title {
+  font-family: "Anek Gurmukhi" !important;
+  margin-top: 6px !important; }
+
+.css_06_boxe_em_biologia {
   margin-top: 32px; }
-  .css_06_boxe_em_fisica .collapsible-title {
+  .css_06_boxe_em_biologia .collapsible-title {
     margin: 0; }
-  .css_06_boxe_em_fisica.artes {
+  .css_06_boxe_em_biologia.artes {
     background: linear-gradient(180deg, #dce4c2 25%, white 100%); }
-    .css_06_boxe_em_fisica.artes .collapsible-title {
+    .css_06_boxe_em_biologia.artes .collapsible-title {
       color: #84A214; }
-    .css_06_boxe_em_fisica.artes .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.artes .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.biologia {
+  .css_06_boxe_em_biologia.biologia {
     background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
-    .css_06_boxe_em_fisica.biologia .collapsible-title {
+    .css_06_boxe_em_biologia.biologia .collapsible-title {
       color: #BD8432; }
-    .css_06_boxe_em_fisica.biologia .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.biologia .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_MT.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.filosofia {
+  .css_06_boxe_em_biologia.filosofia {
     background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
-    .css_06_boxe_em_fisica.filosofia .collapsible-title {
+    .css_06_boxe_em_biologia.filosofia .collapsible-title {
       color: #208F6D; }
-    .css_06_boxe_em_fisica.filosofia .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.filosofia .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.fisica {
+  .css_06_boxe_em_biologia.biologia {
     background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
-    .css_06_boxe_em_fisica.fisica .collapsible-title {
+    .css_06_boxe_em_biologia.biologia .collapsible-title {
       color: #BD8432; }
-    .css_06_boxe_em_fisica.fisica .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.biologia .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CT.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.geografia {
+  .css_06_boxe_em_biologia.geografia {
     background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
-    .css_06_boxe_em_fisica.geografia .collapsible-title {
+    .css_06_boxe_em_biologia.geografia .collapsible-title {
       color: #208F6D; }
-    .css_06_boxe_em_fisica.geografia .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.geografia .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.historia {
+  .css_06_boxe_em_biologia.historia {
     background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
-    .css_06_boxe_em_fisica.historia .collapsible-title {
+    .css_06_boxe_em_biologia.historia .collapsible-title {
       color: #208F6D; }
-    .css_06_boxe_em_fisica.historia .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.historia .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.lingua_inglesa {
+  .css_06_boxe_em_biologia.lingua_inglesa {
     background: linear-gradient(180deg, #dce4c2 25%, white 100%); }
-    .css_06_boxe_em_fisica.lingua_inglesa .collapsible-title {
+    .css_06_boxe_em_biologia.lingua_inglesa .collapsible-title {
       color: #84A214 !important; }
-    .css_06_boxe_em_fisica.lingua_inglesa .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.lingua_inglesa .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.lingua_portuguesa {
+  .css_06_boxe_em_biologia.lingua_portuguesa {
     background: linear-gradient(180deg, #dce4c2 25%, white 100%); }
-    .css_06_boxe_em_fisica.lingua_portuguesa .collapsible-title {
+    .css_06_boxe_em_biologia.lingua_portuguesa .collapsible-title {
       color: #84A214 !important; }
-    .css_06_boxe_em_fisica.lingua_portuguesa .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.lingua_portuguesa .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.matematica {
+  .css_06_boxe_em_biologia.matematica {
     background: linear-gradient(180deg, #faedbc 25%, white 100%) !important; }
-    .css_06_boxe_em_fisica.matematica .collapsible-title {
+    .css_06_boxe_em_biologia.matematica .collapsible-title {
       color: #C09100 !important; }
-    .css_06_boxe_em_fisica.matematica .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.matematica .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CT.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.producao_de_texto {
+  .css_06_boxe_em_biologia.producao_de_texto {
     background: linear-gradient(180deg, #dce4c2 25%, white 100%); }
-    .css_06_boxe_em_fisica.producao_de_texto .collapsible-title {
+    .css_06_boxe_em_biologia.producao_de_texto .collapsible-title {
       color: #84A214; }
-    .css_06_boxe_em_fisica.producao_de_texto .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.producao_de_texto .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_LT.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.quimica {
+  .css_06_boxe_em_biologia.quimica {
     background: linear-gradient(180deg, #fce1bc 25%, white 100%); }
-    .css_06_boxe_em_fisica.quimica .collapsible-title {
+    .css_06_boxe_em_biologia.quimica .collapsible-title {
       color: #BD8432; }
-    .css_06_boxe_em_fisica.quimica .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.quimica .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_MT.svg");
       background-size: contain !important;
       background-repeat: no-repeat;
       background-position: center; }
-  .css_06_boxe_em_fisica.sociologia {
+  .css_06_boxe_em_biologia.sociologia {
     background: linear-gradient(180deg, #d7ede3 25%, white 100%); }
-    .css_06_boxe_em_fisica.sociologia .collapsible-title {
+    .css_06_boxe_em_biologia.sociologia .collapsible-title {
       color: #208F6D; }
-    .css_06_boxe_em_fisica.sociologia .icon_boxe_em_fisica {
+    .css_06_boxe_em_biologia.sociologia .icon_boxe_em_biologia {
       width: 2rem;
       height: 2rem;
       background: url("https://livro-digital.p4ed.com/assets/icons/lumen/06_BOXE_06_CS.svg");
@@ -5968,7 +6111,7 @@ input[type="checkbox"] {
       background-repeat: no-repeat;
       background-position: center; }
 
-.css_06_boxe_em_fisica .text-credit {
+.css_06_boxe_em_biologia .text-credit {
   padding: 0 !important;
   margin-bottom: 1rem;
   font-size: 0.75rem;
@@ -5978,7 +6121,7 @@ input[type="checkbox"] {
 input[type="checkbox"] {
   display: none; }
 
-.lbl-toggle-fisica {
+.lbl-toggle-biologia {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -5989,26 +6132,26 @@ input[type="checkbox"] {
   cursor: pointer;
   transition: all 0.25s ease-out; }
 
-.toggle:checked + .lbl-toggle-fisica + .collapsible-content-em-fisica {
+.toggle:checked + .lbl-toggle-biologia + .collapsible-content-em-biologia {
   max-height: 90rem; }
 
-.toggle:checked + .lbl-toggle-fisica .ion-md-add {
+.toggle:checked + .lbl-toggle-biologia .ion-md-add {
   display: none; }
 
-.toggle:checked + .lbl-toggle-fisica .ion-md-remove {
+.toggle:checked + .lbl-toggle-biologia .ion-md-remove {
   display: block; }
 
 .ion-md-remove {
   display: none; }
 
-.toggle:checked + .lbl-toggle-fisica {
+.toggle:checked + .lbl-toggle-biologia {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
-.collapsible-content-em-fisica .content-inner {
+.collapsible-content-em-biologia .content-inner {
   padding: 0 1rem; }
 
-.collapsible-content-em-fisica {
+.collapsible-content-em-biologia {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.25s ease-in-out; }
@@ -8332,63 +8475,51 @@ input[type="checkbox"] {
   .body-book.artes {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ART.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.biologia {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.filosofia {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIL.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.fisica {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIS.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.geografia {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_GEO.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.historia {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_HIS.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.lingua_inglesa {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ING.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.lingua_portuguesa {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_POR.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.matematica {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_MAT.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.producao_de_texto {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_PXT.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.quimica {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.sociologia {
     background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_SOC.svg");
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%; }
+    background-repeat: no-repeat; }
   .body-book.edit-mode [doc-container] {
     padding-bottom: 24px !important;
     border-bottom: 3px solid #cecece !important; }

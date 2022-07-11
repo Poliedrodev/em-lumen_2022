@@ -2108,6 +2108,18 @@
       }
     },
     {
+      "name": "css_07_secao_consolidando_saberes",
+      "icon": "icons/components/icon_07_secao_texto2.svg",
+      "label": "07 Seção Consolidando Saberes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+      
+    },
+    {
       "name": "css_07_secao_titulo_citado",
       "icon": "icons/components/icon_07_secao_titulo_citado.svg",
       "label": "07 Seção Título Citado",
@@ -3768,6 +3780,7 @@
         "css_07_secao_titulo1",
         "css_07_secao_titulo2",
         "css_07_secao_titulo3",
+        "css_07_secao_consolidando_saberes",
         "css_07_secao_titulo4"
       ]
     },

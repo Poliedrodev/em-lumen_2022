@@ -53,8 +53,8 @@ h3 {
 /* Font embeds, examples see: https://www.google.com/fonts */
 /* Imports the style from the google fonts cdn */
 /* Article view style */
-html,
-body {
+.body-book,
+.body {
   padding: 0;
   margin: 0;
   font: 14px "Red Hat Displayt";
@@ -65,17 +65,17 @@ body {
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-overflow-scrolling: touch; }
-  html :focus,
-  body :focus {
+  .body-book :focus,
+  .body :focus {
     outline: none; }
 
-body {
+.body {
   max-width: 860px;
   padding: 0 5px;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden; }
-  body::after {
+  .body::after {
     content: ' ';
     display: block;
     clear: both; }
@@ -112,7 +112,7 @@ span[data-text-edit-color] a {
  */
 .hero-js {
   height: 100%; }
-  .hero-js body {
+  .hero-js .body {
     height: 100%; }
   .hero-js ._hero-bg-box {
     position: absolute;
@@ -147,17 +147,17 @@ span[data-text-edit-color] a {
     overflow-y: auto; }
     .hero-js ._hero-content-box ._hero-content-wrapper {
       background-color: #ffffff; }
-      .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body {
+      .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-.body {
         max-width: 860px;
         padding: 0 5px;
         margin-left: auto;
         margin-right: auto;
         overflow-x: hidden; }
-        .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-body::after {
+        .hero-js ._hero-content-box ._hero-content-wrapper ._hero-content-.body::after {
           content: ' ';
           display: block;
           clear: both; }
-  .hero-js.hero-js-android body {
+  .hero-js.hero-js-android .body {
     max-width: none; }
   .hero-js.hero-js-android ._hero-bg-box {
     position: fixed; }
@@ -188,6 +188,50 @@ span[data-text-edit-color] a {
 /**
  Additional styles for .social and .video components
  */
+._06_BOXE_01 {
+  width: 100%;
+  padding: 16px 16px 24px 16px;
+  border: 2px solid #F1CB40; }
+  ._06_BOXE_01._mat_su_tec {
+    border: 2px solid #F1CB40; }
+  ._06_BOXE_01._cie_hu_su_tec {
+    border: 2px solid #F7A941; }
+  ._06_BOXE_01._lin_su_tec {
+    border: 2px solid #bfd730; }
+  ._06_BOXE_01._seg_hum_cor1 {
+    border: 2px solid #F1CB40; }
+
+._06_BOXE_02 {
+  width: 100%;
+  padding: 16px 16px 24px 16px;
+  border: 2px solid #F1CB40;
+  position: relative; }
+  ._06_BOXE_02 .header {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    background-color: #C09100;
+    border: 2px solid #F1CB40;
+    width: 100px;
+    height: 44px;
+    display: flex;
+    align-items: center; }
+    ._06_BOXE_02 .header .icon {
+      width: 36px;
+      height: 36px; }
+    ._06_BOXE_02 .header .title {
+      font-size: 20px;
+      letter-spacing: 0px;
+      color: #FFFFFF; }
+  ._06_BOXE_02._mat_su_tec {
+    border: 2px solid #F1CB40; }
+  ._06_BOXE_02._cie_hu_su_tec {
+    border: 2px solid #F7A941; }
+  ._06_BOXE_02._lin_su_tec {
+    border: 2px solid #bfd730; }
+  ._06_BOXE_02._seg_hum_cor1 {
+    border: 2px solid #F1CB40; }
+
 .audio {
   position: relative;
   width: 84%;
@@ -8300,77 +8344,79 @@ input[type="checkbox"] {
   align-items: center;
   gap: 0.5rem; }
 
-.body-book.artes {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ART.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.biologia {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.filosofia {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIL.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.fisica {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIS.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.geografia {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_GEO.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.historia {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_HIS.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.lingua_inglesa {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ING.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.lingua_portuguesa {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_POR.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.matematica {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_MAT.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.producao_de_texto {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_PXT.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.quimica {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
-
-.body-book.sociologia {
-  background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_SOC.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%; }
+.body-book {
+  background-position: center;
+  background-attachment: fixed; }
+  .body-book.artes {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ART.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.biologia {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.filosofia {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIL.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.fisica {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_FIS.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.geografia {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_GEO.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.historia {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_HIS.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.lingua_inglesa {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_ING.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.lingua_portuguesa {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_POR.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.matematica {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_MAT.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.producao_de_texto {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_PXT.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.quimica {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.sociologia {
+    background-image: url("https://livro-digital.p4ed.com/assets/icons/lumen/LUMEN_SOC.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; }
+  .body-book.edit-mode [doc-container] {
+    padding-bottom: 24px !important;
+    border-bottom: 3px solid #cecece !important; }
+  .body-book.edit-mode [doc-container]:empty {
+    padding-bottom: 0 !important;
+    border-bottom: 0 !important; }
+  .body-book.edit-mode [doc-editable] .empty-editable {
+    background-color: orange;
+    min-width: 5px;
+    min-height: 3px; }
 
 .doc-section [doc-editable]:empty {
   background: transparent !important; }

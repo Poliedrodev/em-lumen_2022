@@ -1,0 +1,46 @@
+._06_BOXE_02 {
+  width: 100%;
+  padding: 16px 16px 24px 16px;
+  border: 2px solid $seg_mat_cor1;
+
+  position: relative;
+
+  .header {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    background-color: $seg_mat_cor2;
+    border: 2px solid $seg_mat_cor1;
+    width: 100px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+
+    .icon {
+      width: 36px;
+      height: 36px;
+    }
+
+    .title {
+      font-size: 20px;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+    }
+  }
+
+  &._mat_su_tec {
+    border: 2px solid $seg_mat_cor1;
+  }
+
+  &._cie_hu_su_tec {
+    border: 2px solid $seg_nat_cor1;
+  }
+
+  &._lin_su_tec {
+    border: 2px solid $seg_lin_cor1;
+  }
+
+  &._seg_hum_cor1 {
+    border: 2px solid $seg_mat_cor1;
+  }
+}

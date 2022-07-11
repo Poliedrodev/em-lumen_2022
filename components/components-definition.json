@@ -5,6 +5,24 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "06_BOXE_01",
+      "icon": "icons/components/container.svg",
+      "label": "Boxe com bordas",
+      "properties": [
+        "style_areas",
+        "text-align"
+      ]
+    },
+    {
+      "name": "06_BOXE_02",
+      "icon": "icons/components/container.svg",
+      "label": "Boxe Mais",
+      "properties": [
+        "style_areas",
+        "text-align"
+      ]
+    },
+    {
       "name": "audio",
       "icon": "icons/components/icon_00_arte.svg",
       "label": "Componente Áudio",
@@ -3274,7 +3292,8 @@
       "allowNesting": "yes",
       "label": "Background Livro",
       "properties": [
-        "style_lumen_mais"
+        "edit-mode",
+        "style"
       ]
     },
     {
@@ -3700,6 +3719,8 @@
       "label": "06 boxes",
       "name": "06_boxes",
       "components": [
+        "06_BOXE_01",
+        "06_BOXE_02",
         "css_06_boxe_bullet",
         "css_06_boxe_exercicio_continuacao",
         "css_06_boxe_exercicio",
@@ -3854,6 +3875,57 @@
     }
   ],
   "componentProperties": [
+    {
+      "name": "style_areas",
+      "label": "Área de conhecimento",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "CIENCIAS HUMANAS E SOCIAIS APLICADAS"
+              }
+            },
+            "value": "_cie_hu_so_api"
+          },
+          {
+            "caption": {
+              "key": "MATEMATICA E SUAS TECNOLOGIAS ",
+              "values": {
+                "0": "Resumindo"
+              }
+            },
+            "value": "_mat_su_tec"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "CIENCIAS HUMANAS E SUAS TECNOLOGIAS "
+              }
+            },
+            "value": "_cie_hu_su_tec"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "LINGUAGENS E SUAS TECNOLOGIAS "
+              }
+            },
+            "value": "_lin_su_tec"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
     {
       "name": "position",
       "label": {
@@ -4092,24 +4164,6 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "ciencias"
-              }
-            },
-            "value": "ciencias"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "educacao_fisica"
-              }
-            },
-            "value": "educacao_fisica"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "filosofia"
               }
             },
@@ -4137,46 +4191,10 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "gramatica"
-              }
-            },
-            "value": "gramatica"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "historia"
               }
             },
             "value": "historia"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "integrado"
-              }
-            },
-            "value": "integrado"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "inter_de_texto"
-              }
-            },
-            "value": "inter_de_texto"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "lingua_espanhola"
-              }
-            },
-            "value": "lingua_espanhola"
           },
           {
             "caption": {
@@ -4200,37 +4218,10 @@
             "caption": {
               "key": "PROPERTY_VARIANT_STYLE_OPTION",
               "values": {
-                "0": "linguagens"
-              }
-            },
-            "value": "linguagens"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "literatura"
-              }
-            },
-            "value": "literatura"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
                 "0": "matematica"
               }
             },
             "value": "matematica"
-          },
-          {
-            "caption": {
-              "key": "PROPERTY_VARIANT_STYLE_OPTION",
-              "values": {
-                "0": "musica"
-              }
-            },
-            "value": "musica"
           },
           {
             "caption": {
@@ -4258,6 +4249,23 @@
               }
             },
             "value": "sociologia"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
+    {
+      "name": "edit-mode",
+      "label": "Ative para ver o modo de edição com barras",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": "Desativado"
+          },
+          {
+            "caption": "Ativado",
+            "value": "edit-mode"
           }
         ]
       },

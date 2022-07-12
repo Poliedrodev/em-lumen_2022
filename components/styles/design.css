@@ -188,13 +188,181 @@ span[data-text-edit-color] a {
 /**
  Additional styles for .social and .video components
  */
+.css_07_secao_texto_e_contexto {
+  background-color: #F7F9D9;
+  min-height: 100px;
+  position: relative;
+  padding: 16px;
+  margin-top: 68px;
+  box-sizing: border-box; }
+  .css_07_secao_texto_e_contexto .tag {
+    width: auto;
+    height: 44px;
+    background-color: #C51A1B;
+    position: absolute;
+    left: 0%;
+    top: -22px;
+    padding: 0 16px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 42px;
+    font-family: "Anek Gurmukhi"; }
+    .css_07_secao_texto_e_contexto .tag .title_texto_e_contexto {
+      display: block;
+      margin-top: 4px; }
+
+.css_07_secao_arte_em_leitura {
+  background-color: #F7F9D9;
+  min-height: 100px;
+  position: relative;
+  margin: 80px 0px 40px 0px;
+  padding: 38px 16px 16px 16px;
+  box-sizing: border-box; }
+  .css_07_secao_arte_em_leitura .tag {
+    width: auto;
+    height: 44px;
+    background-color: #64428C;
+    position: absolute;
+    left: 0%;
+    top: -22px;
+    padding: 0 16px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 42px;
+    font-family: "Anek Gurmukhi"; }
+    .css_07_secao_arte_em_leitura .tag .title_secao_arte_em_leitura {
+      display: block;
+      margin-top: 4px; }
+
+.css_07_secao_por_dentro_da_arte {
+  height: 40px;
+  margin: 40px 0px 8px 0px;
+  position: relative; }
+  .css_07_secao_por_dentro_da_arte .tag {
+    height: 40px;
+    background: #3F1F71;
+    border: 3px solid #64428C;
+    line-height: 35px;
+    padding: 0 16px;
+    font-family: "Anek Gurmukhi";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    width: auto;
+    float: left;
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box; }
+    .css_07_secao_por_dentro_da_arte .tag .title_por_dentro_da_arte {
+      display: block;
+      margin-top: 4px; }
+  .css_07_secao_por_dentro_da_arte .line {
+    width: 100%;
+    height: 3px;
+    background-color: #64428C;
+    position: absolute;
+    z-index: 0;
+    top: 20px; }
+
+.css_07_secao_leitura_de_documentos {
+  width: 100%;
+  height: 40px;
+  margin: 40px 0px 16px 0px;
+  position: relative;
+  float: left; }
+  .css_07_secao_leitura_de_documentos .tag {
+    height: 40px;
+    background: #6A0F5A;
+    border: 3px solid #951B81;
+    line-height: 35px;
+    padding: 0 16px;
+    font-family: "Anek Gurmukhi";
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    width: auto;
+    float: left;
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box; }
+    .css_07_secao_leitura_de_documentos .tag .title_secao_leitura_de_documentos {
+      display: block;
+      margin-top: 4px; }
+  .css_07_secao_leitura_de_documentos .line {
+    width: 100%;
+    height: 3px;
+    background-color: #951B81;
+    position: absolute;
+    z-index: 0;
+    top: 20px; }
+  .css_07_secao_leitura_de_documentos.artes .tag {
+    background: #3F1F71 !important;
+    border: 3px solid #64428C !important; }
+  .css_07_secao_leitura_de_documentos.artes .line {
+    background-color: #64428C !important; }
+  .css_07_secao_leitura_de_documentos.biologia .tag {
+    background: #306E2B !important;
+    border: 3px solid #45973D !important; }
+  .css_07_secao_leitura_de_documentos.biologia .line {
+    background-color: #45973D !important; }
+  .css_07_secao_leitura_de_documentos.filosofia .tag {
+    background: #3A4C74 !important;
+    border: 3px solid #536DA7 !important; }
+  .css_07_secao_leitura_de_documentos.filosofia .line {
+    background-color: #536DA7 !important; }
+  .css_07_secao_leitura_de_documentos.fisica .tag {
+    background: #00666D !important;
+    border: 3px solid #00909B !important; }
+  .css_07_secao_leitura_de_documentos.fisica .line {
+    background-color: #00909B !important; }
+  .css_07_secao_leitura_de_documentos.geografia .tag {
+    background: #9E2705 !important;
+    border: 3px solid #D85509 !important; }
+  .css_07_secao_leitura_de_documentos.geografia .line {
+    background-color: #D85509 !important; }
+  .css_07_secao_leitura_de_documentos.historia .tag {
+    background: #6A0F5A !important;
+    border: 3px solid #951B81 !important; }
+  .css_07_secao_leitura_de_documentos.historia .line {
+    background-color: #951B81 !important; }
+  .css_07_secao_leitura_de_documentos.lingua_inglesa .tag {
+    background: #015F5B !important;
+    border: 3px solid #069891 !important; }
+  .css_07_secao_leitura_de_documentos.lingua_inglesa .line {
+    background-color: #069891 !important; }
+  .css_07_secao_leitura_de_documentos.lingua_portuguesa .tag {
+    background: #981711 !important;
+    border: 3px solid #C51A1B !important; }
+  .css_07_secao_leitura_de_documentos.lingua_portuguesa .line {
+    background-color: #C51A1B !important; }
+  .css_07_secao_leitura_de_documentos.matematica .tag {
+    background: #033878 !important;
+    border: 3px solid #1961AC !important; }
+  .css_07_secao_leitura_de_documentos.matematica .line {
+    background-color: #1961AC !important; }
+  .css_07_secao_leitura_de_documentos.producao_de_texto .tag {
+    background: #005E7C !important;
+    border: 3px solid #033878 !important; }
+  .css_07_secao_leitura_de_documentos.producao_de_texto .line {
+    background-color: #033878 !important; }
+  .css_07_secao_leitura_de_documentos.quimica .tag {
+    background: #850343 !important;
+    border: 3px solid #B80071 !important; }
+  .css_07_secao_leitura_de_documentos.quimica .line {
+    background-color: #B80071 !important; }
+  .css_07_secao_leitura_de_documentos.sociologia .tag {
+    background: #8B1038 !important;
+    border: 3px solid #C71553 !important; }
+  .css_07_secao_leitura_de_documentos.sociologia .line {
+    background-color: #C71553 !important; }
+
 .css_07_secao_questao_resolvida {
   height: 33px;
   font-size: 20px;
   font-family: "Anek Gurmukhi";
   color: #FFF;
   gap: 8px;
-  background: transparent linear-gradient(90deg, #45973D 0%, #306E2B 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #306E2B 0%, #45973D 100%) 0% 0% no-repeat padding-box;
   border: 3px solid #45973D;
   display: flex;
   align-items: center;
@@ -206,7 +374,7 @@ span[data-text-edit-color] a {
     margin-top: 6px; }
   .css_07_secao_questao_resolvida:before {
     content: '';
-    background-image: url("img/aplica/css_07_secao_questao_resolvida_artes.png");
+    background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_artes.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -217,66 +385,66 @@ span[data-text-edit-color] a {
     left: -5px; }
   .css_07_secao_questao_resolvida.artes {
     border: 3px solid #3F1F71;
-    background: linear-gradient(90deg, #64428C 0%, #3F1F71 100%) 0% 0% no-repeat padding-box !important; }
+    background: linear-gradient(90deg, #3F1F71 0%, #64428C 100%) 0% 0% no-repeat padding-box !important; }
     .css_07_secao_questao_resolvida.artes:before {
       content: '';
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_artes.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_artes.png") !important; }
   .css_07_secao_questao_resolvida.biologia {
-    background: transparent linear-gradient(-90deg, #45973D 0%, #306E2B 100%) 0% 0% no-repeat padding-box !important;
+    background: transparent linear-gradient(-90deg, #306E2B 0%, #45973D 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #45973D !important; }
     .css_07_secao_questao_resolvida.biologia:before {
       content: '';
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_biologia.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_biologia.png") !important; }
   .css_07_secao_questao_resolvida.filosofia {
-    background: linear-gradient(-90deg, #3A4C74 0%, #536DA7 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #536DA7 0%, #3A4C74 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #536DA7; }
     .css_07_secao_questao_resolvida.filosofia:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_filosofia.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_filosofia.png") !important; }
   .css_07_secao_questao_resolvida.fisica {
-    background: linear-gradient(-90deg, #00666D 0%, #00909B 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #00909B 0%, #00666D 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #00666D; }
     .css_07_secao_questao_resolvida.fisica:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_fisica.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_fisica.png") !important; }
   .css_07_secao_questao_resolvida.geografia {
-    background: linear-gradient(-90deg, #9E2705 0%, #D85509 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #D85509 0%, #9E2705 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #9E2705; }
     .css_07_secao_questao_resolvida.geografia:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_geografia.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_geografia.png") !important; }
   .css_07_secao_questao_resolvida.historia {
-    background: linear-gradient(90deg, #951B81 0%, #6A0F5A 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(90deg, #6A0F5A 0%, #951B81 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #6A0F5A; }
     .css_07_secao_questao_resolvida.historia:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_historia.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_historia.png") !important; }
   .css_07_secao_questao_resolvida.lingua_inglesa {
-    background: linear-gradient(-90deg, #015F5B 0%, #069891 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #069891 0%, #015F5B 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #015F5B; }
     .css_07_secao_questao_resolvida.lingua_inglesa:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_lingua_inglesa.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_lingua_inglesa.png") !important; }
   .css_07_secao_questao_resolvida.lingua_portuguesa {
-    background: linear-gradient(-90deg, #981711 0%, #C51A1B 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #C51A1B 0%, #981711 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #981711; }
     .css_07_secao_questao_resolvida.lingua_portuguesa:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_lingua_portuguesa.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_lingua_portuguesa.png") !important; }
   .css_07_secao_questao_resolvida.matematica {
-    background: linear-gradient(-90deg, #033878 0%, #1961AC 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #1961AC 0%, #033878 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #033878; }
     .css_07_secao_questao_resolvida.matematica:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_matematica.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_matematica.png") !important; }
   .css_07_secao_questao_resolvida.producao_de_texto {
-    background: linear-gradient(-90deg, #005E7C 0%, #0F83A6 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #0F83A6 0%, #005E7C 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #005E7C; }
     .css_07_secao_questao_resolvida.producao_de_texto:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_producao_de_texto.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_producao_de_texto.png") !important; }
   .css_07_secao_questao_resolvida.quimica {
-    background: linear-gradient(-90deg, #850343 0%, #B80071 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #B80071 0%, #850343 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #850343; }
     .css_07_secao_questao_resolvida.quimica:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_quimica.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_quimica.png") !important; }
   .css_07_secao_questao_resolvida.sociologia {
-    background: linear-gradient(-90deg, #8B1038 0%, #C71553 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #C71553 0%, #8B1038 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #8B1038; }
     .css_07_secao_questao_resolvida.sociologia:before {
-      background-image: url("img/aplica/css_07_secao_questao_resolvida_sociologia.png") !important; }
+      background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_sociologia.png") !important; }
 
 .css_07_secao_aplicando_conhecimentos {
   height: 33px;
@@ -284,7 +452,7 @@ span[data-text-edit-color] a {
   font-family: "Anek Gurmukhi";
   color: #FFF;
   gap: 8px;
-  background: transparent linear-gradient(90deg, #45973D 0%, #306E2B 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #306E2B 0%, #45973D 100%) 0% 0% no-repeat padding-box;
   border: 3px solid #45973D;
   display: flex;
   align-items: center;
@@ -307,63 +475,63 @@ span[data-text-edit-color] a {
     left: -5px; }
   .css_07_secao_aplicando_conhecimentos.artes {
     border: 3px solid #3F1F71;
-    background: linear-gradient(90deg, #64428C 0%, #3F1F71 100%) 0% 0% no-repeat padding-box !important; }
+    background: linear-gradient(90deg, #3F1F71 0%, #64428C 100%) 0% 0% no-repeat padding-box !important; }
     .css_07_secao_aplicando_conhecimentos.artes:before {
       content: '';
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_artes.png") !important; }
   .css_07_secao_aplicando_conhecimentos.biologia {
-    background: transparent linear-gradient(-90deg, #45973D 0%, #306E2B 100%) 0% 0% no-repeat padding-box !important;
+    background: transparent linear-gradient(-90deg, #306E2B 0%, #45973D 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #45973D !important; }
     .css_07_secao_aplicando_conhecimentos.biologia:before {
       content: '';
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_biologia.png") !important; }
   .css_07_secao_aplicando_conhecimentos.filosofia {
-    background: linear-gradient(-90deg, #3A4C74 0%, #536DA7 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #536DA7 0%, #3A4C74 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #536DA7; }
     .css_07_secao_aplicando_conhecimentos.filosofia:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_filosofia.png") !important; }
   .css_07_secao_aplicando_conhecimentos.fisica {
-    background: linear-gradient(-90deg, #00666D 0%, #00909B 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #00909B 0%, #00666D 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #00666D; }
     .css_07_secao_aplicando_conhecimentos.fisica:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_fisica.png") !important; }
   .css_07_secao_aplicando_conhecimentos.geografia {
-    background: linear-gradient(-90deg, #9E2705 0%, #D85509 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #D85509 0%, #9E2705 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #9E2705; }
     .css_07_secao_aplicando_conhecimentos.geografia:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_geografia.png") !important; }
   .css_07_secao_aplicando_conhecimentos.historia {
-    background: linear-gradient(90deg, #951B81 0%, #6A0F5A 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(90deg, #6A0F5A 0%, #951B81 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #6A0F5A; }
     .css_07_secao_aplicando_conhecimentos.historia:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_historia.png") !important; }
   .css_07_secao_aplicando_conhecimentos.lingua_inglesa {
-    background: linear-gradient(-90deg, #015F5B 0%, #069891 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #069891 0%, #015F5B 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #015F5B; }
     .css_07_secao_aplicando_conhecimentos.lingua_inglesa:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_lingua_inglesa.png") !important; }
   .css_07_secao_aplicando_conhecimentos.lingua_portuguesa {
-    background: linear-gradient(-90deg, #981711 0%, #C51A1B 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #C51A1B 0%, #981711 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #981711; }
     .css_07_secao_aplicando_conhecimentos.lingua_portuguesa:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_lingua_portuguesa.png") !important; }
   .css_07_secao_aplicando_conhecimentos.matematica {
-    background: linear-gradient(-90deg, #033878 0%, #1961AC 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #1961AC 0%, #033878 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #033878; }
     .css_07_secao_aplicando_conhecimentos.matematica:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_matematica.png") !important; }
   .css_07_secao_aplicando_conhecimentos.producao_de_texto {
-    background: linear-gradient(-90deg, #005E7C 0%, #0F83A6 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #0F83A6 0%, #005E7C 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #005E7C; }
     .css_07_secao_aplicando_conhecimentos.producao_de_texto:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_producao_de_texto.png") !important; }
   .css_07_secao_aplicando_conhecimentos.quimica {
-    background: linear-gradient(-90deg, #850343 0%, #B80071 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #B80071 0%, #850343 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #850343; }
     .css_07_secao_aplicando_conhecimentos.quimica:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_quimica.png") !important; }
   .css_07_secao_aplicando_conhecimentos.sociologia {
-    background: linear-gradient(-90deg, #8B1038 0%, #C71553 100%) 0% 0% no-repeat padding-box !important;
+    background: linear-gradient(-90deg, #C71553 0%, #8B1038 100%) 0% 0% no-repeat padding-box !important;
     border: 3px solid #8B1038; }
     .css_07_secao_aplicando_conhecimentos.sociologia:before {
       background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_sociologia.png") !important; }

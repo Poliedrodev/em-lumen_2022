@@ -5,6 +5,54 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "css_07_secao_texto_e_contexto",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Seção Texto e Contexto",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_07_secao_arte_em_leitura",
+      "icon": "icons/components/container.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Seção Arte em Leitura",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_07_secao_por_dentro_da_arte",
+      "icon": "icons/components/container.svg",
+      "label": "Seção Por Dentro da Arte",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_07_secao_leitura_de_documentos",
+      "icon": "icons/components/container.svg",
+      "label": "Seção Leitura de Documentos",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "css_07_secao_questao_resolvida",
       "icon": "icons/components/container.svg",
       "label": "Seção Questão resolvida",
@@ -3467,7 +3515,7 @@
       "name": "slideshow_5_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Slideshow 5 Imagens",
       "properties": [
         "style_lumen_mais",
@@ -3495,7 +3543,7 @@
       "name": "slideshow_6_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Slideshow 6 Imagens",
       "properties": [
         "style_lumen_mais",
@@ -3523,7 +3571,7 @@
       "name": "slideshow_7_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Slideshow 7 Imagens",
       "properties": [
         "style_lumen_mais",
@@ -3551,7 +3599,7 @@
       "name": "slideshow_8_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Slideshow 8 Imagens",
       "properties": [
         "style_lumen_mais",
@@ -3579,7 +3627,7 @@
       "name": "slideshow_9_images",
       "icon": "icons/components/slideshow.svg",
       "selectionMethod": "handle",
-      "allowNesting": "one-level",
+      "allowNesting": "yes",
       "label": "Slideshow 9 Imagens",
       "properties": [
         "style_lumen_mais",
@@ -3820,6 +3868,10 @@
       "components": [
         "css_07_secao_aplicando_conhecimentos",
         "css_07_secao_questao_resolvida",
+        "css_07_secao_texto_e_contexto",
+        "css_07_secao_arte_em_leitura",
+        "css_07_secao_por_dentro_da_arte",
+        "css_07_secao_leitura_de_documentos",
         "css_07_secao_exercicio_alternativa",
         "css_07_secao_exercicio_bullet",
         "css_07_secao_exercicio_continuacao",

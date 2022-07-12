@@ -1,0 +1,26 @@
+.css_07_secao_texto_e_contexto {
+  background-color: #F7F9D9;
+  min-height: 100px;
+  position: relative;
+  padding: 16px;
+  margin-top: 68px;
+  box-sizing: border-box;
+
+  .tag {
+    .title_texto_e_contexto{
+      display: block;
+      margin-top: 4px;
+    }
+    width: auto;
+    height: 44px;
+    background-color: #C51A1B;
+    position: absolute;
+    left: 0%;
+    top: -22px;
+    padding: 0 16px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 42px;
+    font-family: $fonteNova;
+  }
+}

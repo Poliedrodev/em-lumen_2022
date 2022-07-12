@@ -1728,7 +1728,6 @@ span[data-text-edit-color] a {
 .css_01_titulo1 {
   /* Características do componente */
   display: inline-flex;
-  margin-left: 59px;
   /* Variações de cores */ }
   .css_01_titulo1 .icone {
     background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
@@ -3002,7 +3001,155 @@ span[data-text-edit-color] a {
   border: 3px solid #F7A941;
   width: 100%;
   height: 34px;
-  padding: 10px 0px 0px 10px; }
+  padding: 10px 0px 0px 10px;
+  text-transform: uppercase; }
+  .css_07_secao_consolidando_saberes.artes {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_consolidando_saberes.biologia {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_consolidando_saberes.filosofia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_consolidando_saberes.fisica {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_consolidando_saberes.geografia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_consolidando_saberes.historia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_consolidando_saberes.lingua_inglesa {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_consolidando_saberes.lingua_portuguesa {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_consolidando_saberes.matematica {
+    border: 3px solid #F1CB40;
+    background: #FAEDBC;
+    color: #C09100; }
+  .css_07_secao_consolidando_saberes.producao_de_texto {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_consolidando_saberes.quimica {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_consolidando_saberes.sociologia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+
+.css_07_secao_superacao {
+  height: 34px;
+  width: 100%;
+  float: left;
+  position: relative; }
+  .css_07_secao_superacao .tag {
+    background: #FCE1BC;
+    border: 3px solid #F7A941;
+    padding: 10px 10px 0px 10px;
+    font-family: "Anek Gurmukhi";
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #BD8432;
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+    float: left;
+    font-weight: 700; }
+  .css_07_secao_superacao .line {
+    width: 100%;
+    height: 3px;
+    background-color: #f7a941;
+    position: absolute;
+    z-index: 0;
+    top: 24px; }
+  .css_07_secao_superacao.artes .tag {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_superacao.artes .line {
+    background-color: #C8D300; }
+  .css_07_secao_superacao.biologia .tag {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_superacao.biologia .line {
+    background-color: #f7a941; }
+  .css_07_secao_superacao.filosofia .tag {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_superacao.filosofia .line {
+    background-color: #8CCAAE; }
+  .css_07_secao_superacao.fisica .tag {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_superacao.fisica .line {
+    background-color: #f7a941; }
+  .css_07_secao_superacao.geografia .tag {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_superacao.geografia .line {
+    background-color: #8CCAAE; }
+  .css_07_secao_superacao.historia .tag {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_superacao.historia .line {
+    background-color: #8CCAAE; }
+  .css_07_secao_superacao.lingua_inglesa .tag {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_superacao.lingua_inglesa .line {
+    background-color: #C8D300; }
+  .css_07_secao_superacao.lingua_portuguesa .tag {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_superacao.lingua_portuguesa .line {
+    background-color: #C8D300; }
+  .css_07_secao_superacao.matematica .tag {
+    border: 3px solid #F1CB40;
+    background: #FAEDBC;
+    color: #C09100; }
+  .css_07_secao_superacao.matematica .line {
+    background-color: #F1CB40; }
+  .css_07_secao_superacao.producao_de_texto .tag {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_superacao.producao_de_texto .line {
+    background-color: #C8D300; }
+  .css_07_secao_superacao.quimica .tag {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_superacao.quimica .line {
+    background-color: #f7a941; }
+  .css_07_secao_superacao.sociologia .tag {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_superacao.sociologia .line {
+    background-color: #8CCAAE; }
 
 .css_07_secao_titulo_citado {
   text-align: center;

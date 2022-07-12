@@ -7,61 +7,61 @@
   /* Variações de cores */
   &.artes {
 
-      color: $art_cor2;
-    }
-  
+    color: $art_cor2;
+  }
+
 
   &.ciencias {
-    
-    
-      color: $cie_cor2;
-    
+
+
+    color: $cie_cor2;
+
   }
 
 
 
   &.geografia {
-    
-      color: $geo_cor2;
-    
+
+    color: $geo_cor2;
+
   }
 
- 
+
   &.historia {
-    
-      color: $his_cor2;
-    
+
+    color: $his_cor2;
+
   }
 
- 
+
 
   &.lingua_inglesa {
-    
-      color: $ing_cor2;
-    
+
+    color: $ing_cor2;
+
   }
 
   &.lingua_portuguesa {
-   
-      color: $por_cor2;
-    
+
+    color: $por_cor2;
+
   }
 
- 
+
 
   &.matematica {
-    
-      color: $mat_cor2;
-    }
- 
+
+    color: $mat_cor2;
+  }
+
 }
 
-  /* Características do texto */
-  .text{
-    font-family: $fonteNova;
-    font-weight: 800;
-    font-size: 2.5rem;
-    color: $preto;
-    margin: 40px 68px 0px 68px;
-    padding: 0px 0px 0px 0px;
-    }
+/* Características do texto */
+.text {
+  font-family: $fonteNova;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: $preto;
+  margin: 40px 68px 0px 68px;
+  padding: 0px 0px 0px 0px;
+}

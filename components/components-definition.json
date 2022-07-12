@@ -5,9 +5,15 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
-      "name": "css_07_secao_no_enem_e_assim",
-      "icon": "icons/components/container.svg",
-      "label": "Seção No Enem é Assim",
+      "name": "css_01_titulo_unid",
+      "icon": "icons/components/icon_01_titulo_unid.svg",
+      "label": "01 Título Unidade",
+      "properties": ["style", "text-align", "letter-spacing", "line-height"]
+    },
+    {
+      "name": "css_01_titulo_cap",
+      "icon": "icons/components/icon_01_titulo_cap.svg",
+      "label": "01 Título Capítulo",
       "properties": ["style", "text-align", "letter-spacing", "line-height"]
     },
     {
@@ -15,6 +21,18 @@
       "icon": "icons/components/icon_01_titulo_cap.svg",
       "label": "Número do Capítulo",
       "properties": ["style"]
+    },
+    {
+      "name": "css_01_titulo_chapter_num",
+      "icon": "icons/components/icon_01_titulo_cap.svg",
+      "label": "Chapter Number",
+      "properties": ["style"]
+    },
+    {
+      "name": "css_07_secao_no_enem_e_assim",
+      "icon": "icons/components/container.svg",
+      "label": "Seção No Enem é Assim",
+      "properties": ["style", "text-align", "letter-spacing", "line-height"]
     },
     {
       "name": "css_07_secao_texto_e_contexto",
@@ -3751,6 +3769,7 @@
       "name": "01_aberturas_e_titulos",
       "components": [
         "css_01_titulo_cap_num",
+        "css_01_titulo_chapter_num",
         "css_01_bullet_unid",
         "css_01_texto_unid",
         "css_01_titulo_cap",

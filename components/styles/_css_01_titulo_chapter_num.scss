@@ -1,4 +1,4 @@
-.css_01_titulo_cap_num {
+.css_01_titulo_chapter_num {
   display: flex;
   position: absolute;
   flex-direction: column;
@@ -20,8 +20,6 @@
     color: #fff;
     position: absolute;
     top: 28px;
-    display: inline-block;
-    margin-top: 4px;
   }
   .cap-number{
     font-size: 76px;
@@ -66,7 +64,4 @@
   &.sociologia {
     background-color: #8CCAAE !important;
   }
-  
-  
-    
 }

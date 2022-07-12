@@ -5,6 +5,18 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
+      "name": "css_07_secao_no_enem_e_assim",
+      "icon": "icons/components/container.svg",
+      "label": "Seção No Enem é Assim",
+      "properties": ["style", "text-align", "letter-spacing", "line-height"]
+    },
+    {
+      "name": "css_01_titulo_cap_num",
+      "icon": "icons/components/icon_01_titulo_cap.svg",
+      "label": "Número do Capítulo",
+      "properties": ["style"]
+    },
+    {
       "name": "css_07_secao_texto_e_contexto",
       "icon": "icons/components/container.svg",
       "selectionMethod": "handle",
@@ -3738,9 +3750,9 @@
       "label": "01 aberturas e titulos",
       "name": "01_aberturas_e_titulos",
       "components": [
+        "css_01_titulo_cap_num",
         "css_01_bullet_unid",
         "css_01_texto_unid",
-        "css_01_titulo_cap_num",
         "css_01_titulo_cap",
         "css_01_titulo_unid",
         "css_01_titulo1",
@@ -3866,6 +3878,7 @@
       "label": "07 secoes",
       "name": "07_secoes",
       "components": [
+        "css_07_secao_no_enem_e_assim",
         "css_07_secao_aplicando_conhecimentos",
         "css_07_secao_questao_resolvida",
         "css_07_secao_texto_e_contexto",

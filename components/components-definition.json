@@ -5,7 +5,7 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
-      "name": "css_07_secao_questão_resolvida",
+      "name": "css_07_secao_questao_resolvida",
       "icon": "icons/components/container.svg",
       "label": "Seção Questão resolvida",
       "properties": [
@@ -3819,7 +3819,7 @@
       "name": "07_secoes",
       "components": [
         "css_07_secao_aplicando_conhecimentos",
-        "css_07_secao_questão_resolvida",
+        "css_07_secao_questao_resolvida",
         "css_07_secao_exercicio_alternativa",
         "css_07_secao_exercicio_bullet",
         "css_07_secao_exercicio_continuacao",

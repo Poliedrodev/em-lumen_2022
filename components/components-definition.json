@@ -5,34 +5,73 @@
   "defaultComponentOnEnter": "css_02_texto_geral1",
   "components": [
     {
-      "name": "css_01_titulo_unid",
-      "icon": "icons/components/icon_01_titulo_unid.svg",
-      "label": "01 Título Unidade",
-      "properties": ["style", "text-align", "letter-spacing", "line-height"]
-    },
-    {
-      "name": "css_01_titulo_cap",
+      "name": "css_01_titulo_cap_num_v2",
       "icon": "icons/components/icon_01_titulo_cap.svg",
-      "label": "01 Título Capítulo",
-      "properties": ["style", "text-align", "letter-spacing", "line-height"]
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "Novo Título Cápitulo",
+      "properties": [
+        "style"
+      ]
     },
     {
       "name": "css_01_titulo_cap_num",
       "icon": "icons/components/icon_01_titulo_cap.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
       "label": "Número do Capítulo",
-      "properties": ["style"]
+      "properties": [
+        "style"
+      ]
+    },
+    {
+      "name": "css_01_titulo_unid",
+      "icon": "icons/components/icon_01_titulo_unid.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "01 Título Unidade",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_01_titulo_cap",
+      "icon": "icons/components/icon_01_titulo_cap.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "label": "01 Título Capítulo",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
     },
     {
       "name": "css_01_titulo_chapter_num",
       "icon": "icons/components/icon_01_titulo_cap.svg",
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
       "label": "Chapter Number",
-      "properties": ["style"]
+      "properties": [
+        "style"
+      ]
     },
     {
       "name": "css_07_secao_no_enem_e_assim",
       "icon": "icons/components/container.svg",
       "label": "Seção No Enem é Assim",
-      "properties": ["style", "text-align", "letter-spacing", "line-height"]
+      "selectionMethod": "handle",
+      "allowNesting": "yes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
     },
     {
       "name": "css_07_secao_texto_e_contexto",
@@ -157,7 +196,7 @@
       "icon": "icons/components/container.svg",
       "label": "Boxe Background Color",
       "properties": [
-        "style_areas",
+        "style",
         "text-align"
       ]
     },
@@ -2247,6 +2286,28 @@
       }
     },
     {
+      "name": "css_07_secao_consolidando_saberes",
+      "icon": "icons/components/icon_07_secao_texto2.svg",
+      "label": "07 Seção Consolidando Saberes",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
+      "name": "css_07_secao_superacao",
+      "icon": "icons/components/icon_07_secao_texto2.svg",
+      "label": "07 Seção Superação",
+      "properties": [
+        "style",
+        "text-align",
+        "letter-spacing",
+        "line-height"
+      ]
+    },
+    {
       "name": "css_07_secao_titulo_citado",
       "icon": "icons/components/icon_07_secao_titulo_citado.svg",
       "label": "07 Seção Título Citado",
@@ -2850,6 +2911,7 @@
         "key": "COMPONENT_IMAGE_LABEL"
       },
       "properties": [
+        "style_image_fit_content",
         "position",
         "style",
         "style_image",
@@ -3768,6 +3830,7 @@
       "label": "01 aberturas e titulos",
       "name": "01_aberturas_e_titulos",
       "components": [
+        "css_01_titulo_cap_num_v2",
         "css_01_titulo_cap_num",
         "css_01_titulo_chapter_num",
         "css_01_bullet_unid",
@@ -3919,6 +3982,8 @@
         "css_07_secao_titulo1",
         "css_07_secao_titulo2",
         "css_07_secao_titulo3",
+        "css_07_secao_consolidando_saberes",
+        "css_07_secao_superacao",
         "css_07_secao_titulo4"
       ]
     },
@@ -4026,6 +4091,48 @@
     }
   ],
   "componentProperties": [
+    {
+      "name": "style_image_fit_content",
+      "label": "Ajustar tamanho da imagem",
+      "control": {
+        "type": "select",
+        "options": [
+          {
+            "caption": {
+              "key": "PROPERTY_STYLE_DEFAULT_OPTION"
+            }
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real"
+              }
+            },
+            "value": "_fit_content"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Tamanho real ao meio"
+              }
+            },
+            "value": "_fit_content_margin_auto"
+          },
+          {
+            "caption": {
+              "key": "PROPERTY_VARIANT_STYLE_OPTION",
+              "values": {
+                "0": "Imagem Título (remove as margens)"
+              }
+            },
+            "value": "_image2_titulo"
+          }
+        ]
+      },
+      "dataType": "styles"
+    },
     {
       "name": "style_areas",
       "label": "Área de conhecimento",

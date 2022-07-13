@@ -1,0 +1,94 @@
+.css_07_secao_consolidando_saberes {
+  display: block;
+  font-family: $fonteNova;
+  font-weight: 700;
+  color: #BD8432;
+  line-height: 1.5em;
+  font-size: 20px;
+  margin-top: 12px;
+  background-color: #FCE1BC;
+  border: 3px solid #F7A941;
+  width: 100%;
+  height: 34px;
+  padding: 10px 0px 0px 10px;
+  text-transform: uppercase;
+
+  &.artes {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214;
+  }
+
+  &.biologia {
+
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432;
+  }
+
+  &.filosofia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D;
+  }
+
+  &.fisica {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432;
+  }
+
+  &.geografia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D;
+  }
+
+
+  &.historia {
+
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D;
+  }
+
+
+  &.lingua_inglesa {
+
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214;
+  }
+
+  &.lingua_portuguesa {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214;
+  }
+
+  &.matematica {
+    border: 3px solid #F1CB40;
+    background: #FAEDBC;
+    color: #C09100;
+  }
+
+  &.producao_de_texto {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214;
+  }
+
+  &.quimica {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432;
+
+  }
+
+  &.sociologia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D;
+
+  }
+}

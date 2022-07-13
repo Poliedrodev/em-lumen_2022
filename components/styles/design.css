@@ -34,7 +34,9 @@
 /* Outros */
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@300;600;700&family=Bitter:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&family=Red+Hat+Display:ital,wght@0,300;0,600;0,700;1,300;1,600&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@300;600;700;800&family=Bitter:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&family=Red+Hat+Display:ital,wght@0,300;0,600;0,700;1,300;1,600&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
 ol,
 ul,
 li {
@@ -71,7 +73,7 @@ h3 {
 
 .body {
   max-width: 860px;
-  padding: 0 5px;
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
   overflow-x: hidden; }
@@ -188,6 +190,173 @@ span[data-text-edit-color] a {
 /**
  Additional styles for .social and .video components
  */
+.css_01_titulo_cap_num_v2 {
+  margin: 0 !important;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  color: #FFFFFF;
+  font-weight: 700; }
+  .css_01_titulo_cap_num_v2 .background_css_01_titulo_cap_num_v2 {
+    width: 4.25rem;
+    background-color: #45993d; }
+  .css_01_titulo_cap_num_v2 .content_number_titulo_cap_num_v2 {
+    padding: 12px;
+    width: 85px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .css_01_titulo_cap_num_v2 .content_number_titulo_cap_num_v2 .cap_titulo_cap_num_v2 {
+      font-family: "Roboto";
+      font-weight: 700;
+      color: #FFFFFF;
+      font-size: 13px;
+      line-height: 1; }
+    .css_01_titulo_cap_num_v2 .content_number_titulo_cap_num_v2 .number_titulo_cap_num_v2 {
+      font-size: 70px;
+      font-weight: 900;
+      font-family: "Roboto";
+      font-variant: tabular-nums;
+      line-height: 1;
+      color: #fff; }
+  .css_01_titulo_cap_num_v2 .content_titulo_cap_num_v2 {
+    width: 100%;
+    background: linear-gradient(90deg, #45973d 0%, rgba(69, 151, 61, 0.5) 100%);
+    padding-left: 1.4375rem;
+    display: flex;
+    align-items: center;
+    line-height: 1; }
+    .css_01_titulo_cap_num_v2 .content_titulo_cap_num_v2 .title_titulo_cap_num_v2 {
+      font-family: "Titillium Web";
+      font-weight: 700;
+      color: #fff; }
+  .css_01_titulo_cap_num_v2.artes .background_css_01_titulo_cap_num_v2 {
+    background-color: 263 12% 56%/1; }
+  .css_01_titulo_cap_num_v2.artes .content_number_titulo_cap_num_v2 {
+    background-color: #C8D300; }
+  .css_01_titulo_cap_num_v2.artes .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #3F1F71 0%, hwb(263 12% 56%/0.7) 100%); }
+  .css_01_titulo_cap_num_v2.biologia .background_css_01_titulo_cap_num_v2 {
+    background-color: #306e2b; }
+  .css_01_titulo_cap_num_v2.biologia .content_number_titulo_cap_num_v2 {
+    background-color: #F7A941; }
+  .css_01_titulo_cap_num_v2.biologia .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #45973d 0%, rgba(48, 110, 43, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.filosofia .background_css_01_titulo_cap_num_v2 {
+    background-color: #3a4c74; }
+  .css_01_titulo_cap_num_v2.filosofia .content_number_titulo_cap_num_v2 {
+    background-color: #8CCAAE; }
+  .css_01_titulo_cap_num_v2.filosofia .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #3A4C74 0%, rgba(58, 76, 116, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.fisica .background_css_01_titulo_cap_num_v2 {
+    background-color: #00666d; }
+  .css_01_titulo_cap_num_v2.fisica .content_number_titulo_cap_num_v2 {
+    background-color: #F7A941; }
+  .css_01_titulo_cap_num_v2.fisica .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #00666D 0%, rgba(0, 102, 109, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.geografia .background_css_01_titulo_cap_num_v2 {
+    background-color: #9e2705; }
+  .css_01_titulo_cap_num_v2.geografia .content_number_titulo_cap_num_v2 {
+    background-color: #8CCAAE; }
+  .css_01_titulo_cap_num_v2.geografia .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #9E2705 0%, rgba(158, 39, 5, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.historia .background_css_01_titulo_cap_num_v2 {
+    background-color: #6a0f5a; }
+  .css_01_titulo_cap_num_v2.historia .content_number_titulo_cap_num_v2 {
+    background-color: #8CCAAE; }
+  .css_01_titulo_cap_num_v2.historia .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #6A0F5A 0%, rgba(106, 15, 90, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.lingua_inglesa .background_css_01_titulo_cap_num_v2 {
+    background-color: #015f5b; }
+  .css_01_titulo_cap_num_v2.lingua_inglesa .content_number_titulo_cap_num_v2 {
+    background-color: #C8D300; }
+  .css_01_titulo_cap_num_v2.lingua_inglesa .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #015F5B 0%, rgba(1, 95, 91, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.lingua_portuguesa .background_css_01_titulo_cap_num_v2 {
+    background-color: #981711; }
+  .css_01_titulo_cap_num_v2.lingua_portuguesa .content_number_titulo_cap_num_v2 {
+    background-color: #C8D300; }
+  .css_01_titulo_cap_num_v2.lingua_portuguesa .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #981711 0%, rgba(152, 23, 17, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.matematica .background_css_01_titulo_cap_num_v2 {
+    background-color: #033878; }
+  .css_01_titulo_cap_num_v2.matematica .content_number_titulo_cap_num_v2 {
+    background-color: #F1CB40; }
+  .css_01_titulo_cap_num_v2.matematica .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #033878 0%, rgba(3, 56, 120, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.producao_de_texto .background_css_01_titulo_cap_num_v2 {
+    background-color: #005e7c; }
+  .css_01_titulo_cap_num_v2.producao_de_texto .content_number_titulo_cap_num_v2 {
+    background-color: #C8D300; }
+  .css_01_titulo_cap_num_v2.producao_de_texto .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #005E7C 0%, rgba(0, 94, 124, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.quimica .background_css_01_titulo_cap_num_v2 {
+    background-color: #850343; }
+  .css_01_titulo_cap_num_v2.quimica .content_number_titulo_cap_num_v2 {
+    background-color: #F7A941; }
+  .css_01_titulo_cap_num_v2.quimica .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #850343 0%, rgba(133, 3, 67, 0.7) 100%); }
+  .css_01_titulo_cap_num_v2.sociologia .background_css_01_titulo_cap_num_v2 {
+    background-color: #8b1038; }
+  .css_01_titulo_cap_num_v2.sociologia .content_number_titulo_cap_num_v2 {
+    background-color: #8CCAAE; }
+  .css_01_titulo_cap_num_v2.sociologia .content_titulo_cap_num_v2 {
+    background: linear-gradient(90deg, #8B1038 0%, rgba(139, 16, 56, 0.7) 100%); }
+
+.css_01_titulo_cap_num {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  padding: 8px 8px;
+  width: 85px;
+  font-size: 14px;
+  position: absolute;
+  z-index: 999;
+  margin-left: 80px;
+  max-height: 135px;
+  margin-top: 40px; }
+  .css_01_titulo_cap_num .cap-texto {
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 28px; }
+  .css_01_titulo_cap_num .cap-number {
+    font-size: 76px;
+    font-weight: 800;
+    font-family: "Red Hat Displayt";
+    padding-top: 24px;
+    color: #fff; }
+  .css_01_titulo_cap_num.artes {
+    background-color: #C8D300 !important; }
+  .css_01_titulo_cap_num.biologia {
+    background-color: #F7A941 !important; }
+  .css_01_titulo_cap_num.filosofia {
+    background-color: #8CCAAE !important; }
+  .css_01_titulo_cap_num.fisica {
+    background-color: #F7A941 !important; }
+  .css_01_titulo_cap_num.geografia {
+    background-color: #8CCAAE !important; }
+  .css_01_titulo_cap_num.historia {
+    background-color: #8CCAAE !important; }
+  .css_01_titulo_cap_num.lingua_inglesa {
+    background-color: #C8D300 !important; }
+  .css_01_titulo_cap_num.lingua_portuguesa {
+    background-color: #C8D300 !important; }
+  .css_01_titulo_cap_num.matematica {
+    background-color: #F1CB40 !important; }
+  .css_01_titulo_cap_num.producao_de_texto {
+    background-color: #C8D300 !important; }
+  .css_01_titulo_cap_num.quimica {
+    background-color: #F7A941 !important; }
+  .css_01_titulo_cap_num.sociologia {
+    background-color: #8CCAAE !important; }
+
 .css_01_titulo_unid {
   /* Características do texto */
   font-family: "Red Hat Displayt";
@@ -254,13 +423,11 @@ span[data-text-edit-color] a {
   margin-top: 40px;
   width: 580px; }
   .css_01_titulo_cap .título-cap {
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     text-align: left;
     font-size: 40px;
     color: white;
-    width: 97%;
-    display: inline-block;
-    margin-top: 4px; }
+    width: 97%; }
   .css_01_titulo_cap.artes {
     background: linear-gradient(90deg, #3F1F71 0%, rgba(63, 31, 113, 0.7) 100%) !important; }
   .css_01_titulo_cap.biologia {
@@ -286,61 +453,6 @@ span[data-text-edit-color] a {
   .css_01_titulo_cap.sociologia {
     background: linear-gradient(90deg, #8B1038 0%, rgba(139, 16, 56, 0.7) 100%) !important; }
 
-.css_01_titulo_cap_num {
-  display: flex;
-  position: absolute;
-  flex-direction: column;
-  gap: 8px;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  padding: 8px 8px;
-  width: 85px;
-  font-size: 14px;
-  position: absolute;
-  z-index: 999;
-  margin-left: 80px;
-  max-height: 135px;
-  margin-top: 40px; }
-  .css_01_titulo_cap_num .cap-texto {
-    font-family: "Anek Gurmukhi";
-    text-transform: uppercase;
-    color: #fff;
-    position: absolute;
-    top: 28px;
-    display: inline-block;
-    margin-top: 4px; }
-  .css_01_titulo_cap_num .cap-number {
-    font-size: 76px;
-    font-weight: 800;
-    font-family: "Red Hat Displayt";
-    padding-top: 24px;
-    color: #fff; }
-  .css_01_titulo_cap_num.artes {
-    background-color: #C8D300 !important; }
-  .css_01_titulo_cap_num.biologia {
-    background-color: #F7A941 !important; }
-  .css_01_titulo_cap_num.filosofia {
-    background-color: #8CCAAE !important; }
-  .css_01_titulo_cap_num.fisica {
-    background-color: #F7A941 !important; }
-  .css_01_titulo_cap_num.geografia {
-    background-color: #8CCAAE !important; }
-  .css_01_titulo_cap_num.historia {
-    background-color: #8CCAAE !important; }
-  .css_01_titulo_cap_num.lingua_inglesa {
-    background-color: #C8D300 !important; }
-  .css_01_titulo_cap_num.lingua_portuguesa {
-    background-color: #C8D300 !important; }
-  .css_01_titulo_cap_num.matematica {
-    background-color: #F1CB40 !important; }
-  .css_01_titulo_cap_num.producao_de_texto {
-    background-color: #C8D300 !important; }
-  .css_01_titulo_cap_num.quimica {
-    background-color: #F7A941 !important; }
-  .css_01_titulo_cap_num.sociologia {
-    background-color: #8CCAAE !important; }
-
 .css_01_titulo_chapter_num {
   display: flex;
   position: absolute;
@@ -358,7 +470,7 @@ span[data-text-edit-color] a {
   max-height: 135px;
   margin-top: 40px; }
   .css_01_titulo_chapter_num .cap-texto {
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     text-transform: uppercase;
     color: #fff;
     position: absolute;
@@ -400,14 +512,11 @@ span[data-text-edit-color] a {
   margin: 48px 68px 32px 68px;
   line-height: 44px;
   padding: 0 47px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   font-size: 20px;
   text-transform: uppercase;
   color: #fff;
   position: relative; }
-  .css_07_secao_no_enem_e_assim .title_no_enem_e_assim {
-    margin-top: 4px;
-    display: inline-block; }
   .css_07_secao_no_enem_e_assim:before {
     content: '';
     width: 20px;
@@ -484,10 +593,7 @@ span[data-text-edit-color] a {
     color: #fff;
     font-size: 20px;
     line-height: 42px;
-    font-family: "Anek Gurmukhi"; }
-    .css_07_secao_texto_e_contexto .tag .title_texto_e_contexto {
-      display: block;
-      margin-top: 4px; }
+    font-family: "Titillium Web"; }
 
 .css_07_secao_arte_em_leitura {
   background-color: #F7F9D9;
@@ -507,10 +613,7 @@ span[data-text-edit-color] a {
     color: #fff;
     font-size: 20px;
     line-height: 42px;
-    font-family: "Anek Gurmukhi"; }
-    .css_07_secao_arte_em_leitura .tag .title_secao_arte_em_leitura {
-      display: block;
-      margin-top: 4px; }
+    font-family: "Titillium Web"; }
 
 .css_07_secao_por_dentro_da_arte {
   height: 40px;
@@ -522,7 +625,7 @@ span[data-text-edit-color] a {
     border: 3px solid #64428C;
     line-height: 35px;
     padding: 0 16px;
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     font-size: 18px;
     text-transform: uppercase;
     color: #fff;
@@ -531,9 +634,6 @@ span[data-text-edit-color] a {
     z-index: 2;
     position: relative;
     box-sizing: border-box; }
-    .css_07_secao_por_dentro_da_arte .tag .title_por_dentro_da_arte {
-      display: block;
-      margin-top: 4px; }
   .css_07_secao_por_dentro_da_arte .line {
     width: 100%;
     height: 3px;
@@ -554,7 +654,7 @@ span[data-text-edit-color] a {
     border: 3px solid #951B81;
     line-height: 35px;
     padding: 0 16px;
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     font-size: 18px;
     text-transform: uppercase;
     color: #fff;
@@ -563,9 +663,6 @@ span[data-text-edit-color] a {
     z-index: 2;
     position: relative;
     box-sizing: border-box; }
-    .css_07_secao_leitura_de_documentos .tag .title_secao_leitura_de_documentos {
-      display: block;
-      margin-top: 4px; }
   .css_07_secao_leitura_de_documentos .line {
     width: 100%;
     height: 3px;
@@ -637,7 +734,7 @@ span[data-text-edit-color] a {
 .css_07_secao_questao_resolvida {
   height: 33px;
   font-size: 20px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   color: #FFF;
   gap: 8px;
   background: transparent linear-gradient(90deg, #306E2B 0%, #45973D 100%) 0% 0% no-repeat padding-box;
@@ -648,8 +745,6 @@ span[data-text-edit-color] a {
   padding-left: 36px;
   position: relative;
   margin: 40px 0px 16px 0px; }
-  .css_07_secao_questao_resolvida .title_questão_resolvida {
-    margin-top: 6px; }
   .css_07_secao_questao_resolvida:before {
     content: '';
     background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_artes.png");
@@ -727,7 +822,7 @@ span[data-text-edit-color] a {
 .css_07_secao_aplicando_conhecimentos {
   height: 33px;
   font-size: 20px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   color: #FFF;
   gap: 8px;
   background: transparent linear-gradient(90deg, #306E2B 0%, #45973D 100%) 0% 0% no-repeat padding-box;
@@ -738,8 +833,6 @@ span[data-text-edit-color] a {
   padding-left: 36px;
   position: relative;
   margin: 40px 0px 16px 0px; }
-  .css_07_secao_aplicando_conhecimentos .title_aplicando_conhecimento {
-    margin-top: 6px; }
   .css_07_secao_aplicando_conhecimentos:before {
     content: '';
     background-image: url("img/aplica/css_07_secao_aplicando_conhecimentos_artes.png");
@@ -820,11 +913,9 @@ span[data-text-edit-color] a {
   display: block;
   padding: 0px 16px 24px 16px;
   margin-top: 80px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   font-size: 20px;
   /* media query */ }
-  .css_03_container_questao_resolvida .title_questao_resolvida {
-    margin-top: 6px; }
   .css_03_container_questao_resolvida::after {
     content: '';
     display: block;
@@ -935,7 +1026,7 @@ span[data-text-edit-color] a {
   ._06_BOXE_02:first-child {
     margin-top: 0; }
   ._06_BOXE_02 .header_06_BOXE_02 {
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     position: absolute;
     top: -25px;
     left: -3px;
@@ -950,7 +1041,6 @@ span[data-text-edit-color] a {
       width: 36px;
       height: 36px; }
     ._06_BOXE_02 .header_06_BOXE_02 .title_06_BOXE_02 {
-      margin-top: 6px;
       font-size: 20px;
       letter-spacing: 0px;
       color: #FFFFFF; }
@@ -985,7 +1075,7 @@ span[data-text-edit-color] a {
   ._06_BOXE_03:first-child {
     margin-top: 0; }
   ._06_BOXE_03 .header_06_BOXE_03 {
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     position: absolute;
     top: -25px;
     left: -3px;
@@ -1000,7 +1090,6 @@ span[data-text-edit-color] a {
       width: 36px;
       height: 36px; }
     ._06_BOXE_03 .header_06_BOXE_03 .title_06_BOXE_03 {
-      margin-top: 6px;
       font-size: 20px;
       letter-spacing: 0px;
       color: #FFFFFF; }
@@ -1035,7 +1124,7 @@ span[data-text-edit-color] a {
     margin-top: 0; }
   ._06_BOXE_04 .header_06_BOXE_04 {
     height: 44px;
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     background-color: #C09100;
     border-bottom: 3px solid #F1CB40;
     display: flex;
@@ -1045,7 +1134,6 @@ span[data-text-edit-color] a {
       width: 36px;
       height: 36px; }
     ._06_BOXE_04 .header_06_BOXE_04 .title_06_BOXE_04 {
-      margin-top: 6px;
       font-size: 20px;
       letter-spacing: 0px;
       color: #FFFFFF; }
@@ -1083,17 +1171,33 @@ span[data-text-edit-color] a {
 ._06_BOXE_19 {
   margin-top: 2.375rem;
   padding: 16px 16px 24px 16px;
-  background-color: #F1CB40; }
+  background-color: #E5E9F2; }
   ._06_BOXE_19:first-child {
     margin-top: 0; }
-  ._06_BOXE_19._mat_su_tec {
-    background-color: #F1CB40; }
-  ._06_BOXE_19._cie_hu_su_tec {
-    background-color: #F7A941; }
-  ._06_BOXE_19._lin_su_tec {
-    background-color: #bfd730; }
-  ._06_BOXE_19._cie_hu_so_api {
-    background-color: #F1CB40; }
+  ._06_BOXE_19.artes {
+    background-color: #dfdaea; }
+  ._06_BOXE_19.biologia {
+    background-color: #E3F0E2; }
+  ._06_BOXE_19.quimica {
+    background-color: #F5D9EA; }
+  ._06_BOXE_19.fisica {
+    background-color: #D9EEF0; }
+  ._06_BOXE_19.filosofia {
+    background-color: #E5E9F2; }
+  ._06_BOXE_19.geografia {
+    background-color: #F9E5DA; }
+  ._06_BOXE_19.historia {
+    background-color: #EFDDEC; }
+  ._06_BOXE_19.sociologia {
+    background-color: #F7DCE5; }
+  ._06_BOXE_19.lingua_inglesa {
+    background-color: #d9f0ef; }
+  ._06_BOXE_19.lingua_portuguesa {
+    background-color: #f7dedf; }
+  ._06_BOXE_19.producao_de_texto {
+    background-color: #DBECF2; }
+  ._06_BOXE_19.matematica {
+    background-color: #d0e1f0; }
 
 .audio {
   position: relative;
@@ -1254,7 +1358,7 @@ span[data-text-edit-color] a {
 } */ }
   .container_fica_a_dica .collapsible-title {
     margin: 0;
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     font-size: 0.875rem;
     font-weight: 900; }
   .container_fica_a_dica.artes {
@@ -2346,7 +2450,7 @@ span[data-text-edit-color] a {
     z-index: 1; }
 
 .css_01_texto_unid {
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   font-size: 20px;
   color: #FFF;
   padding-bottom: 10px;
@@ -2369,13 +2473,11 @@ span[data-text-edit-color] a {
   max-height: 135px;
   margin-top: 40px; }
   .css_01_titulo_cap_num .cap-texto {
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     text-transform: uppercase;
     color: #fff;
     position: absolute;
-    top: 28px;
-    display: inline-block;
-    margin-top: 4px; }
+    top: 28px; }
   .css_01_titulo_cap_num .cap-number {
     font-size: 76px;
     font-weight: 800;
@@ -2419,13 +2521,11 @@ span[data-text-edit-color] a {
   margin-top: 40px;
   width: 580px; }
   .css_01_titulo_cap .título-cap {
-    font-family: "Anek Gurmukhi";
+    font-family: "Titillium Web";
     text-align: left;
     font-size: 40px;
     color: white;
-    width: 97%;
-    display: inline-block;
-    margin-top: 4px; }
+    width: 97%; }
   .css_01_titulo_cap.artes {
     background: linear-gradient(90deg, #3F1F71 0%, rgba(63, 31, 113, 0.7) 100%) !important; }
   .css_01_titulo_cap.biologia {
@@ -2507,68 +2607,107 @@ span[data-text-edit-color] a {
 
 .css_01_titulo1 {
   /* Características do componente */
-  position: relative;
-  display: block;
+  display: inline-flex;
   /* Variações de cores */ }
-  .css_01_titulo1.artes {
-    color: #3F1F71; }
-  .css_01_titulo1.ciencias {
-    color: #306E2B; }
-  .css_01_titulo1.geografia {
-    color: #9E2705; }
-  .css_01_titulo1.historia {
-    color: #6A0F5A; }
-  .css_01_titulo1.lingua_inglesa {
-    color: #015F5B; }
-  .css_01_titulo1.lingua_portuguesa {
-    color: #96171a; }
-  .css_01_titulo1.matematica {
-    color: #033878; }
-
-/* Características do texto */
-.text {
-  font-family: "Anek Gurmukhi";
-  font-weight: 800;
-  font-size: 2.5rem;
-  color: #000000;
-  margin: 40px 68px 0px 68px;
-  padding: 0px 0px 0px 0px; }
+  .css_01_titulo1 .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg");
+    width: 40px;
+    height: 30px;
+    align-items: center;
+    margin-top: 6px;
+    background-repeat: no-repeat; }
+  .css_01_titulo1 .texto {
+    font-family: "Titillium Web";
+    font-weight: 800;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+  .css_01_titulo1.artes .texto {
+    color: #64428C; }
+  .css_01_titulo1.artes .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.biologia .texto {
+    color: #45973D; }
+  .css_01_titulo1.biologia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.quimica .texto {
+    color: #B80071; }
+  .css_01_titulo1.quimica .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.fisica .texto {
+    color: #00909B; }
+  .css_01_titulo1.fisica .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.geografia .texto {
+    color: #D85509; }
+  .css_01_titulo1.geografia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.historia .texto {
+    color: #951B81; }
+  .css_01_titulo1.historia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.sociologia .texto {
+    color: #C71553; }
+  .css_01_titulo1.sociologia .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.lingua_inglesa .texto {
+    color: #069891; }
+  .css_01_titulo1.lingua_inglesa .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.lingua_portuguesa .texto {
+    color: #c9252c; }
+  .css_01_titulo1.lingua_portuguesa .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.producao_de_texto .texto {
+    color: #0F83A6; }
+  .css_01_titulo1.producao_de_texto .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
+  .css_01_titulo1.matematica .texto {
+    color: #1961AC; }
+  .css_01_titulo1.matematica .icone {
+    background-image: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/01_titulo1.svg"); }
 
 .css_01_titulo2 {
   /* Características do componente */
-  position: relative;
   display: block;
-  /* Variações de cores */ }
-  .css_01_titulo2.artes {
-    color: #3F1F71; }
-  .css_01_titulo2.ciencias {
-    color: #306E2B; }
-  .css_01_titulo2.geografia {
-    color: #9E2705; }
-  .css_01_titulo2.historia {
-    color: #6A0F5A; }
-  .css_01_titulo2.lingua_inglesa {
-    color: #015F5B; }
-  .css_01_titulo2.lingua_portuguesa {
-    color: #96171a; }
-  .css_01_titulo2.matematica {
-    color: #033878; }
-
-/* Características do texto */
-.text {
-  font-family: "Anek Gurmukhi";
-  font-weight: 600;
-  font-size: 32px;
+  font-family: "Titillium Web";
+  font-weight: 400;
+  font-size: 26px;
   color: #000000;
   margin: 40px 0px 0px 68px;
-  padding: 0px 0px 0px 0px; }
+  padding: 0px 0px 0px 0px;
+  text-align: left;
+  /* Variações de cores */ }
+  .css_01_titulo2.artes {
+    color: #64428C; }
+  .css_01_titulo2.biologia {
+    color: #45973D; }
+  .css_01_titulo2.quimica {
+    color: #B80071; }
+  .css_01_titulo2.fisica {
+    color: #00909B; }
+  .css_01_titulo2.geografia {
+    color: #D85509; }
+  .css_01_titulo2.historia {
+    color: #951B81; }
+  .css_01_titulo2.sociologia {
+    color: #C71553; }
+  .css_01_titulo2.lingua_inglesa {
+    color: #069891; }
+  .css_01_titulo2.lingua_portuguesa {
+    color: #c9252c; }
+  .css_01_titulo2.producao_de_texto {
+    color: #0F83A6; }
+  .css_01_titulo2.matematica {
+    color: #1961AC; }
 
 .css_01_titulo3 {
   /* Características do texto */
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   font-weight: 600;
-  font-size: 28px;
-  color: #4B4B4B;
+  font-size: 24px;
+  color: #666666;
   /* Características do componente */
   display: block;
   margin-top: 20px;
@@ -2578,9 +2717,9 @@ span[data-text-edit-color] a {
 
 .css_01_titulo4 {
   /* Características do texto */
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 20px;
   color: #000;
   /* Características do componente */
   display: block;
@@ -2824,7 +2963,7 @@ span[data-text-edit-color] a {
       font-family: "Red Hat Displayt";
       font-weight: 700;
       font-variant: tabular-nums;
-      font-size: 18px; }
+      font-size: 1.125rem; }
   .css_03_exercicio_container .group_exercicio {
     margin: 0; }
     .css_03_exercicio_container .group_exercicio::first-child {
@@ -2883,31 +3022,11 @@ span[data-text-edit-color] a {
         font-family: "Red Hat Displayt";
         font-weight: 700;
         font-variant: tabular-nums;
-        font-size: 18px; }
+        font-size: 1.125rem; }
   .css_03_exercicio_container_edit .group_exercicio {
     margin: 0; }
     .css_03_exercicio_container_edit .group_exercicio::first-child {
       margin: 0; }
-  .css_03_exercicio_container_edit.artes .background_number {
-    font-weight: 700; }
-    .css_03_exercicio_container_edit.artes .background_number .number_exercicio {
-      color: #64428C;
-      border-bottom: solid 3px #bfd730; }
-  .css_03_exercicio_container_edit.lingua_inglesa .background_number {
-    font-weight: 700; }
-    .css_03_exercicio_container_edit.lingua_inglesa .background_number .number_exercicio {
-      color: #069891;
-      border-bottom: solid 3px #bfd730; }
-  .css_03_exercicio_container_edit.lingua_portuguesa .background_number {
-    font-weight: 700; }
-    .css_03_exercicio_container_edit.lingua_portuguesa .background_number .number_exercicio {
-      color: #c9252c;
-      border-bottom: solid 3px #bfd730; }
-  .css_03_exercicio_container_edit.matematica .background_number {
-    font-weight: 700; }
-    .css_03_exercicio_container_edit.matematica .background_number .number_exercicio {
-      color: #1961AC;
-      border-bottom: solid 3px #F1CB40; }
 
 .css_03_exercicio_alternativa {
   margin-top: 16px;
@@ -2922,7 +3041,7 @@ span[data-text-edit-color] a {
     margin-top: 0 !important; }
   .css_03_exercicio_alternativa.item_romano_itens .css_03_exercicio_alternativa_item::before {
     font-family: "Red Hat Displayt";
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     counter-increment: list;
     content: counter(list, lower-alpha) ")";
@@ -2962,7 +3081,7 @@ span[data-text-edit-color] a {
   position: relative; }
   .css_03_exercicio_alternativa_item::before {
     font-family: "Red Hat Displayt";
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     counter-increment: list;
     content: counter(list, lower-alpha) ")";
@@ -2995,7 +3114,7 @@ span[data-text-edit-color] a {
   .css_03_exercicio_alternativa_item_edit .number_alternativa_edit {
     width: 32px;
     font-family: "Red Hat Displayt";
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     position: absolute;
     left: -32px; }
@@ -3069,7 +3188,7 @@ span[data-text-edit-color] a {
     margin-top: 0 !important; }
   .css_03_exercicio_itens::before {
     font-family: "Red Hat Displayt";
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     counter-increment: list;
     content: counter(list) ".";
@@ -3100,7 +3219,7 @@ span[data-text-edit-color] a {
     margin-top: 0 !important; }
   .css_03_exercicio_item_romano_itens::before {
     font-family: "Red Hat Displayt";
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     counter-increment: list;
     content: counter(list, upper-roman) ".";
@@ -3173,7 +3292,7 @@ span[data-text-edit-color] a {
   display: block;
   font-family: "Red Hat Displayt";
   font-weight: 400;
-  color: #000000;
+  color: #666666;
   line-height: 1.5em;
   font-size: 18px;
   margin-top: 32px; }
@@ -3242,7 +3361,7 @@ span[data-text-edit-color] a {
   display: block;
   font-size: 13px;
   color: #000000;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   font-weight: 700;
   margin-top: 8px; }
 
@@ -3256,8 +3375,8 @@ span[data-text-edit-color] a {
 
 .css_05_credito1 {
   display: block;
-  font-size: 9.8px;
-  color: #71706F;
+  font-size: 12x;
+  color: #666666;
   font-family: "Red Hat Displayt";
   font-weight: 400;
   margin-bottom: 0px;
@@ -3266,7 +3385,7 @@ span[data-text-edit-color] a {
 .css_05_credito2 {
   display: block;
   font-size: 9.8px;
-  color: #71706F;
+  color: #666666;
   font-family: "Red Hat Displayt";
   font-weight: 400;
   margin-bottom: 0px;
@@ -3729,6 +3848,168 @@ span[data-text-edit-color] a {
   line-height: 1.5em;
   font-size: 18px;
   margin-top: 12px; }
+
+.css_07_secao_consolidando_saberes {
+  display: block;
+  font-family: "Titillium Web";
+  font-weight: 700;
+  color: #BD8432;
+  line-height: 1.5em;
+  font-size: 20px;
+  margin-top: 12px;
+  background-color: #FCE1BC;
+  border: 3px solid #F7A941;
+  width: 100%;
+  height: 34px;
+  padding: 10px 0px 0px 10px;
+  text-transform: uppercase; }
+  .css_07_secao_consolidando_saberes.artes {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_consolidando_saberes.biologia {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_consolidando_saberes.filosofia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_consolidando_saberes.fisica {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_consolidando_saberes.geografia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_consolidando_saberes.historia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_consolidando_saberes.lingua_inglesa {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_consolidando_saberes.lingua_portuguesa {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_consolidando_saberes.matematica {
+    border: 3px solid #F1CB40;
+    background: #FAEDBC;
+    color: #C09100; }
+  .css_07_secao_consolidando_saberes.producao_de_texto {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_consolidando_saberes.quimica {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_consolidando_saberes.sociologia {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+
+.css_07_secao_superacao {
+  height: 34px;
+  width: 100%;
+  float: left;
+  position: relative; }
+  .css_07_secao_superacao .tag {
+    background: #FCE1BC;
+    border: 3px solid #F7A941;
+    padding: 10px 10px 0px 10px;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #BD8432;
+    z-index: 2;
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+    float: left;
+    font-weight: 700; }
+  .css_07_secao_superacao .line {
+    width: 100%;
+    height: 3px;
+    background-color: #f7a941;
+    position: absolute;
+    z-index: 0;
+    top: 24px; }
+  .css_07_secao_superacao.artes .tag {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_superacao.artes .line {
+    background-color: #C8D300; }
+  .css_07_secao_superacao.biologia .tag {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_superacao.biologia .line {
+    background-color: #f7a941; }
+  .css_07_secao_superacao.filosofia .tag {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_superacao.filosofia .line {
+    background-color: #8CCAAE; }
+  .css_07_secao_superacao.fisica .tag {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_superacao.fisica .line {
+    background-color: #f7a941; }
+  .css_07_secao_superacao.geografia .tag {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_superacao.geografia .line {
+    background-color: #8CCAAE; }
+  .css_07_secao_superacao.historia .tag {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_superacao.historia .line {
+    background-color: #8CCAAE; }
+  .css_07_secao_superacao.lingua_inglesa .tag {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_superacao.lingua_inglesa .line {
+    background-color: #C8D300; }
+  .css_07_secao_superacao.lingua_portuguesa .tag {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_superacao.lingua_portuguesa .line {
+    background-color: #C8D300; }
+  .css_07_secao_superacao.matematica .tag {
+    border: 3px solid #F1CB40;
+    background: #FAEDBC;
+    color: #C09100; }
+  .css_07_secao_superacao.matematica .line {
+    background-color: #F1CB40; }
+  .css_07_secao_superacao.producao_de_texto .tag {
+    border: 3px solid #C8D300;
+    background: #ecf0a6;
+    color: #84A214; }
+  .css_07_secao_superacao.producao_de_texto .line {
+    background-color: #C8D300; }
+  .css_07_secao_superacao.quimica .tag {
+    border: 3px solid #F7A941;
+    background: #FCE1BC;
+    color: #BD8432; }
+  .css_07_secao_superacao.quimica .line {
+    background-color: #f7a941; }
+  .css_07_secao_superacao.sociologia .tag {
+    border: 3px solid #8CCAAE;
+    background: #D7EDE3;
+    color: #208F6D; }
+  .css_07_secao_superacao.sociologia .line {
+    background-color: #8CCAAE; }
 
 .css_07_secao_titulo_citado {
   text-align: center;
@@ -4525,6 +4806,8 @@ span[data-text-edit-color] a {
   /* class styles for the captions properties of the image component */ }
   .image2 ._image {
     width: 100%; }
+  .image2._image2_titulo {
+    margin: 0 auto !important; }
   .image2 .slider-subtitle {
     position: relative;
     margin-top: 8px; }
@@ -5395,7 +5678,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -5823,7 +6106,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -5997,7 +6280,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -6152,7 +6435,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -6264,7 +6547,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   text-align: right;
   color: #9a9898;
   background-size: 100%;
@@ -6376,7 +6659,7 @@ a {
 
 .vejamais {
   font-size: 10px;
-  font-family: "Anek Gurmukhi";
+  font-family: "Titillium Web";
   text-align: right;
   color: #9a9898;
   background-size: 100%;

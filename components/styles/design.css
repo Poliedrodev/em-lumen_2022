@@ -232,11 +232,11 @@ span[data-text-edit-color] a {
       font-weight: 700;
       color: #fff; }
   .css_01_titulo_cap_num_v2.artes .background_css_01_titulo_cap_num_v2 {
-    background-color: 263 12% 56%/1; }
+    background-color: #3e1f70; }
   .css_01_titulo_cap_num_v2.artes .content_number_titulo_cap_num_v2 {
     background-color: #C8D300; }
   .css_01_titulo_cap_num_v2.artes .content_titulo_cap_num_v2 {
-    background: linear-gradient(90deg, #3F1F71 0%, hwb(263 12% 56%/0.7) 100%); }
+    background: linear-gradient(90deg, #3F1F71 0%, rgba(62, 31, 112, 0.7) 100%); }
   .css_01_titulo_cap_num_v2.biologia .background_css_01_titulo_cap_num_v2 {
     background-color: #306e2b; }
   .css_01_titulo_cap_num_v2.biologia .content_number_titulo_cap_num_v2 {
